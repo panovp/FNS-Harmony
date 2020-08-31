@@ -1,0 +1,3 @@
+robot extract --method BOT --input-iri http://purl.obolibrary.org/obo/obi.owl --term-file OBI_terms.tsv --annotate-with-source true --output OBI_import.owl
+
+robot extract --method BOT --input-iri http://purl.obolibrary.org/obo/obi.owl --term-file OBI_terms.tsv --annotate-with-source true --output OBI_import.owl

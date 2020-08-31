@@ -1,0 +1,1375 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.fns-cloud.eu/FNS-Harmony/"
+     xml:base="http://www.fns-cloud.eu/FNS-Harmony/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.fns-cloud.eu/FNS-Harmony">
+        <owl:versionIRI rdf:resource="http://www.fns-cloud.eu/2020-07-31/FNS-Harmony"/>
+        <owl:imports rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/external"/>
+        <dc:creator>Panče Panov</dc:creator>
+        <dc:date>31-07-2020</dc:date>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/has-part -->
+
+    <owl:ObjectProperty rdf:about="http://www.fns-cloud.eu/FNS-Harmony/has-part">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/is-about -->
+
+    <owl:ObjectProperty rdf:about="http://www.fns-cloud.eu/FNS-Harmony/is-about">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T21:07:04Z</dc:date>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/of-domain -->
+
+    <owl:ObjectProperty rdf:about="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/part-of -->
+
+    <owl:ObjectProperty rdf:about="http://www.fns-cloud.eu/FNS-Harmony/part-of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/CSV -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/CSV">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/data_format"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:41:06Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/has-part"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/data_format"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/has-part"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/has-part"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/has-part"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/reference"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:42:05Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/JSON -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/JSON">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/data_format"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:41:06Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/TSV -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/TSV">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/data_format"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:41:06Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/XML -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/XML">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/data_format"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:41:06Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/access_level -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/access_level">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/agri_food -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/agri_food">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/data_domain"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:15:26Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/analytical_food_chemisty_omic_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/analytical_food_chemisty_omic_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/agri_food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/antrophometric_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/antrophometric_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/biomedical_data"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:55:58Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/author -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/author">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/average -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/average">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/value_types"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:28:20Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/best_estimate -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/best_estimate">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/value_types"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:28:20Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/biomarker_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/biomarker_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/biomedical_data"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/biomedical_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/biomedical_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/health_body_function_and_disease_risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T21:03:41Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/book -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/book">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/reference"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:27:32Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/book_chapter -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/book_chapter">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/reference"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:27:32Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/branded_food_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/branded_food_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/agri_food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/category -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/category">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/contact_person -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/contact_person">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/country_of_data_collection -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/country_of_data_collection">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:36:39Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/data_domain -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/data_domain">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:14:57Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/data_format -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/data_format">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:40:44Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/data_owner -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/data_owner">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Belgian_food_consumption_data_2014-2015 -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Belgian_food_consumption_data_2014-2015">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_IBBA_TBP-based_dataset -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_IBBA_TBP-based_dataset">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_AGEs-containing_proteins -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_AGEs-containing_proteins">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_BoMiProt -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_BoMiProt">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_bovine_milk_bioactive_peptides_MBPDB -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_bovine_milk_bioactive_peptides_MBPDB">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_bovine_milk_thermal_treatment_adulteration_peptides -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_bovine_milk_thermal_treatment_adulteration_peptides">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_bovine_milk_thermal_treatment_adulteration_proteins -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_bovine_milk_thermal_treatment_adulteration_proteins">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_bovine_milk_thermal_treatment_peptides -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_bovine_milk_thermal_treatment_peptides">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_bovine_milk_thermal_treatment_proteins -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_bovine_milk_thermal_treatment_proteins">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_buffalo_milk_freezing_overtime_proteins -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_buffalo_milk_freezing_overtime_proteins">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_caprine_milk_bioactive_peptides_MBPDB -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_caprine_milk_bioactive_peptides_MBPDB">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_carbonylated_proteins -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_carbonylated_proteins">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_human_milk_bioactive_peptides_MBPDB -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_human_milk_bioactive_peptides_MBPDB">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_lactosylated_proteins -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_lactosylated_proteins">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_milk_metabolites_MCDB -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPAAM_milk_metabolites_MCDB">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPA_Salmon_mass_spectrometric_dataset -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CNR_ISPA_Salmon_mass_spectrometric_dataset">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_CoFID -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_CoFID">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Contaminants_simplified_SSD2_BE-FPS_Nickel_FNS -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Contaminants_simplified_SSD2_BE-FPS_Nickel_FNS">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_EFSA_Comprehensive_European_Food_Consumption_Database -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_EFSA_Comprehensive_European_Food_Consumption_Database">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_ESRC_Cognitive_Food_Choice -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_ESRC_Cognitive_Food_Choice">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Feel4Diabetes_study_High_risk_adults_baseline_GR -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Feel4Diabetes_study_High_risk_adults_baseline_GR">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Folate_intake_among_Serbian_women_of_reproductive_age -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Folate_intake_among_Serbian_women_of_reproductive_age">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_FooDB -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_FooDB">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Food4me -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Food4me">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_FoodEXplorer -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_FoodEXplorer">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_FoodWasteEXplorer -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_FoodWasteEXplorer">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Food_and_associated_glucose_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Food_and_associated_glucose_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Gut_microbiome_dataset -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Gut_microbiome_dataset">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Isotopic_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Isotopic_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_LEDA_Dutch_branded_food_database -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_LEDA_Dutch_branded_food_database">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Metabolomics_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Metabolomics_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_NEVO_Dutch_food_composition_database -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_NEVO_Dutch_food_composition_database">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Phenol-Explorer -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Phenol-Explorer">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_SCaRES_-_Seafood_Study_Ireland -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_SCaRES_-_Seafood_Study_Ireland">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Slovenian_branded_food_database -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Slovenian_branded_food_database">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Swiss_food_composition_database_V6.1_2019_and_previous_versions -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Swiss_food_composition_database_V6.1_2019_and_previous_versions">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_The_Serbian_National_Food_Consumption_Survey -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_The_Serbian_National_Food_Consumption_Survey">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_eBASIS_Bioactive_Substances_in_Food_Information_Systems -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_eBASIS_Bioactive_Substances_in_Food_Information_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_eNutri_Quisper_2019_EatwellUK2_study -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_eNutri_Quisper_2019_EatwellUK2_study">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_ePlantLIBRA -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_ePlantLIBRA">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_feature -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_feature"/>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:24:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_title -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_title">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/date_created -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/date_created">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/date_modified -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/date_modified">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/description -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/description">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/disease_outcomes -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/disease_outcomes">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/research_question"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:23:44Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/domain_datatype -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/material_entity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:17:51Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/food -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/food">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/material_entity"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T21:04:12Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/food_and_drug_interaction_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/food_and_drug_interaction_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/agri_food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/health_body_function_and_disease_risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/intake_of_food_and_lifestyle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T21:10:44Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/food_authenticity_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/food_authenticity_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/agri_food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:54:10Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/food_choice_behaviour_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/food_choice_behaviour_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/intake_of_food_and_lifestyle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:55:16Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/food_classification_and_description_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/food_classification_and_description_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/agri_food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:53:50Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/food_composition_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/food_composition_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/agri_food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/food_consumtion_intake_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/food_consumtion_intake_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/intake_of_food_and_lifestyle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/food_descriptor -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/food_descriptor">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/specification_entity"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:38:42Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/food_labeling_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/food_labeling_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/agri_food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:54:20Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/food_safety_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/food_safety_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/agri_food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:54:35Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/hazard_toxicological_effect_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/hazard_toxicological_effect_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/health_body_function_and_disease_risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/health_body_function_and_disease_risk -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/health_body_function_and_disease_risk">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/data_domain"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:17:06Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/intake_of_food_and_lifestyle -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/intake_of_food_and_lifestyle">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/data_domain"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:16:29Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/journal_article -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/journal_article">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/reference"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:27:32Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/keywords -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/keywords">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/language -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/language">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/licence_agreement -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/licence_agreement">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/lifestyle_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/lifestyle_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/intake_of_food_and_lifestyle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/material_entity -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/material_entity">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T21:04:03Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/median -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/median">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/value_types"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:28:20Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/microbiome_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/microbiome_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/health_body_function_and_disease_risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:56:32Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/nutrient_intake -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/nutrient_intake">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/research_question"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:23:44Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/objective_specification -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/objective_specification"/>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/omics_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/omics_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/health_body_function_and_disease_risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/person -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/person">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/material_entity"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T21:04:27Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/phenotypic_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/phenotypic_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/biomedical_data"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/publisher -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/publisher">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/dataset_provenance_metadata"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:11Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/reference -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/reference">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:51Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/research_question -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/research_question">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/objective_specification"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:23:00Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/risk_assessment -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/risk_assessment">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/research_question"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:23:44Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/sample_or_study_population_descriptor -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/sample_or_study_population_descriptor">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/specification_entity"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:39:48Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/socio_demographic_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/socio_demographic_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/is-about"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/intake_of_food_and_lifestyle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/software -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/software">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/reference"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:27:32Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/specification_entity -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/specification_entity"/>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/study_method_descriptor -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/study_method_descriptor">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/specification_entity"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:39:09Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/sustainability_data -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/sustainability_data">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/domain_datatype"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/of-domain"/>
+                <owl:someValuesFrom rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/agri_food"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:22:28Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/unit -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/unit">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/specification_entity"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:26:29Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/value_types -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/value_types">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:27:45Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/webpage -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/webpage">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/reference"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:27:32Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/weighted -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/weighted">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/value_types"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-7685-9140"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-23T20:28:20Z</dc:date>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_Dietary_intake_of_people_aged_65+ -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_Dietary_intake_of_people_aged_65+">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_LFCT-AUTH/dataset_LFCT-AUTHATR-FTIR_spectroscopic_dataset -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_LFCT-AUTH/dataset_LFCT-AUTHATR-FTIR_spectroscopic_dataset">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_LFCT-AUTH/dataset_LFCT-AUTH_quantum_chemically_calculated_values_of_indices_characterizing_the_radical_scavenging_activity_of_virgin_olive_oil_phenols_dataset -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_LFCT-AUTH/dataset_LFCT-AUTH_quantum_chemically_calculated_values_of_indices_characterizing_the_radical_scavenging_activity_of_virgin_olive_oil_phenols_dataset">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fns-cloud.eu/FNS-Harmony/dataset_LFCT-AUTH/dataset_LFCT-AUTH_virgin_olive_oil_phenol_composition_dataset -->
+
+    <owl:Class rdf:about="http://www.fns-cloud.eu/FNS-Harmony/dataset_LFCT-AUTH/dataset_LFCT-AUTH_virgin_olive_oil_phenol_composition_dataset">
+        <rdfs:subClassOf rdf:resource="http://www.fns-cloud.eu/FNS-Harmony/FNS_dataset"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+

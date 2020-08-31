@@ -1,0 +1,16 @@
+OBO metadata ontology
+http://purl.obolibrary.org/obo/omo.owl
+Ontology of Biomedical Investigations
+http://purl.obolibrary.org/obo/obi.owl
+FoodOn ontology
+http://purl.obolibrary.org/obo/foodon.owl
+Ontology for nutritional studies
+http://purl.obolibrary.org/obo/ons.owl
+Information artefact ontology
+http://purl.obolibrary.org/obo/iao.owl
+Basic Formal Ontology
+http://purl.obolibrary.org/obo/bfo.owl
+STATO Ontology
+http://purl.obolibrary.org/obo/stato.owl
+OBCS
+https://raw.githubusercontent.com/obcs/obcs/master/release/20180222/obcs_merged_inferred.owl
