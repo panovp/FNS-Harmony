@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://www.fns-cloud.eu/external/DOID" uri="FNS_external_19072021_DOID.owl"/>
+    <uri id="User Entered Import Resolution" name="https://www.fns-cloud.eu/external/UO" uri="FNS_external_19072021_UO.owl"/>
+    <uri id="User Entered Import Resolution" name="https://www.fns-cloud.eu/external/UBERON" uri="FNS_external_19072021_UBERON.owl"/>
+    <uri id="User Entered Import Resolution" name="https://www.fns-cloud.eu/external/ONS" uri="FNS_external_19072021_ONS.owl"/>
+    <uri id="User Entered Import Resolution" name="https://www.fns-cloud.eu/external/OBI" uri="FNS_external_20072027_OBI_material_processing.owl"/>
+    <uri id="User Entered Import Resolution" name="https://www.fns-cloud.eu/external/ENVO" uri="FNS_external_20072021_ENVO.owl"/>
+    <uri id="User Entered Import Resolution" name="https://www.fns-cloud.eu/FNS_external_19072021_DOID.owl" uri="FNS_external_19072021_DOID.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1635494806938" name="http://ontofox.hegroup.org/77y37rbc.owl" uri="FNS_external_19072021_UO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1635494806938" name="http://ontofox.hegroup.org/7ymndrfs.owl" uri="FNS_external_19072021_UBERON.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1635494806938" name="http://ontofox.hegroup.org/859y98i5.owl" uri="FNS_external_20072021_ENVO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1635494806938" name="http://ontofox.hegroup.org/a47337hz.owl" uri="FNS_external_19072021_ONS.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1635494806938" name="http://ontofox.hegroup.org/nfj63688.owl" uri="FNS_external_19072021_DOID.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1635494806938" name="http://ontofox.hegroup.org/prtfhof6.owl" uri="FNS_external_20072027_OBI_material_processing.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1635494806938" name="http://ontofox.hegroup.org/qrghcgk2.owl" uri="FNS_external_20072027_UO_temperature_unit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1635494806938" name="http://ontofox.hegroup.org/xvhkdow5.owl" uri="FNS_external_20072021_ENVO_enviromental_material.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1635494806938" name="duplicate:https://www.fns-cloud.eu/" uri="FNS-H-AppModule_v1_1_0.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1635494806938" name="duplicate:https://www.fns-cloud.eu/" uri="FNS-H-AppModule_v1_1_0_backup.owl"/>
+    </group>
+</catalog>

@@ -1,0 +1,1397 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.fns-cloud.eu/"
+     xml:base="https://www.fns-cloud.eu/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="https://www.fns-cloud.eu/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://www.fns-cloud.eu/">
+        <owl:versionIRI rdf:resource="https://www.fns-cloud.eu/FNS-H/1.0.0"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo/2020-06-08/omo.owl"/>
+        <dc:contributor>Aleksandra Shumkoska</dc:contributor>
+        <dc:contributor>Anton Bivolarov</dc:contributor>
+        <dc:contributor>Francesco Vitali</dc:contributor>
+        <dc:contributor>Giovanni Bacci</dc:contributor>
+        <dc:contributor>Pance Panov</dc:contributor>
+        <dc:creator>Pance Panov (JSI)</dc:creator>
+        <dc:description>Application module of FNS-H</dc:description>
+        <dc:identifier>FNS-H</dc:identifier>
+        <dc:language>english</dc:language>
+        <dc:title>FNS-Harmony Ontology</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000067 -->
+
+    <owl:AnnotationProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000067">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">maps-to-ISA-term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000017 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000017">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000014"/>
+        <obo:IAO_0000115 xml:lang="en">Allows reference to a resource</obo:IAO_0000115>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-resouce-reference</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000025 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000025">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+        <rdfs:range rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000022"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-organism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000029 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000029">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+        <rdfs:range rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000026"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-attribute</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000031 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000031">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000055"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000030"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-spot-descriptor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000038 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000038">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+        <rdfs:range rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000036"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has_platform</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000044 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000044">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+        <rdfs:range rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000039"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-library</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000045 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000045">
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+        <rdfs:range rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">referes-to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000046 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000046">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+        <rdfs:range rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+        <obo:IAO_0006011 xml:lang="en">SAMPLE_REF_PRIMARY_ID</obo:IAO_0006011>
+        <obo:IAO_0006011 xml:lang="en">The reference to the sample</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-primary-sample-ref</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000047 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000047">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+        <rdfs:range rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+        <obo:IAO_0000115 xml:lang="en">A reference to the additional sample id</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">SAMPLE_REF_EXTERNAL_ID</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-external-sample-ref</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000062 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000062">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">part-of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000063 -->
+
+    <owl:ObjectProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000063">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+        <rdfs:range rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000055"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">produces-output-file</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <owl:equivalentProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000027"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000006 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000006">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000051"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <obo:IAO_0000115 xml:lang="en">Information about date and time of the submission to the FNS Cloud</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">SUBMITTED_AT</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">study-submitted-on</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000007 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000007">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Information about the source database</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">SOURCE</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-source-information</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000008 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000008">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000053"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <obo:IAO_0000115 xml:lang="en">Unique identification key in the source database</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">RESOURCE_ID</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-resource-ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000009 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000009">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000053"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <obo:IAO_0000115 xml:lang="en">Additional identification key</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">SOURCE_SECONDARY_ID</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-study-source-secondaryID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000010 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000010">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000053"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+                    <rdf:Description rdf:about="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <obo:IAO_0000115 xml:lang="en">Identification ID of the submitters</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">RESOURCE_SUBMITTER_ID</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-resource-submitterID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000011 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000011">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000052"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">The title of the study</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">STUDY_TITLE</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-study-title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000012 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000012">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Provides Contact Information</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">CONTACT_INFORMATION</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-study-contact-information</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000015 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000015">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000014"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Resource name e.g. PubMed, ENA-STUDY, etc.</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">RESOURCE</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-resource-name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000016 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000016">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000053"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000014"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <obo:IAO_0000115 xml:lang="en">The ID of the Resource</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">ID</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-resource-reference-ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000018 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000018">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000051"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">sample-submitted-on</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000019 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000019">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000054"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-sample-alias</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000020 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000020">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000052"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-sample-title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000021 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000021">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000053"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <obo:IAO_0000115 xml:lang="en">Taxon ID based on NCIB Taxon Database</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">TAXON_ID</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-taxon-ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000023 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000023">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Scientific name of the organism</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">SCIENTIFIC_NAME</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-taxon-scientific-name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000024 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000024">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Common name of the organism</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">COMMON_NAME</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-taxon-common-name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000027 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000027">
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000026"/>
+        <obo:IAO_0000115 xml:lang="en">Attribute name</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">KEY</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-attribute-key</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000028 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000028">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000026"/>
+        <obo:IAO_0000115 xml:lang="en">Attribute value</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">VALUE</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-attribute-value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000032 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000032">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <obo:IAO_0000115 xml:lang="en">The index of the read e.g. 0,1,2, etc</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">READ_INDEX</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-read-index</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000033 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000033">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <obo:IAO_0000115 xml:lang="en">Read Identification Information e.g. Forward, Left Adapter, etc.</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">READ_LABEL</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-read-label</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000034 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000034">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Read Identification Information e.g. Forward, Left Adapter, etc.</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">READ_LABEL</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-class-label</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000035 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000035">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000030"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <obo:IAO_0006011 xml:lang="en">READ_TYPE</obo:IAO_0006011>
+        <obo:IAO_0006011 xml:lang="en">The type of the read e.g. Forward, Adapter, BarCode, etc.</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-read-type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000037 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000037">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000036"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Information about the instument model used e.g. Illumina MiSeq</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">INSTRUMENT_MODEL</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has_instrument_model</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000040 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000040">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000039"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">The name of the library used</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">LIBRARY_NAME</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has_library_name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000041 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000041">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000039"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Information about the applied strategy</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">LIBRARY_STRATEGY</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has_library_strategy</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000042 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000042">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000039"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Library source information</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">LIBRARY_SOURCE</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has_library_source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000043 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000043">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000039"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Library selection information</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">LIBRARY_SELECTION</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has_library_selection</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000048 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000048">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000052"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Additional information about the experiment</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">TITLE</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-experiment-title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000049 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000049">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000054"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Alias of the experiment in the study</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">EXPERIMENT_ALIAS</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-experiment-alias</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000050 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000050">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000051"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">experiment-submitted-on</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000051 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000051">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">submitted-on</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000052 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000052">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000053 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000053">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000054 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000054">
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-alias</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000056 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000056">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000055"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">The checksum of the file produced</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">FILE_CHECKSUM</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-file-checksum</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000057 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000057">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000055"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">The checksum method used</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">FILE_CHECKSUM_METHOD</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-file-checksum-method</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000058 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000058">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000055"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Identification of the file</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">FILE_NAME</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-file-name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000059 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000059">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000055"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">The type of the file e.g. fastq, sff, etc.</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">FILE_TYPE</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-file-type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000060 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000060">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000055"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Encoding of the file e.g. ascii, etc.</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">FILE_QUALITY_ENCODING</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-file-quality-encoding</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000061 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000061">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000055"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Quality encoding scoring system</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">FILE_QUALITY_SCORING_SYSTEM</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-file-quality-scoring-system</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000064 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000064">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000052"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Additional information about the run</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">TITLE</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-run-title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000065 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000065">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000054"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115 xml:lang="en">Alias of the run in the study</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">RUN_ALIAS</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-run-alias</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000066 -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000066">
+        <rdfs:subPropertyOf rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000051"/>
+        <rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000004"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">run-submitted-on</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.fns-cloud.eu/has_study_type -->
+
+    <owl:DatatypeProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000067">
+    	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    	<rdfs:domain rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+        <obo:IAO_0006011 xml:lang="en">STUDY_TYPE</obo:IAO_0006011>
+        <dc:creator>Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">has-study-type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000001 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000001">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000017"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/has_study_type"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000006"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000007"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000009"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000008"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000010"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000011"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000002 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000002">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000017"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000029"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000019"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000007"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000018"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000020"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000024"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000008"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000010"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000021"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000023"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000003 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000003">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000017"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000031"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000038"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000045"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000046"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000047"/>
+                <owl:allValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000041"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000042"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000043"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000048"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000049"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000007"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000040"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000050"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000008"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000010"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">experiment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000004 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000004">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000017"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000031"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000038"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000062"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000063"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000065"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000007"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000064"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000066"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000008"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000010"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">run</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000013 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000013">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">study_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000014 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000014">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000015"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000016"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">resource_reference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000022 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000022">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000024"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000021"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000023"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000026 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000026">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000027"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000028"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">attribute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000030 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000030">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000032"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000033"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000034"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000035"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0006011>SPOT_DESCRIPTOR</obo:IAO_0006011>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">spot_descriptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000036 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000036">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000037"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">platform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000039 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000039">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000041"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000042"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000043"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000040"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000124"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">library</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000055 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS-H_0000000055">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000031"/>
+                <owl:someValuesFrom rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000056"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000058"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000059"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000060"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.fns-cloud.eu/FNS-H_0000000061"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pance Panov (JSI)</dc:creator>
+        <rdfs:label xml:lang="en">file</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
