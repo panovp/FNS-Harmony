@@ -15,12 +15,12 @@
     <owl:Ontology rdf:about="https://www.fns-cloud.eu/">
         <owl:versionIRI rdf:resource="https://www.fns-cloud.eu/FNS-H/1.2.0"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo/2020-06-08/omo.owl"/>
-        <owl:imports rdf:resource="https://www.fns-cloud.eu/external/DOID"/>
-        <owl:imports rdf:resource="https://www.fns-cloud.eu/external/ENVO"/>
-        <owl:imports rdf:resource="https://www.fns-cloud.eu/external/OBI"/>
-        <owl:imports rdf:resource="https://www.fns-cloud.eu/external/ONS"/>
-        <owl:imports rdf:resource="https://www.fns-cloud.eu/external/UBERON"/>
-        <owl:imports rdf:resource="https://www.fns-cloud.eu/external/UO"/>
+        <owl:imports rdf:resource="https://purl.org/fns-h/external/DOID"/>
+        <owl:imports rdf:resource="https://purl.org/fns-h/external/ENVO"/>
+        <owl:imports rdf:resource="https://purl.org/fns-h/external/OBI"/>
+        <owl:imports rdf:resource="https://purl.org/fns-h/external/ONS"/>
+        <owl:imports rdf:resource="https://purl.org/fns-h/external/UBERON"/>
+        <owl:imports rdf:resource="https://purl.org/fns-h/external/UO"/>
         <dc:contributor>Aleksandra Shumkoska</dc:contributor>
         <dc:contributor>Anton Bivolarov</dc:contributor>
         <dc:contributor>Francesco Vitali</dc:contributor>
