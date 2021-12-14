@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"A","startRow":"1","endRow":"+","comment":"","rule":"Individual: @A*\nTypes: \n        sample_collection_device\nFacts:\n       has-attribute-value @A*,\n       has-attribute-key \"sample_collection_device\"","active":true}]}

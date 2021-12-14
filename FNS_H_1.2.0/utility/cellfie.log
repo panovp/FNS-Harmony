@@ -1,0 +1,818 @@
+Date: 2021-11-30 09:39:06
+Ontology source: /C:/Users/pance/Desktop/FNSHarmony1.2/FNS-H-AppModule_v1_2_0_backup.owl
+Worksheet source: C:\Users\pance\Desktop\FNSHarmony1.2\sample_collection_device.xlsx
+Transformation rules: C:\Users\pance\Desktop\FNSHarmony1.2\sample_collection_device.json
+
+# Cell range: (Sheet1!A1:A+) Comment: ""
+# Individual: @A*
+# Annotations:
+#         rdfs:label @A*
+# Types: 
+#        sample_collection_device
+# Facts:
+#        has-attribute-value @A*,
+#        has-attribute-key "sample_collection_device"
+
+Individual: tube device  # Generated from value "tube device" located at cell 'Sheet1'!A1.
+   Facts: has-attribute-value "tube device"  # Generated from value "tube device" located at cell 'Sheet1'!A1.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "tube device"
+Individual: syringe  # Generated from value "syringe" located at cell 'Sheet1'!A2.
+   Facts: has-attribute-value "syringe"  # Generated from value "syringe" located at cell 'Sheet1'!A2.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "syringe"
+Individual: core  # Generated from value "core" located at cell 'Sheet1'!A3.
+   Facts: has-attribute-value "core"  # Generated from value "core" located at cell 'Sheet1'!A3.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "core"
+Individual: spatula  # Generated from value "spatula" located at cell 'Sheet1'!A4.
+   Facts: has-attribute-value "spatula"  # Generated from value "spatula" located at cell 'Sheet1'!A4.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "spatula"
+Individual: portion of sample  # Generated from value "portion of sample" located at cell 'Sheet1'!A5.
+   Facts: has-attribute-value "portion of sample"  # Generated from value "portion of sample" located at cell 'Sheet1'!A5.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "portion of sample"
+Individual: biopsy  # Generated from value "biopsy" located at cell 'Sheet1'!A6.
+   Facts: has-attribute-value "biopsy"  # Generated from value "biopsy" located at cell 'Sheet1'!A6.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "biopsy"
+Individual: other  # Generated from value "other" located at cell 'Sheet1'!A7.
+   Facts: has-attribute-value "other"  # Generated from value "other" located at cell 'Sheet1'!A7.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "other"
+
+===========================================================================================================
+Date: 2021-11-30 09:40:45
+Ontology source: /C:/Users/pance/Desktop/FNSHarmony1.2/FNS-H-AppModule_v1_2_0_backup.owl
+Worksheet source: C:\Users\pance\Desktop\FNSHarmony1.2\sample_collection_device.xlsx
+Transformation rules: C:\Users\pance\Desktop\FNSHarmony1.2\sample_collection_device.json
+
+# Cell range: (Sheet1!A1:A+) Comment: ""
+# Individual: @A*
+# Annotations:
+#         rdfs:label @A*
+# Types: 
+#        sample_collection_device
+# Facts:
+#        has-attribute-value @A*,
+#        has-attribute-key "sample_collection_device"
+
+Individual: tube device  # Generated from value "tube device" located at cell 'Sheet1'!A1.
+   Facts: has-attribute-value "tube device"  # Generated from value "tube device" located at cell 'Sheet1'!A1.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "tube device"
+Individual: syringe  # Generated from value "syringe" located at cell 'Sheet1'!A2.
+   Facts: has-attribute-value "syringe"  # Generated from value "syringe" located at cell 'Sheet1'!A2.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "syringe"
+Individual: core  # Generated from value "core" located at cell 'Sheet1'!A3.
+   Facts: has-attribute-value "core"  # Generated from value "core" located at cell 'Sheet1'!A3.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "core"
+Individual: spatula  # Generated from value "spatula" located at cell 'Sheet1'!A4.
+   Facts: has-attribute-value "spatula"  # Generated from value "spatula" located at cell 'Sheet1'!A4.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "spatula"
+Individual: portion of sample  # Generated from value "portion of sample" located at cell 'Sheet1'!A5.
+   Facts: has-attribute-value "portion of sample"  # Generated from value "portion of sample" located at cell 'Sheet1'!A5.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "portion of sample"
+Individual: biopsy  # Generated from value "biopsy" located at cell 'Sheet1'!A6.
+   Facts: has-attribute-value "biopsy"  # Generated from value "biopsy" located at cell 'Sheet1'!A6.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "biopsy"
+Individual: other device  # Generated from value "other device" located at cell 'Sheet1'!A7.
+   Facts: has-attribute-value "other device"  # Generated from value "other device" located at cell 'Sheet1'!A7.,
+         has-attribute-key "sample_collection_device"
+   Types: sample_collection_device
+   Annotations: rdfs:label "other device"
+
+===========================================================================================================
+Date: 2021-11-30 09:57:05
+Ontology source: /C:/Users/pance/Desktop/FNSHarmony1.2/FNS-H-AppModule_v1_2_0_backup.owl
+Worksheet source: C:\Users\pance\Desktop\FNSHarmony1.2\target_gene.xlsx
+Transformation rules: C:\Users\pance\Desktop\FNSHarmony1.2\target_gene_rules.json
+
+# Cell range: (Sheet1!A1:A+) Comment: ""
+# Individual: @A*
+# Annotations:
+#         rdfs:label @A*
+# Types: 
+#        target_gene
+# Facts:
+#        has-attribute-value @A*,
+#        has-attribute-key "target_gene"
+
+Individual: 16S rRNA  # Generated from value "16S rRNA" located at cell 'Sheet1'!A1.
+   Facts: has-attribute-value "16S rRNA"  # Generated from value "16S rRNA" located at cell 'Sheet1'!A1.,
+         has-attribute-key "target_gene"
+   Types: target_gene
+   Annotations: rdfs:label "16S rRNA"
+Individual: ITS  # Generated from value "ITS" located at cell 'Sheet1'!A2.
+   Facts: has-attribute-value "ITS"  # Generated from value "ITS" located at cell 'Sheet1'!A2.,
+         has-attribute-key "target_gene"
+   Types: target_gene
+   Annotations: rdfs:label "ITS"
+Individual: Whole genome  # Generated from value "Whole genome" located at cell 'Sheet1'!A3.
+   Facts: has-attribute-value "Whole genome"  # Generated from value "Whole genome" located at cell 'Sheet1'!A3.,
+         has-attribute-key "target_gene"
+   Types: target_gene
+   Annotations: rdfs:label "Whole genome"
+Individual: 18S rRNA  # Generated from value "18S rRNA" located at cell 'Sheet1'!A4.
+   Facts: has-attribute-value "18S rRNA"  # Generated from value "18S rRNA" located at cell 'Sheet1'!A4.,
+         has-attribute-key "target_gene"
+   Types: target_gene
+   Annotations: rdfs:label "18S rRNA"
+Individual: target gene not provided  # Generated from value "target gene not provided" located at cell 'Sheet1'!A5.
+   Facts: has-attribute-value "target gene not provided"  # Generated from value "target gene not provided" located at cell 'Sheet1'!A5.,
+         has-attribute-key "target_gene"
+   Types: target_gene
+   Annotations: rdfs:label "target gene not provided"
+Individual: other target gene  # Generated from value "other target gene" located at cell 'Sheet1'!A6.
+   Facts: has-attribute-value "other target gene"  # Generated from value "other target gene" located at cell 'Sheet1'!A6.,
+         has-attribute-key "target_gene"
+   Types: target_gene
+   Annotations: rdfs:label "other target gene"
+
+===========================================================================================================
+Date: 2021-11-30 11:16:00
+Ontology source: /C:/Users/pance/Desktop/FNSHarmony1.2/FNS-H-AppModule_v1_2_0_backup.owl
+Worksheet source: C:\Users\pance\Desktop\FNSHarmony1.2\host_genotype_values.xlsx
+Transformation rules: C:\Users\pance\Desktop\FNSHarmony1.2\host_genotype_rules.json
+
+# Cell range: (Sheet1!A1:A+) Comment: ""
+# Individual: @A*
+# Annotations:
+#         rdfs:label @A*
+# Types: 
+#         host_genotype
+# Facts:
+#        has-attribute-value @A*,
+#        has-attribute-key "host_genotype"
+
+Individual: wildtype  # Generated from value "wildtype" located at cell 'Sheet1'!A1.
+   Facts: has-attribute-value "wildtype"  # Generated from value "wildtype" located at cell 'Sheet1'!A1.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "wildtype"
+Individual: host genotype not provided  # Generated from value "host genotype not provided" located at cell 'Sheet1'!A2.
+   Facts: has-attribute-value "host genotype not provided"  # Generated from value "host genotype not provided" located at cell 'Sheet1'!A2.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "host genotype not provided"
+Individual: host genotype not applicable  # Generated from value "host genotype not applicable" located at cell 'Sheet1'!A3.
+   Facts: has-attribute-value "host genotype not applicable"  # Generated from value "host genotype not applicable" located at cell 'Sheet1'!A3.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "host genotype not applicable"
+Individual: homo sapiens  # Generated from value "homo sapiens" located at cell 'Sheet1'!A4.
+   Facts: has-attribute-value "homo sapiens"  # Generated from value "homo sapiens" located at cell 'Sheet1'!A4.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "homo sapiens"
+Individual: 129 Mice  # Generated from value "129 Mice" located at cell 'Sheet1'!A5.
+   Facts: has-attribute-value "129 Mice"  # Generated from value "129 Mice" located at cell 'Sheet1'!A5.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "129 Mice"
+Individual: 129-Elite (SOPF) Mouse  # Generated from value "129-Elite (SOPF) Mouse" located at cell 'Sheet1'!A6.
+   Facts: has-attribute-value "129-Elite (SOPF) Mouse"  # Generated from value "129-Elite (SOPF) Mouse" located at cell 'Sheet1'!A6.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "129-Elite (SOPF) Mouse"
+Individual: AKR Mouse  # Generated from value "AKR Mouse" located at cell 'Sheet1'!A7.
+   Facts: has-attribute-value "AKR Mouse"  # Generated from value "AKR Mouse" located at cell 'Sheet1'!A7.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "AKR Mouse"
+Individual: Athymic Heterozygous Mouse (Athymic HE)  # Generated from value "Athymic Heterozygous Mouse (Athymic HE)" located at cell 'Sheet1'!A8.
+   Facts: has-attribute-value "Athymic Heterozygous Mouse (Athymic HE)"  # Generated from value "Athymic Heterozygous Mouse (Athymic HE)" located at cell 'Sheet1'!A8.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Athymic Heterozygous Mouse (Athymic HE)"
+Individual: Athymic Nude Mouse   # Generated from value "Athymic Nude Mouse " located at cell 'Sheet1'!A9.
+   Facts: has-attribute-value "Athymic Nude Mouse "  # Generated from value "Athymic Nude Mouse " located at cell 'Sheet1'!A9.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Athymic Nude Mouse "
+Individual: B10.A/Cr Mouse  # Generated from value "B10.A/Cr Mouse" located at cell 'Sheet1'!A10.
+   Facts: has-attribute-value "B10.A/Cr Mouse"  # Generated from value "B10.A/Cr Mouse" located at cell 'Sheet1'!A10.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "B10.A/Cr Mouse"
+Individual: B6 Albino Mouse  # Generated from value "B6 Albino Mouse" located at cell 'Sheet1'!A11.
+   Facts: has-attribute-value "B6 Albino Mouse"  # Generated from value "B6 Albino Mouse" located at cell 'Sheet1'!A11.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "B6 Albino Mouse"
+Individual: B6C3F1 Mouse  # Generated from value "B6C3F1 Mouse" located at cell 'Sheet1'!A12.
+   Facts: has-attribute-value "B6C3F1 Mouse"  # Generated from value "B6C3F1 Mouse" located at cell 'Sheet1'!A12.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "B6C3F1 Mouse"
+Individual: B6CBAF1 Mouse  # Generated from value "B6CBAF1 Mouse" located at cell 'Sheet1'!A13.
+   Facts: has-attribute-value "B6CBAF1 Mouse"  # Generated from value "B6CBAF1 Mouse" located at cell 'Sheet1'!A13.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "B6CBAF1 Mouse"
+Individual: B6CBAF1/J (JAX™ Mice Strain)  # Generated from value "B6CBAF1/J (JAX™ Mice Strain)" located at cell 'Sheet1'!A14.
+   Facts: has-attribute-value "B6CBAF1/J (JAX™ Mice Strain)"  # Generated from value "B6CBAF1/J (JAX™ Mice Strain)" located at cell 'Sheet1'!A14.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "B6CBAF1/J (JAX™ Mice Strain)"
+Individual: B6D2F1 (BDF1) Mouse  # Generated from value "B6D2F1 (BDF1) Mouse" located at cell 'Sheet1'!A15.
+   Facts: has-attribute-value "B6D2F1 (BDF1) Mouse"  # Generated from value "B6D2F1 (BDF1) Mouse" located at cell 'Sheet1'!A15.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "B6D2F1 (BDF1) Mouse"
+Individual: B6D2F1/J (JAX™ Mice Strain)  # Generated from value "B6D2F1/J (JAX™ Mice Strain)" located at cell 'Sheet1'!A16.
+   Facts: has-attribute-value "B6D2F1/J (JAX™ Mice Strain)"  # Generated from value "B6D2F1/J (JAX™ Mice Strain)" located at cell 'Sheet1'!A16.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "B6D2F1/J (JAX™ Mice Strain)"
+Individual: BALB/c Heterozygous Mouse (NU+ B/c; NU+ BALB/c)  # Generated from value "BALB/c Heterozygous Mouse (NU+ B/c; NU+ BALB/c)" located at cell 'Sheet1'!A17.
+   Facts: has-attribute-value "BALB/c Heterozygous Mouse (NU+ B/c; NU+ BALB/c)"  # Generated from value "BALB/c Heterozygous Mouse (NU+ B/c; NU+ BALB/c)" located at cell 'Sheet1'!A17.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "BALB/c Heterozygous Mouse (NU+ B/c; NU+ BALB/c)"
+Individual: BALB/c Mice  # Generated from value "BALB/c Mice" located at cell 'Sheet1'!A18.
+   Facts: has-attribute-value "BALB/c Mice"  # Generated from value "BALB/c Mice" located at cell 'Sheet1'!A18.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "BALB/c Mice"
+Individual: BALB/c Nude (JAX™ Mice Strain)  # Generated from value "BALB/c Nude (JAX™ Mice Strain)" located at cell 'Sheet1'!A19.
+   Facts: has-attribute-value "BALB/c Nude (JAX™ Mice Strain)"  # Generated from value "BALB/c Nude (JAX™ Mice Strain)" located at cell 'Sheet1'!A19.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "BALB/c Nude (JAX™ Mice Strain)"
+Individual: BALB/c Nude Mouse  # Generated from value "BALB/c Nude Mouse" located at cell 'Sheet1'!A20.
+   Facts: has-attribute-value "BALB/c Nude Mouse"  # Generated from value "BALB/c Nude Mouse" located at cell 'Sheet1'!A20.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "BALB/c Nude Mouse"
+Individual: BALB/c-Elite Mouse  # Generated from value "BALB/c-Elite Mouse" located at cell 'Sheet1'!A21.
+   Facts: has-attribute-value "BALB/c-Elite Mouse"  # Generated from value "BALB/c-Elite Mouse" located at cell 'Sheet1'!A21.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "BALB/c-Elite Mouse"
+Individual: BALB/cByJ (JAX™ Mice Strain)  # Generated from value "BALB/cByJ (JAX™ Mice Strain)" located at cell 'Sheet1'!A22.
+   Facts: has-attribute-value "BALB/cByJ (JAX™ Mice Strain)"  # Generated from value "BALB/cByJ (JAX™ Mice Strain)" located at cell 'Sheet1'!A22.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "BALB/cByJ (JAX™ Mice Strain)"
+Individual: BALB/cByJ SOPF (JAX™ Mice Strain)  # Generated from value "BALB/cByJ SOPF (JAX™ Mice Strain)" located at cell 'Sheet1'!A23.
+   Facts: has-attribute-value "BALB/cByJ SOPF (JAX™ Mice Strain)"  # Generated from value "BALB/cByJ SOPF (JAX™ Mice Strain)" located at cell 'Sheet1'!A23.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "BALB/cByJ SOPF (JAX™ Mice Strain)"
+Individual: BDIX Rat  # Generated from value "BDIX Rat" located at cell 'Sheet1'!A24.
+   Facts: has-attribute-value "BDIX Rat"  # Generated from value "BDIX Rat" located at cell 'Sheet1'!A24.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "BDIX Rat"
+Individual: Black Swiss Mouse  # Generated from value "Black Swiss Mouse" located at cell 'Sheet1'!A25.
+   Facts: has-attribute-value "Black Swiss Mouse"  # Generated from value "Black Swiss Mouse" located at cell 'Sheet1'!A25.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Black Swiss Mouse"
+Individual: Brown Norway Rat  # Generated from value "Brown Norway Rat" located at cell 'Sheet1'!A26.
+   Facts: has-attribute-value "Brown Norway Rat"  # Generated from value "Brown Norway Rat" located at cell 'Sheet1'!A26.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Brown Norway Rat"
+Individual: Buffalo Rat  # Generated from value "Buffalo Rat" located at cell 'Sheet1'!A27.
+   Facts: has-attribute-value "Buffalo Rat"  # Generated from value "Buffalo Rat" located at cell 'Sheet1'!A27.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Buffalo Rat"
+Individual: C3H Mice  # Generated from value "C3H Mice" located at cell 'Sheet1'!A28.
+   Facts: has-attribute-value "C3H Mice"  # Generated from value "C3H Mice" located at cell 'Sheet1'!A28.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "C3H Mice"
+Individual: C3H SOPF Mouse  # Generated from value "C3H SOPF Mouse" located at cell 'Sheet1'!A29.
+   Facts: has-attribute-value "C3H SOPF Mouse"  # Generated from value "C3H SOPF Mouse" located at cell 'Sheet1'!A29.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "C3H SOPF Mouse"
+Individual: C3H/HeOuJ (JAX™ Mice Strain)  # Generated from value "C3H/HeOuJ (JAX™ Mice Strain)" located at cell 'Sheet1'!A30.
+   Facts: has-attribute-value "C3H/HeOuJ (JAX™ Mice Strain)"  # Generated from value "C3H/HeOuJ (JAX™ Mice Strain)" located at cell 'Sheet1'!A30.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "C3H/HeOuJ (JAX™ Mice Strain)"
+Individual: C57BL/6 Mouse  # Generated from value "C57BL/6 Mouse" located at cell 'Sheet1'!A31.
+   Facts: has-attribute-value "C57BL/6 Mouse"  # Generated from value "C57BL/6 Mouse" located at cell 'Sheet1'!A31.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "C57BL/6 Mouse"
+Individual: C57BL/6-Aged Mouse  # Generated from value "C57BL/6-Aged Mouse" located at cell 'Sheet1'!A32.
+   Facts: has-attribute-value "C57BL/6-Aged Mouse"  # Generated from value "C57BL/6-Aged Mouse" located at cell 'Sheet1'!A32.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "C57BL/6-Aged Mouse"
+Individual: C57BL/6-Elite (SOPF) Mouse  # Generated from value "C57BL/6-Elite (SOPF) Mouse" located at cell 'Sheet1'!A33.
+   Facts: has-attribute-value "C57BL/6-Elite (SOPF) Mouse"  # Generated from value "C57BL/6-Elite (SOPF) Mouse" located at cell 'Sheet1'!A33.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "C57BL/6-Elite (SOPF) Mouse"
+Individual: C57BL/6-Germ-Free Mouse  # Generated from value "C57BL/6-Germ-Free Mouse" located at cell 'Sheet1'!A34.
+   Facts: has-attribute-value "C57BL/6-Germ-Free Mouse"  # Generated from value "C57BL/6-Germ-Free Mouse" located at cell 'Sheet1'!A34.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "C57BL/6-Germ-Free Mouse"
+Individual: C57BL/6J (JAX™ Mice Strain)  # Generated from value "C57BL/6J (JAX™ Mice Strain)" located at cell 'Sheet1'!A35.
+   Facts: has-attribute-value "C57BL/6J (JAX™ Mice Strain)"  # Generated from value "C57BL/6J (JAX™ Mice Strain)" located at cell 'Sheet1'!A35.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "C57BL/6J (JAX™ Mice Strain)"
+Individual: C57BL/6J SOPF (JAX™ Mice Strain)  # Generated from value "C57BL/6J SOPF (JAX™ Mice Strain)" located at cell 'Sheet1'!A36.
+   Facts: has-attribute-value "C57BL/6J SOPF (JAX™ Mice Strain)"  # Generated from value "C57BL/6J SOPF (JAX™ Mice Strain)" located at cell 'Sheet1'!A36.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "C57BL/6J SOPF (JAX™ Mice Strain)"
+Individual: CB6F1 Mouse  # Generated from value "CB6F1 Mouse" located at cell 'Sheet1'!A37.
+   Facts: has-attribute-value "CB6F1 Mouse"  # Generated from value "CB6F1 Mouse" located at cell 'Sheet1'!A37.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CB6F1 Mouse"
+Individual: CBA Mouse  # Generated from value "CBA Mouse" located at cell 'Sheet1'!A38.
+   Facts: has-attribute-value "CBA Mouse"  # Generated from value "CBA Mouse" located at cell 'Sheet1'!A38.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CBA Mouse"
+Individual: CBA/J (JAX™ Mice Strain)  # Generated from value "CBA/J (JAX™ Mice Strain)" located at cell 'Sheet1'!A39.
+   Facts: has-attribute-value "CBA/J (JAX™ Mice Strain)"  # Generated from value "CBA/J (JAX™ Mice Strain)" located at cell 'Sheet1'!A39.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CBA/J (JAX™ Mice Strain)"
+Individual: CBAB6F1 Mouse  # Generated from value "CBAB6F1 Mouse" located at cell 'Sheet1'!A40.
+   Facts: has-attribute-value "CBAB6F1 Mouse"  # Generated from value "CBAB6F1 Mouse" located at cell 'Sheet1'!A40.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CBAB6F1 Mouse"
+Individual: CD (SD) IGS SOPF Rat  # Generated from value "CD (SD) IGS SOPF Rat" located at cell 'Sheet1'!A41.
+   Facts: has-attribute-value "CD (SD) IGS SOPF Rat"  # Generated from value "CD (SD) IGS SOPF Rat" located at cell 'Sheet1'!A41.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CD (SD) IGS SOPF Rat"
+Individual: CD Hairless Rat  # Generated from value "CD Hairless Rat" located at cell 'Sheet1'!A42.
+   Facts: has-attribute-value "CD Hairless Rat"  # Generated from value "CD Hairless Rat" located at cell 'Sheet1'!A42.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CD Hairless Rat"
+Individual: CD-1® Heterozygous Mouse (NU+ CD-1®)  # Generated from value "CD-1® Heterozygous Mouse (NU+ CD-1®)" located at cell 'Sheet1'!A43.
+   Facts: has-attribute-value "CD-1® Heterozygous Mouse (NU+ CD-1®)"  # Generated from value "CD-1® Heterozygous Mouse (NU+ CD-1®)" located at cell 'Sheet1'!A43.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CD-1® Heterozygous Mouse (NU+ CD-1®)"
+Individual: CD-1® IGS Mouse  # Generated from value "CD-1® IGS Mouse" located at cell 'Sheet1'!A44.
+   Facts: has-attribute-value "CD-1® IGS Mouse"  # Generated from value "CD-1® IGS Mouse" located at cell 'Sheet1'!A44.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CD-1® IGS Mouse"
+Individual: CD-1® Nude Mouse  # Generated from value "CD-1® Nude Mouse" located at cell 'Sheet1'!A45.
+   Facts: has-attribute-value "CD-1® Nude Mouse"  # Generated from value "CD-1® Nude Mouse" located at cell 'Sheet1'!A45.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CD-1® Nude Mouse"
+Individual: CD® (Sprague Dawley) IGS Rat  # Generated from value "CD® (Sprague Dawley) IGS Rat" located at cell 'Sheet1'!A46.
+   Facts: has-attribute-value "CD® (Sprague Dawley) IGS Rat"  # Generated from value "CD® (Sprague Dawley) IGS Rat" located at cell 'Sheet1'!A46.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CD® (Sprague Dawley) IGS Rat"
+Individual: CD1-Elite (SOPF) Mouse  # Generated from value "CD1-Elite (SOPF) Mouse" located at cell 'Sheet1'!A47.
+   Facts: has-attribute-value "CD1-Elite (SOPF) Mouse"  # Generated from value "CD1-Elite (SOPF) Mouse" located at cell 'Sheet1'!A47.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CD1-Elite (SOPF) Mouse"
+Individual: CD2F1 (CDF1) Mouse  # Generated from value "CD2F1 (CDF1) Mouse" located at cell 'Sheet1'!A48.
+   Facts: has-attribute-value "CD2F1 (CDF1) Mouse"  # Generated from value "CD2F1 (CDF1) Mouse" located at cell 'Sheet1'!A48.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CD2F1 (CDF1) Mouse"
+Individual: CF-1™ Mouse  # Generated from value "CF-1™ Mouse" located at cell 'Sheet1'!A49.
+   Facts: has-attribute-value "CF-1™ Mouse"  # Generated from value "CF-1™ Mouse" located at cell 'Sheet1'!A49.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "CF-1™ Mouse"
+Individual: Copenhagen Rat  # Generated from value "Copenhagen Rat" located at cell 'Sheet1'!A50.
+   Facts: has-attribute-value "Copenhagen Rat"  # Generated from value "Copenhagen Rat" located at cell 'Sheet1'!A50.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Copenhagen Rat"
+Individual: Dahl/Salt Sensitive Rat  # Generated from value "Dahl/Salt Sensitive Rat" located at cell 'Sheet1'!A51.
+   Facts: has-attribute-value "Dahl/Salt Sensitive Rat"  # Generated from value "Dahl/Salt Sensitive Rat" located at cell 'Sheet1'!A51.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Dahl/Salt Sensitive Rat"
+Individual: DBA/1J (JAX™ Mice Strain)  # Generated from value "DBA/1J (JAX™ Mice Strain)" located at cell 'Sheet1'!A52.
+   Facts: has-attribute-value "DBA/1J (JAX™ Mice Strain)"  # Generated from value "DBA/1J (JAX™ Mice Strain)" located at cell 'Sheet1'!A52.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "DBA/1J (JAX™ Mice Strain)"
+Individual: DBA/2 Mouse  # Generated from value "DBA/2 Mouse" located at cell 'Sheet1'!A53.
+   Facts: has-attribute-value "DBA/2 Mouse"  # Generated from value "DBA/2 Mouse" located at cell 'Sheet1'!A53.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "DBA/2 Mouse"
+Individual: DBA/2J (JAX™ Mice Strain)  # Generated from value "DBA/2J (JAX™ Mice Strain)" located at cell 'Sheet1'!A54.
+   Facts: has-attribute-value "DBA/2J (JAX™ Mice Strain)"  # Generated from value "DBA/2J (JAX™ Mice Strain)" located at cell 'Sheet1'!A54.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "DBA/2J (JAX™ Mice Strain)"
+Individual: FHH Rat  # Generated from value "FHH Rat" located at cell 'Sheet1'!A55.
+   Facts: has-attribute-value "FHH Rat"  # Generated from value "FHH Rat" located at cell 'Sheet1'!A55.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "FHH Rat"
+Individual: Fischer (CDF) Rat  # Generated from value "Fischer (CDF) Rat" located at cell 'Sheet1'!A56.
+   Facts: has-attribute-value "Fischer (CDF) Rat"  # Generated from value "Fischer (CDF) Rat" located at cell 'Sheet1'!A56.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Fischer (CDF) Rat"
+Individual: Fischer (SAS FISCH) Rat  # Generated from value "Fischer (SAS FISCH) Rat" located at cell 'Sheet1'!A57.
+   Facts: has-attribute-value "Fischer (SAS FISCH) Rat"  # Generated from value "Fischer (SAS FISCH) Rat" located at cell 'Sheet1'!A57.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Fischer (SAS FISCH) Rat"
+Individual: Fox Chase CB17 Mouse  # Generated from value "Fox Chase CB17 Mouse" located at cell 'Sheet1'!A58.
+   Facts: has-attribute-value "Fox Chase CB17 Mouse"  # Generated from value "Fox Chase CB17 Mouse" located at cell 'Sheet1'!A58.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Fox Chase CB17 Mouse"
+Individual: Fox Chase SCID Beige Mouse  # Generated from value "Fox Chase SCID Beige Mouse" located at cell 'Sheet1'!A59.
+   Facts: has-attribute-value "Fox Chase SCID Beige Mouse"  # Generated from value "Fox Chase SCID Beige Mouse" located at cell 'Sheet1'!A59.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Fox Chase SCID Beige Mouse"
+Individual: Fox Chase SCID Mouse  # Generated from value "Fox Chase SCID Mouse" located at cell 'Sheet1'!A60.
+   Facts: has-attribute-value "Fox Chase SCID Mouse"  # Generated from value "Fox Chase SCID Mouse" located at cell 'Sheet1'!A60.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Fox Chase SCID Mouse"
+Individual: FVB Mouse  # Generated from value "FVB Mouse" located at cell 'Sheet1'!A61.
+   Facts: has-attribute-value "FVB Mouse"  # Generated from value "FVB Mouse" located at cell 'Sheet1'!A61.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "FVB Mouse"
+Individual: Hartley Guinea Pig  # Generated from value "Hartley Guinea Pig" located at cell 'Sheet1'!A62.
+   Facts: has-attribute-value "Hartley Guinea Pig"  # Generated from value "Hartley Guinea Pig" located at cell 'Sheet1'!A62.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Hartley Guinea Pig"
+Individual: JAX Mice Metabolic Models  # Generated from value "JAX Mice Metabolic Models" located at cell 'Sheet1'!A63.
+   Facts: has-attribute-value "JAX Mice Metabolic Models"  # Generated from value "JAX Mice Metabolic Models" located at cell 'Sheet1'!A63.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "JAX Mice Metabolic Models"
+Individual: K18-hACE2 (JAX™ Mice Strain)  # Generated from value "K18-hACE2 (JAX™ Mice Strain)" located at cell 'Sheet1'!A64.
+   Facts: has-attribute-value "K18-hACE2 (JAX™ Mice Strain)"  # Generated from value "K18-hACE2 (JAX™ Mice Strain)" located at cell 'Sheet1'!A64.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "K18-hACE2 (JAX™ Mice Strain)"
+Individual: Lewis Rat  # Generated from value "Lewis Rat" located at cell 'Sheet1'!A65.
+   Facts: has-attribute-value "Lewis Rat"  # Generated from value "Lewis Rat" located at cell 'Sheet1'!A65.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Lewis Rat"
+Individual: Lister Hooded Rat  # Generated from value "Lister Hooded Rat" located at cell 'Sheet1'!A66.
+   Facts: has-attribute-value "Lister Hooded Rat"  # Generated from value "Lister Hooded Rat" located at cell 'Sheet1'!A66.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Lister Hooded Rat"
+Individual: Long-Evans Rat  # Generated from value "Long-Evans Rat" located at cell 'Sheet1'!A67.
+   Facts: has-attribute-value "Long-Evans Rat"  # Generated from value "Long-Evans Rat" located at cell 'Sheet1'!A67.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Long-Evans Rat"
+Individual: LVG Golden Syrian Hamster  # Generated from value "LVG Golden Syrian Hamster" located at cell 'Sheet1'!A68.
+   Facts: has-attribute-value "LVG Golden Syrian Hamster"  # Generated from value "LVG Golden Syrian Hamster" located at cell 'Sheet1'!A68.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "LVG Golden Syrian Hamster"
+Individual: Ly5.1 Mouse  # Generated from value "Ly5.1 Mouse" located at cell 'Sheet1'!A69.
+   Facts: has-attribute-value "Ly5.1 Mouse"  # Generated from value "Ly5.1 Mouse" located at cell 'Sheet1'!A69.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Ly5.1 Mouse"
+Individual: Mongolian Gerbil  # Generated from value "Mongolian Gerbil" located at cell 'Sheet1'!A70.
+   Facts: has-attribute-value "Mongolian Gerbil"  # Generated from value "Mongolian Gerbil" located at cell 'Sheet1'!A70.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Mongolian Gerbil"
+Individual: NCI A/JCR Mouse  # Generated from value "NCI A/JCR Mouse" located at cell 'Sheet1'!A71.
+   Facts: has-attribute-value "NCI A/JCR Mouse"  # Generated from value "NCI A/JCR Mouse" located at cell 'Sheet1'!A71.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NCI A/JCR Mouse"
+Individual: NCI B6-Ly5.1/Cr Mouse  # Generated from value "NCI B6-Ly5.1/Cr Mouse" located at cell 'Sheet1'!A72.
+   Facts: has-attribute-value "NCI B6-Ly5.1/Cr Mouse"  # Generated from value "NCI B6-Ly5.1/Cr Mouse" located at cell 'Sheet1'!A72.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NCI B6-Ly5.1/Cr Mouse"
+Individual: NCI SCID/NCr Mouse  # Generated from value "NCI SCID/NCr Mouse" located at cell 'Sheet1'!A73.
+   Facts: has-attribute-value "NCI SCID/NCr Mouse"  # Generated from value "NCI SCID/NCr Mouse" located at cell 'Sheet1'!A73.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NCI SCID/NCr Mouse"
+Individual: New Zealand White Rabbit - CR  # Generated from value "New Zealand White Rabbit - CR" located at cell 'Sheet1'!A74.
+   Facts: has-attribute-value "New Zealand White Rabbit - CR"  # Generated from value "New Zealand White Rabbit - CR" located at cell 'Sheet1'!A74.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "New Zealand White Rabbit - CR"
+Individual: NIH-III Heterozygous Mouse (NIH-III-HE)  # Generated from value "NIH-III Heterozygous Mouse (NIH-III-HE)" located at cell 'Sheet1'!A75.
+   Facts: has-attribute-value "NIH-III Heterozygous Mouse (NIH-III-HE)"  # Generated from value "NIH-III Heterozygous Mouse (NIH-III-HE)" located at cell 'Sheet1'!A75.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NIH-III Heterozygous Mouse (NIH-III-HE)"
+Individual: NIH-III Nude Mouse  # Generated from value "NIH-III Nude Mouse" located at cell 'Sheet1'!A76.
+   Facts: has-attribute-value "NIH-III Nude Mouse"  # Generated from value "NIH-III Nude Mouse" located at cell 'Sheet1'!A76.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NIH-III Nude Mouse"
+Individual: NMRI Mouse  # Generated from value "NMRI Mouse" located at cell 'Sheet1'!A77.
+   Facts: has-attribute-value "NMRI Mouse"  # Generated from value "NMRI Mouse" located at cell 'Sheet1'!A77.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NMRI Mouse"
+Individual: NMRI Nude Mouse  # Generated from value "NMRI Nude Mouse" located at cell 'Sheet1'!A78.
+   Facts: has-attribute-value "NMRI Nude Mouse"  # Generated from value "NMRI Nude Mouse" located at cell 'Sheet1'!A78.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NMRI Nude Mouse"
+Individual: NMRI SOPF Mouse  # Generated from value "NMRI SOPF Mouse" located at cell 'Sheet1'!A79.
+   Facts: has-attribute-value "NMRI SOPF Mouse"  # Generated from value "NMRI SOPF Mouse" located at cell 'Sheet1'!A79.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NMRI SOPF Mouse"
+Individual: Noble Rat   # Generated from value "Noble Rat " located at cell 'Sheet1'!A80.
+   Facts: has-attribute-value "Noble Rat "  # Generated from value "Noble Rat " located at cell 'Sheet1'!A80.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Noble Rat "
+Individual: NOD SCID (JAX™ Mice Strain)  # Generated from value "NOD SCID (JAX™ Mice Strain)" located at cell 'Sheet1'!A81.
+   Facts: has-attribute-value "NOD SCID (JAX™ Mice Strain)"  # Generated from value "NOD SCID (JAX™ Mice Strain)" located at cell 'Sheet1'!A81.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NOD SCID (JAX™ Mice Strain)"
+Individual: NOD SCID Mouse  # Generated from value "NOD SCID Mouse" located at cell 'Sheet1'!A82.
+   Facts: has-attribute-value "NOD SCID Mouse"  # Generated from value "NOD SCID Mouse" located at cell 'Sheet1'!A82.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NOD SCID Mouse"
+Individual: NRG Mice (JAX™ Mice Strain)  # Generated from value "NRG Mice (JAX™ Mice Strain)" located at cell 'Sheet1'!A83.
+   Facts: has-attribute-value "NRG Mice (JAX™ Mice Strain)"  # Generated from value "NRG Mice (JAX™ Mice Strain)" located at cell 'Sheet1'!A83.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NRG Mice (JAX™ Mice Strain)"
+Individual: NSG® Mice (JAX™ Mice Strain)  # Generated from value "NSG® Mice (JAX™ Mice Strain)" located at cell 'Sheet1'!A84.
+   Facts: has-attribute-value "NSG® Mice (JAX™ Mice Strain)"  # Generated from value "NSG® Mice (JAX™ Mice Strain)" located at cell 'Sheet1'!A84.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NSG® Mice (JAX™ Mice Strain)"
+Individual: NU/NU Heterozygous Mouse (NU+)  # Generated from value "NU/NU Heterozygous Mouse (NU+)" located at cell 'Sheet1'!A85.
+   Facts: has-attribute-value "NU/NU Heterozygous Mouse (NU+)"  # Generated from value "NU/NU Heterozygous Mouse (NU+)" located at cell 'Sheet1'!A85.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NU/NU Heterozygous Mouse (NU+)"
+Individual: NU/NU Nude Mouse  # Generated from value "NU/NU Nude Mouse" located at cell 'Sheet1'!A86.
+   Facts: has-attribute-value "NU/NU Nude Mouse"  # Generated from value "NU/NU Nude Mouse" located at cell 'Sheet1'!A86.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "NU/NU Nude Mouse"
+Individual: Obese Prone CD Rat  # Generated from value "Obese Prone CD Rat" located at cell 'Sheet1'!A87.
+   Facts: has-attribute-value "Obese Prone CD Rat"  # Generated from value "Obese Prone CD Rat" located at cell 'Sheet1'!A87.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Obese Prone CD Rat"
+Individual: Obese Resistant CD Rat  # Generated from value "Obese Resistant CD Rat" located at cell 'Sheet1'!A88.
+   Facts: has-attribute-value "Obese Resistant CD Rat"  # Generated from value "Obese Resistant CD Rat" located at cell 'Sheet1'!A88.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Obese Resistant CD Rat"
+Individual: OF1 Mouse  # Generated from value "OF1 Mouse" located at cell 'Sheet1'!A89.
+   Facts: has-attribute-value "OF1 Mouse"  # Generated from value "OF1 Mouse" located at cell 'Sheet1'!A89.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "OF1 Mouse"
+Individual: OT I Mouse   # Generated from value "OT I Mouse " located at cell 'Sheet1'!A90.
+   Facts: has-attribute-value "OT I Mouse "  # Generated from value "OT I Mouse " located at cell 'Sheet1'!A90.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "OT I Mouse "
+Individual: OT II Mouse  # Generated from value "OT II Mouse" located at cell 'Sheet1'!A91.
+   Facts: has-attribute-value "OT II Mouse"  # Generated from value "OT II Mouse" located at cell 'Sheet1'!A91.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "OT II Mouse"
+Individual: PCK Rat  # Generated from value "PCK Rat" located at cell 'Sheet1'!A92.
+   Facts: has-attribute-value "PCK Rat"  # Generated from value "PCK Rat" located at cell 'Sheet1'!A92.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "PCK Rat"
+Individual: PGP Mouse (P-glycoprotein Deficient)  # Generated from value "PGP Mouse (P-glycoprotein Deficient)" located at cell 'Sheet1'!A93.
+   Facts: has-attribute-value "PGP Mouse (P-glycoprotein Deficient)"  # Generated from value "PGP Mouse (P-glycoprotein Deficient)" located at cell 'Sheet1'!A93.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "PGP Mouse (P-glycoprotein Deficient)"
+Individual: RNU Heterozygous Rat (RNU+)  # Generated from value "RNU Heterozygous Rat (RNU+)" located at cell 'Sheet1'!A94.
+   Facts: has-attribute-value "RNU Heterozygous Rat (RNU+)"  # Generated from value "RNU Heterozygous Rat (RNU+)" located at cell 'Sheet1'!A94.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "RNU Heterozygous Rat (RNU+)"
+Individual: RNU Nude Rat  # Generated from value "RNU Nude Rat" located at cell 'Sheet1'!A95.
+   Facts: has-attribute-value "RNU Nude Rat"  # Generated from value "RNU Nude Rat" located at cell 'Sheet1'!A95.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "RNU Nude Rat"
+Individual: SAS Sprague Dawley Rat  # Generated from value "SAS Sprague Dawley Rat" located at cell 'Sheet1'!A96.
+   Facts: has-attribute-value "SAS Sprague Dawley Rat"  # Generated from value "SAS Sprague Dawley Rat" located at cell 'Sheet1'!A96.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "SAS Sprague Dawley Rat"
+Individual: SCID Hairless Congenic (SHC) Mouse  # Generated from value "SCID Hairless Congenic (SHC) Mouse" located at cell 'Sheet1'!A97.
+   Facts: has-attribute-value "SCID Hairless Congenic (SHC) Mouse"  # Generated from value "SCID Hairless Congenic (SHC) Mouse" located at cell 'Sheet1'!A97.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "SCID Hairless Congenic (SHC) Mouse"
+Individual: SCID Hairless Outbred (SHO®) Mouse  # Generated from value "SCID Hairless Outbred (SHO®) Mouse" located at cell 'Sheet1'!A98.
+   Facts: has-attribute-value "SCID Hairless Outbred (SHO®) Mouse"  # Generated from value "SCID Hairless Outbred (SHO®) Mouse" located at cell 'Sheet1'!A98.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "SCID Hairless Outbred (SHO®) Mouse"
+Individual: Sencar Mouse  # Generated from value "Sencar Mouse" located at cell 'Sheet1'!A99.
+   Facts: has-attribute-value "Sencar Mouse"  # Generated from value "Sencar Mouse" located at cell 'Sheet1'!A99.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Sencar Mouse"
+Individual: Sentinel Mouse (Athymic HE)  # Generated from value "Sentinel Mouse (Athymic HE)" located at cell 'Sheet1'!A100.
+   Facts: has-attribute-value "Sentinel Mouse (Athymic HE)"  # Generated from value "Sentinel Mouse (Athymic HE)" located at cell 'Sheet1'!A100.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Sentinel Mouse (Athymic HE)"
+Individual: Sentinel Mouse (NU HE)  # Generated from value "Sentinel Mouse (NU HE)" located at cell 'Sheet1'!A101.
+   Facts: has-attribute-value "Sentinel Mouse (NU HE)"  # Generated from value "Sentinel Mouse (NU HE)" located at cell 'Sheet1'!A101.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Sentinel Mouse (NU HE)"
+Individual: Sentinel Rat (HET RNU)  # Generated from value "Sentinel Rat (HET RNU)" located at cell 'Sheet1'!A102.
+   Facts: has-attribute-value "Sentinel Rat (HET RNU)"  # Generated from value "Sentinel Rat (HET RNU)" located at cell 'Sheet1'!A102.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Sentinel Rat (HET RNU)"
+Individual: SJL-Elite Mouse  # Generated from value "SJL-Elite Mouse" located at cell 'Sheet1'!A103.
+   Facts: has-attribute-value "SJL-Elite Mouse"  # Generated from value "SJL-Elite Mouse" located at cell 'Sheet1'!A103.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "SJL-Elite Mouse"
+Individual: SJL/J (JAX™ Mice Strain)  # Generated from value "SJL/J (JAX™ Mice Strain)" located at cell 'Sheet1'!A104.
+   Facts: has-attribute-value "SJL/J (JAX™ Mice Strain)"  # Generated from value "SJL/J (JAX™ Mice Strain)" located at cell 'Sheet1'!A104.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "SJL/J (JAX™ Mice Strain)"
+Individual: SKH1 Hairless Mouse  # Generated from value "SKH1 Hairless Mouse" located at cell 'Sheet1'!A105.
+   Facts: has-attribute-value "SKH1 Hairless Mouse"  # Generated from value "SKH1 Hairless Mouse" located at cell 'Sheet1'!A105.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "SKH1 Hairless Mouse"
+Individual: SKH1-Elite Mouse  # Generated from value "SKH1-Elite Mouse" located at cell 'Sheet1'!A106.
+   Facts: has-attribute-value "SKH1-Elite Mouse"  # Generated from value "SKH1-Elite Mouse" located at cell 'Sheet1'!A106.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "SKH1-Elite Mouse"
+Individual: Spontaneously Hypertensive (SHR) Rat  # Generated from value "Spontaneously Hypertensive (SHR) Rat" located at cell 'Sheet1'!A107.
+   Facts: has-attribute-value "Spontaneously Hypertensive (SHR) Rat"  # Generated from value "Spontaneously Hypertensive (SHR) Rat" located at cell 'Sheet1'!A107.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Spontaneously Hypertensive (SHR) Rat"
+Individual: Spontaneously Hypertensive Heart Failure (SHHF) Rat (Lean +/?)   # Generated from value "Spontaneously Hypertensive Heart Failure (SHHF) Rat (Lean +/?) " located at cell 'Sheet1'!A108.
+   Facts: has-attribute-value "Spontaneously Hypertensive Heart Failure (SHHF) Rat (Lean +/?) "  # Generated from value "Spontaneously Hypertensive Heart Failure (SHHF) Rat (Lean +/?) " located at cell 'Sheet1'!A108.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Spontaneously Hypertensive Heart Failure (SHHF) Rat (Lean +/?) "
+Individual: Spontaneously Hypertensive Heart Failure (SHHF) Rat (Obese cp/cp)  # Generated from value "Spontaneously Hypertensive Heart Failure (SHHF) Rat (Obese cp/cp)" located at cell 'Sheet1'!A109.
+   Facts: has-attribute-value "Spontaneously Hypertensive Heart Failure (SHHF) Rat (Obese cp/cp)"  # Generated from value "Spontaneously Hypertensive Heart Failure (SHHF) Rat (Obese cp/cp)" located at cell 'Sheet1'!A109.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Spontaneously Hypertensive Heart Failure (SHHF) Rat (Obese cp/cp)"
+Individual: Spontaneously Hypertensive Obese (SHROB) Rat  # Generated from value "Spontaneously Hypertensive Obese (SHROB) Rat" located at cell 'Sheet1'!A110.
+   Facts: has-attribute-value "Spontaneously Hypertensive Obese (SHROB) Rat"  # Generated from value "Spontaneously Hypertensive Obese (SHROB) Rat" located at cell 'Sheet1'!A110.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Spontaneously Hypertensive Obese (SHROB) Rat"
+Individual: Spontaneously Hypertensive Stroke Prone (SHRSP) Rat  # Generated from value "Spontaneously Hypertensive Stroke Prone (SHRSP) Rat" located at cell 'Sheet1'!A111.
+   Facts: has-attribute-value "Spontaneously Hypertensive Stroke Prone (SHRSP) Rat"  # Generated from value "Spontaneously Hypertensive Stroke Prone (SHRSP) Rat" located at cell 'Sheet1'!A111.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Spontaneously Hypertensive Stroke Prone (SHRSP) Rat"
+Individual: SS-13BN Rat  # Generated from value "SS-13BN Rat" located at cell 'Sheet1'!A112.
+   Facts: has-attribute-value "SS-13BN Rat"  # Generated from value "SS-13BN Rat" located at cell 'Sheet1'!A112.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "SS-13BN Rat"
+Individual: Swiss Nude Mice  # Generated from value "Swiss Nude Mice" located at cell 'Sheet1'!A113.
+   Facts: has-attribute-value "Swiss Nude Mice"  # Generated from value "Swiss Nude Mice" located at cell 'Sheet1'!A113.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Swiss Nude Mice"
+Individual: Swiss Webster (CFW) Mouse  # Generated from value "Swiss Webster (CFW) Mouse" located at cell 'Sheet1'!A114.
+   Facts: has-attribute-value "Swiss Webster (CFW) Mouse"  # Generated from value "Swiss Webster (CFW) Mouse" located at cell 'Sheet1'!A114.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Swiss Webster (CFW) Mouse"
+Individual: THE POUND MOUSE  # Generated from value "THE POUND MOUSE" located at cell 'Sheet1'!A115.
+   Facts: has-attribute-value "THE POUND MOUSE"  # Generated from value "THE POUND MOUSE" located at cell 'Sheet1'!A115.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "THE POUND MOUSE"
+Individual: WAG Rat  # Generated from value "WAG Rat" located at cell 'Sheet1'!A116.
+   Facts: has-attribute-value "WAG Rat"  # Generated from value "WAG Rat" located at cell 'Sheet1'!A116.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "WAG Rat"
+Individual: Wistar Furth Rat  # Generated from value "Wistar Furth Rat" located at cell 'Sheet1'!A117.
+   Facts: has-attribute-value "Wistar Furth Rat"  # Generated from value "Wistar Furth Rat" located at cell 'Sheet1'!A117.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Wistar Furth Rat"
+Individual: Wistar Han IGS Rat  # Generated from value "Wistar Han IGS Rat" located at cell 'Sheet1'!A118.
+   Facts: has-attribute-value "Wistar Han IGS Rat"  # Generated from value "Wistar Han IGS Rat" located at cell 'Sheet1'!A118.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Wistar Han IGS Rat"
+Individual: Wistar IGS Rat  # Generated from value "Wistar IGS Rat" located at cell 'Sheet1'!A119.
+   Facts: has-attribute-value "Wistar IGS Rat"  # Generated from value "Wistar IGS Rat" located at cell 'Sheet1'!A119.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Wistar IGS Rat"
+Individual: Wistar Kyoto (WKY) Rat   # Generated from value "Wistar Kyoto (WKY) Rat " located at cell 'Sheet1'!A120.
+   Facts: has-attribute-value "Wistar Kyoto (WKY) Rat "  # Generated from value "Wistar Kyoto (WKY) Rat " located at cell 'Sheet1'!A120.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Wistar Kyoto (WKY) Rat "
+Individual: Wistar WU Rat  # Generated from value "Wistar WU Rat" located at cell 'Sheet1'!A121.
+   Facts: has-attribute-value "Wistar WU Rat"  # Generated from value "Wistar WU Rat" located at cell 'Sheet1'!A121.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Wistar WU Rat"
+Individual: ZDF Rat (Lean +/?)  # Generated from value "ZDF Rat (Lean +/?)" located at cell 'Sheet1'!A122.
+   Facts: has-attribute-value "ZDF Rat (Lean +/?)"  # Generated from value "ZDF Rat (Lean +/?)" located at cell 'Sheet1'!A122.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "ZDF Rat (Lean +/?)"
+Individual: ZDF Rat (Lean fa/+)  # Generated from value "ZDF Rat (Lean fa/+)" located at cell 'Sheet1'!A123.
+   Facts: has-attribute-value "ZDF Rat (Lean fa/+)"  # Generated from value "ZDF Rat (Lean fa/+)" located at cell 'Sheet1'!A123.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "ZDF Rat (Lean fa/+)"
+Individual: ZDF Rat (Obese fa/fa)  # Generated from value "ZDF Rat (Obese fa/fa)" located at cell 'Sheet1'!A124.
+   Facts: has-attribute-value "ZDF Rat (Obese fa/fa)"  # Generated from value "ZDF Rat (Obese fa/fa)" located at cell 'Sheet1'!A124.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "ZDF Rat (Obese fa/fa)"
+Individual: ZDSD Rat  # Generated from value "ZDSD Rat" located at cell 'Sheet1'!A125.
+   Facts: has-attribute-value "ZDSD Rat"  # Generated from value "ZDSD Rat" located at cell 'Sheet1'!A125.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "ZDSD Rat"
+Individual: ZSF1 Rat (Lean)  # Generated from value "ZSF1 Rat (Lean)" located at cell 'Sheet1'!A126.
+   Facts: has-attribute-value "ZSF1 Rat (Lean)"  # Generated from value "ZSF1 Rat (Lean)" located at cell 'Sheet1'!A126.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "ZSF1 Rat (Lean)"
+Individual: ZSF1 Rat (Obese)  # Generated from value "ZSF1 Rat (Obese)" located at cell 'Sheet1'!A127.
+   Facts: has-attribute-value "ZSF1 Rat (Obese)"  # Generated from value "ZSF1 Rat (Obese)" located at cell 'Sheet1'!A127.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "ZSF1 Rat (Obese)"
+Individual: Zucker Rat  # Generated from value "Zucker Rat" located at cell 'Sheet1'!A128.
+   Facts: has-attribute-value "Zucker Rat"  # Generated from value "Zucker Rat" located at cell 'Sheet1'!A128.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Zucker Rat"
+Individual: Zucker Rat (Lean)  # Generated from value "Zucker Rat (Lean)" located at cell 'Sheet1'!A129.
+   Facts: has-attribute-value "Zucker Rat (Lean)"  # Generated from value "Zucker Rat (Lean)" located at cell 'Sheet1'!A129.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Zucker Rat (Lean)"
+Individual: Zucker Rat (Obese)  # Generated from value "Zucker Rat (Obese)" located at cell 'Sheet1'!A130.
+   Facts: has-attribute-value "Zucker Rat (Obese)"  # Generated from value "Zucker Rat (Obese)" located at cell 'Sheet1'!A130.,
+         has-attribute-key "host_genotype"
+   Types: host_genotype
+   Annotations: rdfs:label "Zucker Rat (Obese)"
+
+===========================================================================================================
