@@ -1,0 +1,721 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.fns-cloud.eu/DataCatalogue/"
+     xml:base="https://www.fns-cloud.eu/DataCatalogue/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://www.fns-cloud.eu/DataCatalogue/">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2022-04-27/omo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000000 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000000">
+        <rdfs:label xml:lang="en">Data collection method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000001 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000001">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000054"/>
+        <obo:IAO_0000118>FFQ</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Food frequency questionnaire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000002 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000002">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000001"/>
+        <rdfs:label xml:lang="en">1 month FFQ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000003 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000003">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000001"/>
+        <rdfs:label xml:lang="en">2 months FFQ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000004 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000004">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000001"/>
+        <rdfs:label xml:lang="en">3 months FFQ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000005 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000005">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000001"/>
+        <rdfs:label xml:lang="en">1 year FFQ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000006 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000006">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000054"/>
+        <obo:IAO_0000118>food record</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">food diary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000007 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000007">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000006"/>
+        <rdfs:label xml:lang="en">single day food diary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000008 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000008">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000006"/>
+        <rdfs:label xml:lang="en">multiple days (repeated days) food diary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000009 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000009">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000054"/>
+        <obo:IAO_0000118>24-hr diet recall</obo:IAO_0000118>
+        <obo:IAO_0000118>24h recall</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">24 hour dietary recall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000010 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000010">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000009"/>
+        <rdfs:label xml:lang="en">single recall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000011 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000011">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000009"/>
+        <rdfs:label xml:lang="en">multiple recalls (repeated recalls)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000012 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000012">
+        <rdfs:label xml:lang="en">Data collection tools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000013 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000013">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000055"/>
+        <rdfs:label xml:lang="en">eNutri</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000014 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000014">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000055"/>
+        <rdfs:label xml:lang="en">Foodbook24</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000015 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000015">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000055"/>
+        <rdfs:label xml:lang="en">What I Eat 60+</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000016 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000016">
+        <rdfs:label xml:lang="en">Population group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000017 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000017">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000016"/>
+        <rdfs:label xml:lang="en">adults</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000018 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000018">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000016"/>
+        <rdfs:label xml:lang="en">children</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000019 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000019">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000018"/>
+        <rdfs:label xml:lang="en">infants (0-2 years)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000020 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000020">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000018"/>
+        <rdfs:label xml:lang="en">children (2-5 years)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000021 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000021">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000018"/>
+        <rdfs:label xml:lang="en">children (5-10 years)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000022 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000022">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000018"/>
+        <rdfs:label xml:lang="en">children (10-13 years)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000023 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000023">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000016"/>
+        <rdfs:label xml:lang="en">adolescents (teenagers)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000024 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000024">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000016"/>
+        <rdfs:label xml:lang="en">elderly (older adults, senior, aging)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000025 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000025">
+        <rdfs:label xml:lang="en">Project name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000026 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000026">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000025"/>
+        <rdfs:label xml:lang="en">EPIC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000027 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000027">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000025"/>
+        <rdfs:label xml:lang="en">EUMenu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000028 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000028">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000025"/>
+        <rdfs:label xml:lang="en">FNS-Cloud</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000029 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000029">
+        <rdfs:label xml:lang="en">Start year of data collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000030 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000030">
+        <rdfs:label xml:lang="en">End year of data collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000031 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000031">
+        <rdfs:label xml:lang="en">Country of data collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000032 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000032">
+        <rdfs:label xml:lang="en">Available variables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000033 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000033">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000032"/>
+        <rdfs:label xml:lang="en">Lifestyle variables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000034 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000034">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000033"/>
+        <rdfs:label xml:lang="en">alcohol consumption;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000035 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000035">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000033"/>
+        <rdfs:label xml:lang="en">smoking status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000036 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000036">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000033"/>
+        <rdfs:label xml:lang="en">activity level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000037 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000037">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000033"/>
+        <rdfs:label xml:lang="en">participant age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000038 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000038">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000033"/>
+        <rdfs:label xml:lang="en">socioeconomic status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000039 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000039">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000032"/>
+        <rdfs:label xml:lang="en">Nutrient variables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000040 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000040">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000039"/>
+        <rdfs:label xml:lang="en">Energy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000041 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000041">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000039"/>
+        <rdfs:label xml:lang="en">Protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000042 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000042">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000039"/>
+        <rdfs:label xml:lang="en">Fat </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000043 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000043">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000039"/>
+        <rdfs:label xml:lang="en">Carbohydrates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000044 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000044">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000039"/>
+        <rdfs:label xml:lang="en">Individual vitamins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000045 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000045">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000039"/>
+        <rdfs:label xml:lang="en">Individual minerals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000046 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000046">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000032"/>
+        <rdfs:label xml:lang="en">Health related variables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000047 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000047">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000046"/>
+        <rdfs:label xml:lang="en">biochemistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000048 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000048">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000046"/>
+        <rdfs:label xml:lang="en">BMI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000049 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000049">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000046"/>
+        <rdfs:label xml:lang="en">waist/hip ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000050 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000050">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000046"/>
+        <rdfs:label xml:lang="en">Self-rated health status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000051 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000051">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000046"/>
+        <rdfs:label xml:lang="en">Disease status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000052 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000052">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000032"/>
+        <rdfs:label xml:lang="en">Other variables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000053 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000053">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000052"/>
+        <rdfs:label xml:lang="en">Bioactives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000054 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000054">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000000"/>
+        <rdfs:label xml:lang="en">Food consumption data collection method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000055 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000055">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000012"/>
+        <rdfs:label xml:lang="en">Food consumption data collection tools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000056 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000056">
+        <rdfs:label xml:lang="en">Food data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000057 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000057">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000056"/>
+        <rdfs:label xml:lang="en">Agri-Food data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000058 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000058">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000057"/>
+        <rdfs:label xml:lang="en">Food classification and description data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000059 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000059">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000057"/>
+        <rdfs:label xml:lang="en">Food composition data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000060 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000060">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000057"/>
+        <rdfs:label xml:lang="en">Authenticity data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000061 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000061">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000057"/>
+        <rdfs:label xml:lang="en">Food labeling data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000062 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000062">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000057"/>
+        <rdfs:label xml:lang="en">Food safety data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000063 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000063">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000057"/>
+        <rdfs:label xml:lang="en">Food and drug interation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000064 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000064">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000056"/>
+        <rdfs:label xml:lang="en">Nutrition and health data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000065 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000065">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000064"/>
+        <rdfs:label xml:lang="en">Biomedical data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000066 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000066">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000065"/>
+        <rdfs:label xml:lang="en">Biomarkers data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000067 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000067">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000065"/>
+        <rdfs:label xml:lang="en">Anthropometric data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000068 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000068">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000065"/>
+        <rdfs:label xml:lang="en">Phenotype data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000069 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000069">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000064"/>
+        <rdfs:label xml:lang="en">Genomic data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000070 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000070">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000064"/>
+        <rdfs:label xml:lang="en">Microbiome data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000071 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000071">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000056"/>
+        <rdfs:label xml:lang="en">Food intake and lifestyle data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000072 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000072">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000071"/>
+        <rdfs:label xml:lang="en">Food consumption data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000073 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000073">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000071"/>
+        <rdfs:label xml:lang="en">Food choice data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000074 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000074">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000071"/>
+        <rdfs:label xml:lang="en">Behaviour data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000075 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000075">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000071"/>
+        <rdfs:label xml:lang="en">Lifestyle data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/DataCatalogue/DC_0000000076 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/DataCatalogue/DC_0000000076">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/DataCatalogue/DC_0000000071"/>
+        <rdfs:label xml:lang="en">Socio-economic status data</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
