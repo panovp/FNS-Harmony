@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/7ww9pb0h.owl#"
+     xml:base="http://ontofox.hegroup.org/7ww9pb0h.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://www.fns-cloud.eu/external/CHEBI">
+        <rdfs:comment>extracted with Ontofox on 17.1.2023</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15318">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A purine nucleobase found in humans and other organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xanthine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15356">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000663"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sulfur-containing amino acid that is propanoic acid with an amino group at position 2 and a sulfanyl group at position 3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cysteine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15939">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A  triterpenoid saponin that is the  glucosiduronide derivative of 3beta-hydroxy-11-oxoolean-12-en-30-oic acid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycyrrhizinic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16219">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000665"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any one of a class of tetracyclic triterpenoids, formally derived from the triterpene hydrocarbon cucurbitane, developed by some plants (especially those of the family Cucurbitaceaeas) as a defence mechanism against herbivores.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cucurbitacin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_182419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_182419">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-Flavanol, trans-(+)-</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_182420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_182420">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cis-(+)-3-Flavanol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22712">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any benzenoid aromatic compound consisting of the benzene skeleton and its substituted derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benzenes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22861 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22861">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000665"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any of a group of coloured alkaloids occurring widely in plants of the order Centrospermae. They are divided into two groups, betacyanins and betaxanthins, and both occur in plant vacuoles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">betalain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23044">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000665"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One of a class of tetraterpenoids (C40), formally derived from the acyclic parent, psi,psi-carotene by hydrogenation, dehydrogenation, cyclization, oxidation, or combination of these processes. This class includes carotenes, xanthophylls and certain compounds that arise from rearrangement of the skeleton of psi,psi-carotene or by loss of part of this structure. Retinoids are excluded.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carotenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23436">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000665"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycoside in which the aglycone contains a cyanide group. A cyanogenic glycoside can release poisonous hydrogen cyanide if acted upon by some enzyme.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyanogenic glycoside</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23909">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A form of hydrolysable tannin produced from ellagic acid. Ellagitannins are glucosides which are readily hydrolysed by water to regenerate ellagic acid when the plants are eaten.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ellagitannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24043">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of flavonoid with a 2-aryl-1-benzopyran-4-one (2-arylchromen-4-one) skeleton and its substituted derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flavones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24279">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000663"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water-soluble anionic substituted thioglucosides. Glucosinolates have a central C atom which is bonded via an S atom to a glycone group and via an N atom to a sulfonated oxime group, and which also carries a side-group. The side-chain and sulfate group have an anti stereochemical configuration across the C=N double bond.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucosinolate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25036">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any phenylpropanoid  derived from phenylalanine via dimerization of substituted cinnamic alcohols, known as monolignols, to a dibenzylbutane skeleton. Note that while individual members of the class have names ending ...lignane, ...lignene, ...lignadiene, etc., the class names lignan, neolignan, etc., do not end with an &quot;e&quot;.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lignan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26125">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000664"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sterols similar to cholesterol which occur in plants and vary only in carbon side chains and/or presence or absence of a double bond.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phytosterols</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26195">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Members of the class of phenols that contain 2 or more benzene rings each of which is substituted by at least one hydroxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyphenol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26515 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26515">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quinolizidine alkaloid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26605">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glycoside that is a compound containing one or more hydrophilic glycoside moieties combined with a lipophilic triterpenoid or steroid derivative. Found in particular abundance in plant species.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saponin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26776">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any olefinic compound characterised by a 1,2-diphenylethylene backbone.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stilbenoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27386">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A monocarboxylic acid that consists of acrylic acid bearing a phenyl substituent at the 3-position. It is found in Cinnamomum cassia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cinnamic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28802 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28802">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any hydroxyflavone in which is the ring hydrogen at position 3 of the heterocyclic ring is replaced by a hydroxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flavonols</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28863 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28863">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Members of the class of flavans with a 3,4-dihydro-2-aryl-2H-1-benzopyran-4-one skeleton and its substituted derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flavanones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33853 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33853">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic aromatic compounds having one or more hydroxy groups attached to a benzene or other arene ring.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenols</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35186">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hydrocarbon of biological origin having carbon skeleton formally derived from isoprene [CH2=C(CH3)CH=CH2].</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terpene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38697">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any flavonoid that is a glycoside derivative of anthocyanidin. Anthocyanins are water-souluble plant pigments that generally occur as acidic salts exhibiting bright colours.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthocyanin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38757">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any isoflavonoid with a 3-aryl-1-benzopyran-4-one (3-aryl-4H-chromen-4-one) skeleton and its substituted derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isoflavones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38976">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000665"/>
+        <obo:IAO_0000115>A monocyclic arene that is benzene substituted with one or more alkyl groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label>alkylbenzene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_42491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_42491">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The simplest member of the class of flavones that consists of 4H-chromen-4-one bearing a phenyl substituent at position 2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flavone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46931">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000665"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A family of aromatic fatty amides produced as secondary metabolites by chilli peppers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">capsaicinoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4775">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic heterotetracyclic compound resulting from the formal dimerisation of gallic acid by oxidative aromatic coupling with intramolecular lactonisation of both carboxylic acid groups of the resulting biaryl. It is found in many fruits and vegetables, including raspberries, strawberries, cranberries, and pomegranates.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ellagic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5070">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The simplest member of the class of  flavanones  that consists of flavan bearing an oxo substituent at position 4.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flavanone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5078">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A monohydroxyflavone that is the 3-hydroxy derivative of flavone.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flavonol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_71230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71230">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any ketone that is 1,3-diphenylpropanone and its derivatives obtained by substitution.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydrochalcones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_71231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71231">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A member of the class of dihydrochalcones that is acetophenone in which one of the hydrogens of the methyl group is replaced by a benzyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dihydrochalcone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_72577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72577">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000665"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Members of the class of benzofurochromene with a 6H-[1]benzofuro[3,2-c]chromene skeleton and its substituted derivatives. They are the 3,4-didehydroderivatives of pterocarpans.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coumestans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_72709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72709">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/FNS_H_0000000662"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any lignan condensed with a 2-aryl-1-benzopyran skeleton and its substituted derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flavonolignan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_78689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_78689">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tannin that yields gallic or ellagic acids upon acid hydrolysis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrolysable tannin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS_H_0000000662 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS_H_0000000662">
+        <rdfs:label xml:lang="en">polyphenols</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS_H_0000000663 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS_H_0000000663">
+        <rdfs:label xml:lang="en">sulphur compounds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS_H_0000000664 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS_H_0000000664">
+        <rdfs:label xml:lang="en">phytosterols</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS_H_0000000665 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS_H_0000000665">
+        <rdfs:label xml:lang="en">other compounds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS_H_0000000666 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/FNS_H_0000000666">
+        <rdfs:label xml:lang="en">contain antioxidant compound group</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
