@@ -1,0 +1,1404 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.fns-cloud.eu/GS1//"
+     xml:base="https://www.fns-cloud.eu/GS1//"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://www.fns-cloud.eu/CLAS/">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2023-02-19/omo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000698 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000698">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000845"/>
+        <rdfs:label xml:lang="en">product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000699 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000699">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000844"/>
+        <rdfs:label xml:lang="en">product packaging image</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000700 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000700">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000843"/>
+        <rdfs:label xml:lang="en">brand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000701 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000701">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000847"/>
+        <rdfs:label xml:lang="en">product name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000702 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000702">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000847"/>
+        <rdfs:label xml:lang="en">product descriptive name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000703 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000703">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000847"/>
+        <rdfs:label xml:lang="en">product retailer name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000704 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000704">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000810"/>
+        <rdfs:label xml:lang="en">producer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000705 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000705">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000849"/>
+        <rdfs:label xml:lang="en">packaging quantity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000706 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000706">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000846"/>
+        <rdfs:label xml:lang="en">barcode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000707 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000707">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000850"/>
+        <rdfs:label xml:lang="en">barcode scan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000708 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000708">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000699"/>
+        <rdfs:label xml:lang="en">front product packaging image</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000709 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000709">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000699"/>
+        <rdfs:label xml:lang="en">product packaging image with nutrition declaration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000710 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000710">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000699"/>
+        <rdfs:label xml:lang="en">product packaging image with listed ingredients</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000711 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000711">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000839"/>
+        <rdfs:label xml:lang="en">nutrition declaration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000712 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000712">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000711"/>
+        <rdfs:label xml:lang="en">as sold nutrition declaration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000713 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000713">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000711"/>
+        <rdfs:label xml:lang="en">prepared nutrition declaration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000714 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000714">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000711"/>
+        <rdfs:label xml:lang="en">GDA only nutrition declaration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000715 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000715">
+        <rdfs:label xml:lang="en">product preparation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000716 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000716">
+        <rdfs:label xml:lang="en">product dissolution factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000717 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000717">
+        <rdfs:label xml:lang="en">portion size labeling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000718 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000718">
+        <rdfs:label xml:lang="en">product alcohol content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000719 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000719">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">energy [kJ]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000720 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000720">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">fat [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000721 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000721">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">saturated [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000722 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000722">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">carbohydrate [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000723 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000723">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">sugars [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000724 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000724">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">fibre [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000725 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000725">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">protein [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000726 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000726">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">salt [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000727 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000727">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">mono-unsaturated [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000728 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000728">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">polyunsaturates [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000729 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000729">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">polyols [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000730 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000730">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">starch [g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000731 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000731">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Vitamin A [micro g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000732 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000732">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Vitamin D [micro g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000733 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000733">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Vitamin E [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000734 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000734">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Vitamin K [micro g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000735 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000735">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Vitamin C [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000736 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000736">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Thiamin [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000737 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000737">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Riboflavin [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000738 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000738">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Niacin [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000739 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000739">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Panthothenic acid [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000740 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000740">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Vitamin B6 [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000741 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000741">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Biotin [micro g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000742 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000742">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Folic acid [micro g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000743 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000743">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Vitamin B12 [micro g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000744 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000744">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Potassium [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000745 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000745">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Chloride [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000746 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000746">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Calcium [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000747 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000747">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Phosphorous [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000748 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000748">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Magnesium [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000749 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000749">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Iron [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000750 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000750">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Zinc [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000751 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000751">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Copper [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000752 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000752">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Manganese [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000753 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000753">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Fluoride [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000754 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000754">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Selenium [micro g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000755 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000755">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Chromium [micro g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000756 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000756">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Molybdenum [micro g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000757 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000757">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Iodine [micro g]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000758 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000758">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759"/>
+        <rdfs:label xml:lang="en">Borone [mg]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000759 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000759">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000783"/>
+        <rdfs:label xml:lang="en">product declared nutrient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000760 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000760">
+        <rdfs:label xml:lang="en">product ingredients description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000761 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000840"/>
+        <rdfs:label xml:lang="en">product annotator observation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000762 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000762">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">added sugar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000763 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000763">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">added dextrose/glucose/grape sugar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000764 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000764">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">added glucose syrup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000765 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000765">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">added glucose-fructose syrup or inverted sugar syrup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000766 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000766">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">added fructose syrup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000767 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000767">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">added lactose/maltose/other mono- or di- saccharides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000768 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000768">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">added maltodextrins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000769 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000769">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">added other sugar substitutes (honey, agave syrup)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000770 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000770">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">added fully hydrogenated oils/fats</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000771 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000771">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">added partially hydrogenated oils/fats</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000772 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000772">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000761"/>
+        <rdfs:label xml:lang="en">contains hemp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000773 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000773">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000846"/>
+        <rdfs:label xml:lang="en">product ID</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000774 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000774">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000775"/>
+        <rdfs:label xml:lang="en">product packaging symbol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000775 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000775">
+        <rdfs:label xml:lang="en">symbol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000776 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000776">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000698"/>
+        <rdfs:label xml:lang="en">branded product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000777 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000839"/>
+        <rdfs:label xml:lang="en">product declared claim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000778 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000778">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">nutrition claim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000779 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000779">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:comment>multiple risk factor staement</rdfs:comment>
+        <rdfs:label xml:lang="en">health claim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000780 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000780">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">contains aspartame (E951)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000781 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000781">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">contains liquorice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000782 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000782">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">contains caffeine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000783 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000783">
+        <rdfs:label xml:lang="en">product declared compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000784 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000784">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000783"/>
+        <rdfs:label xml:lang="en">caffeine content [mg per 100g/mL]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000785 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000785">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">lactose free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000786 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000786">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">gluten free</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000787 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000787">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">very low gluten</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000788 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000788">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">children marketing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000789 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000789">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">contains sweeterners</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000790 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000790">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">nuts content [%]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000791 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000791">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000777"/>
+        <rdfs:label xml:lang="en">fruit content [%]</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000792 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000792">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000805"/>
+        <rdfs:label xml:lang="en">health claim part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000793 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000793">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000805"/>
+        <rdfs:label xml:lang="en">nutrition claim part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000794 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000794">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000805"/>
+        <rdfs:label xml:lang="en">claim presentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000795 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000795">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000805"/>
+        <rdfs:label xml:lang="en">claim position</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000796 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000796">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000793"/>
+        <rdfs:label xml:lang="en">claim classification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000797 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000797">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000792"/>
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000793"/>
+        <rdfs:label xml:lang="en">constituent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000798 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000798">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000805"/>
+        <rdfs:label xml:lang="en">content</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000799 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000799">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000805"/>
+        <rdfs:label xml:lang="en">claim status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000800 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000800">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000805"/>
+        <rdfs:label xml:lang="en">claim foreign language</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000801 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000801">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000779"/>
+        <rdfs:label xml:lang="en">importance of varied and balanced diet and healthy lifestyle statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000802 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000802">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000792"/>
+        <rdfs:label xml:lang="en">regulated claim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000803 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000803">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000792"/>
+        <rdfs:label xml:lang="en">health relationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000804 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000804">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000792"/>
+        <rdfs:label xml:lang="en">category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000805 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000805">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000839"/>
+        <rdfs:label xml:lang="en">claim part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000806 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000806">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000839"/>
+        <rdfs:label xml:lang="en">product allergen declaration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000807 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000807">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000806"/>
+        <rdfs:label xml:lang="en">contains allergens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000808 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000808">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000806"/>
+        <rdfs:label xml:lang="en">highlighted allergens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000809 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000810"/>
+        <rdfs:label xml:lang="en">allergen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000810 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000810">
+        <rdfs:label xml:lang="en">role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000811 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000811">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">unspecified cereals containg gluten</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000812 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000812">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">wheat (spelt, khorasan)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000813 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000813">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">rye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000814 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000814">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">barley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000815 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000815">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">oats</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000816 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000816">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">crustaceans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000817 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000817">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">eggs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000818 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000818">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">fish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000819 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000819">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">peanuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000820 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000820">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">soybeans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000821 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000821">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">milk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000822 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000822">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">unspecified nuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000823 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000823">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">almonds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000824 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000824">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">hazelnuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000825 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000825">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">walnuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000826 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000826">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">cashews</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000827 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000827">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">pecan nuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000828 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000828">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">brazil nuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000829 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000829">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">macadamia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000830 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000830">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">celery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000831 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000831">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">mustard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000832 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000832">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">sesame seeds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000833 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000833">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">sulphur dioxide/sulphite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000834 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000834">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">lupin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000835 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000835">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000809"/>
+        <rdfs:label xml:lang="en">molluscs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000836 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000836">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000806"/>
+        <rdfs:label xml:lang="en">specific product allergen declaration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000837 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000837">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000806"/>
+        <rdfs:label xml:lang="en">may contain allergens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000838 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000838">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000806"/>
+        <rdfs:label xml:lang="en">does not contain allergens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000839 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000839">
+        <rdfs:label xml:lang="en">statement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000840 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000840">
+        <rdfs:label xml:lang="en">observation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000841 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000841">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000810"/>
+        <rdfs:label xml:lang="en">additive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000842 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000842">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000839"/>
+        <rdfs:label xml:lang="en">product additive declaration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000843 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000843">
+        <rdfs:label xml:lang="en">organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000844 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000844">
+        <rdfs:label xml:lang="en">image</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000845 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000845">
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000846 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000846">
+        <rdfs:label xml:lang="en">identificator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000847 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000847">
+        <rdfs:label xml:lang="en">name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000848 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000848">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000839"/>
+        <rdfs:label xml:lang="en">product declared additive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000849 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000849">
+        <rdfs:label xml:lang="en">quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000850 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000850">
+        <rdfs:label xml:lang="en">process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/CLAS/FNS_H_0000000851 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/CLAS/FNS_H_0000000851">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/CLAS/FNS_H_0000000840"/>
+        <rdfs:label xml:lang="en">found additive</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
