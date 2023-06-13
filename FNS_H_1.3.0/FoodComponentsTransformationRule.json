@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Mapping","startColumn":"C","endColumn":"C","startRow":"1","endRow":"+","comment":"","rule":"Class: @C*\nAnnotations:\n        rdfs:label @C*","active":true}]}

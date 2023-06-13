@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omo/releases/2023-06-09/omo.owl" uri="http://purl.obolibrary.org/obo/omo.owl"/>
     <uri id="Imports Wizard Entry" name="https://www.fns-cloud.eu/external/UO" uri="external/FNS_external_19072021_UO.owl"/>
     <uri id="Imports Wizard Entry" name="https://www.fns-cloud.eu/external/UBERON" uri="external/FNS_external_19072021_UBERON.owl"/>
     <uri id="Imports Wizard Entry" name="https://www.fns-cloud.eu/external/OBI" uri="external/FNS_external_20072021_OBI_material_processing.owl"/>
