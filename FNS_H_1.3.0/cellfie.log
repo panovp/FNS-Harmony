@@ -25259,3 +25259,2688 @@ Class: 833  # Generated from value "833" located at cell 'Mapping'!A753.
          maps_to_US_database "Not in database"
 
 ===========================================================================================================
+Date: 2023-06-14 08:24:21
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A+) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+Class: Food additives [GRP_FADD]  # Generated from value "Food additives [GRP_FADD]" located at cell 'Levels'!B172.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Food additives [GRP_FADD]"
+Class: Food properties and measures [GRP_FOOD]  # Generated from value "Food properties and measures [GRP_FOOD]" located at cell 'Levels'!B219.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Food properties and measures [GRP_FOOD]"
+Class: Lipid components [GRP_LIPD]  # Generated from value "Lipid components [GRP_LIPD]" located at cell 'Levels'!B240.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Lipid components [GRP_LIPD]"
+Class: Minerals and inorganic components [GRP_MIN]  # Generated from value "Minerals and inorganic components [GRP_MIN]" located at cell 'Levels'!B574.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Minerals and inorganic components [GRP_MIN]"
+Class: Nitrogen components [GRP_NITR]  # Generated from value "Nitrogen components [GRP_NITR]" located at cell 'Levels'!B622.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Nitrogen components [GRP_NITR]"
+Class: Organic acids [GRP_OA]  # Generated from value "Organic acids [GRP_OA]" located at cell 'Levels'!B691.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Organic acids [GRP_OA]"
+Class: Phenolic components [GRP_PHNL]  # Generated from value "Phenolic components [GRP_PHNL]" located at cell 'Levels'!B731.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Phenolic components [GRP_PHNL]"
+Class: Proximates [GRP_PROX]  # Generated from value "Proximates [GRP_PROX]" located at cell 'Levels'!B779.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Proximates [GRP_PROX]"
+Class: Vitamins [GRP_VIT]  # Generated from value "Vitamins [GRP_VIT]" located at cell 'Levels'!B796.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Vitamins [GRP_VIT]"
+
+# Cell range: (Levels!A2:A+) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# Annotations: rdfs:label @C*
+#     SubClassOf: @B*-1(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+Class: Oligosaccharides [GRP_OLIGO]  # Generated from value "Oligosaccharides [GRP_OLIGO]" located at cell 'Levels'!C49.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Oligosaccharides [GRP_OLIGO]"
+Class: Polysaccharide analogues [GRP_PSAN]  # Generated from value "Polysaccharide analogues [GRP_PSAN]" located at cell 'Levels'!C92.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Polysaccharide analogues [GRP_PSAN]"
+Class: Polysaccharides [GRP_PSAC]  # Generated from value "Polysaccharides [GRP_PSAC]" located at cell 'Levels'!C95.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Polysaccharides [GRP_PSAC]"
+Class: Sugar alcohols [GRP_SUGOH]  # Generated from value "Sugar alcohols [GRP_SUGOH]" located at cell 'Levels'!C131.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Sugar alcohols [GRP_SUGOH]"
+Class: Sugars [GRP_SUGAR]  # Generated from value "Sugars [GRP_SUGAR]" located at cell 'Levels'!C147.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Sugars [GRP_SUGAR]"
+Class: probiotics [PROBIO]  # Generated from value "probiotics [PROBIO]" located at cell 'Levels'!C173.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "probiotics [PROBIO]"
+Class: benzoic acid [BENAC]  # Generated from value "benzoic acid [BENAC]" located at cell 'Levels'!C182.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "benzoic acid [BENAC]"
+Class: sorbic acid [SORAC]  # Generated from value "sorbic acid [SORAC]" located at cell 'Levels'!C183.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "sorbic acid [SORAC]"
+Class: sweteners [SWEETNR]  # Generated from value "sweteners [SWEETNR]" located at cell 'Levels'!C184.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "sweteners [SWEETNR]"
+Class: chemical score [CHEMSC]  # Generated from value "chemical score [CHEMSC]" located at cell 'Levels'!C220.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "chemical score [CHEMSC]"
+Class: density/specific gravity [DEN]  # Generated from value "density/specific gravity [DEN]" located at cell 'Levels'!C221.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "density/specific gravity [DEN]"
+Class: edible portion [EDIBLE]  # Generated from value "edible portion [EDIBLE]" located at cell 'Levels'!C222.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "edible portion [EDIBLE]"
+Class: fatty acid conversion factor [FACF]  # Generated from value "fatty acid conversion factor [FACF]" located at cell 'Levels'!C223.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "fatty acid conversion factor [FACF]"
+Class: nitrogen conversion factor [NCF]  # Generated from value "nitrogen conversion factor [NCF]" located at cell 'Levels'!C224.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "nitrogen conversion factor [NCF]"
+Class: pH [PH]  # Generated from value "pH [PH]" located at cell 'Levels'!C225.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "pH [PH]"
+Class: solids, total [SOLID]  # Generated from value "solids, total [SOLID]" located at cell 'Levels'!C226.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "solids, total [SOLID]"
+Class: usual portion [PORTION]  # Generated from value "usual portion [PORTION]" located at cell 'Levels'!C227.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "usual portion [PORTION]"
+Class: waste [WASTE]  # Generated from value "waste [WASTE]" located at cell 'Levels'!C228.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "waste [WASTE]"
+Class: shape [SHAPE]  # Generated from value "shape [SHAPE]" located at cell 'Levels'!C229.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "shape [SHAPE]"
+Class: taste [TASTE]  # Generated from value "taste [TASTE]" located at cell 'Levels'!C230.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "taste [TASTE]"
+Class: color [COLOR]  # Generated from value "color [COLOR]" located at cell 'Levels'!C231.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "color [COLOR]"
+Class: consistency [CONSISTENCY]  # Generated from value "consistency [CONSISTENCY]" located at cell 'Levels'!C232.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "consistency [CONSISTENCY]"
+Class: seasonal quality [SQ]  # Generated from value "seasonal quality [SQ]" located at cell 'Levels'!C233.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "seasonal quality [SQ]"
+Class: carbon dioxide equivalent [CO2E]  # Generated from value "carbon dioxide equivalent [CO2E]" located at cell 'Levels'!C234.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "carbon dioxide equivalent [CO2E]"
+Class: glycemic index [GI]  # Generated from value "glycemic index [GI]" located at cell 'Levels'!C235.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "glycemic index [GI]"
+Class: glycemic load [GL]  # Generated from value "glycemic load [GL]" located at cell 'Levels'!C236.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "glycemic load [GL]"
+Class: hydrophilic ORAC [H-ORAC]  # Generated from value "hydrophilic ORAC [H-ORAC]" located at cell 'Levels'!C237.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "hydrophilic ORAC [H-ORAC]"
+Class: lipophilic ORAC [L-ORAC]  # Generated from value "lipophilic ORAC [L-ORAC]" located at cell 'Levels'!C238.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "lipophilic ORAC [L-ORAC]"
+Class: oxygen radical absorbance capacity [TOTAL-ORAC]  # Generated from value "oxygen radical absorbance capacity [TOTAL-ORAC]" located at cell 'Levels'!C239.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "oxygen radical absorbance capacity [TOTAL-ORAC]"
+Class: Carotenoids [GRP_CART]  # Generated from value "Carotenoids [GRP_CART]" located at cell 'Levels'!C241.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Carotenoids [GRP_CART]"
+Class: Fats [GRP_FAT]  # Generated from value "Fats [GRP_FAT]" located at cell 'Levels'!C258.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Fats [GRP_FAT]"
+Class: Fatty acids [GRP_FA]  # Generated from value "Fatty acids [GRP_FA]" located at cell 'Levels'!C271.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Fatty acids [GRP_FA]"
+Class: glycerol [GLYRL]  # Generated from value "glycerol [GLYRL]" located at cell 'Levels'!C538.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "glycerol [GLYRL]"
+Class: Phospho- and glycolipids [GRP_PGLIP]  # Generated from value "Phospho- and glycolipids [GRP_PGLIP]" located at cell 'Levels'!C539.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Phospho- and glycolipids [GRP_PGLIP]"
+Class: Retinoids [GRP_RET]  # Generated from value "Retinoids [GRP_RET]" located at cell 'Levels'!C545.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Retinoids [GRP_RET]"
+Class: Sterols [GRP_STERL]  # Generated from value "Sterols [GRP_STERL]" located at cell 'Levels'!C554.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Sterols [GRP_STERL]"
+Class: carbon dioxide, free [CO2F]  # Generated from value "carbon dioxide, free [CO2F]" located at cell 'Levels'!C575.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "carbon dioxide, free [CO2F]"
+Class: Macroelements [GRP_MINMAC]  # Generated from value "Macroelements [GRP_MINMAC]" located at cell 'Levels'!C576.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "Macroelements [GRP_MINMAC]"
+Class: salt [NACL]  # Generated from value "salt [NACL]" located at cell 'Levels'!C589.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "salt [NACL]"
+Class: salt, added [NACLAD]  # Generated from value "salt, added [NACLAD]" located at cell 'Levels'!C590.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "salt, added [NACLAD]"
+Class: Trace elements [GRP_MINTR]  # Generated from value "Trace elements [GRP_MINTR]" located at cell 'Levels'!C591.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "Trace elements [GRP_MINTR]"
+Class: Amines and related components [GRP_AM]  # Generated from value "Amines and related components [GRP_AM]" located at cell 'Levels'!C623.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Amines and related components [GRP_AM]"
+Class: Amino acids [GRP_AA]  # Generated from value "Amino acids [GRP_AA]" located at cell 'Levels'!C636.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Amino acids [GRP_AA]"
+Class: ammonia [AMMON]  # Generated from value "ammonia [AMMON]" located at cell 'Levels'!C670.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "ammonia [AMMON]"
+Class: nitrates [NITRA]  # Generated from value "nitrates [NITRA]" located at cell 'Levels'!C671.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrates [NITRA]"
+Class: nitrites [NITRI]  # Generated from value "nitrites [NITRI]" located at cell 'Levels'!C672.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrites [NITRI]"
+Class: Nitrogen heterocycle components [GRP_NHET]  # Generated from value "Nitrogen heterocycle components [GRP_NHET]" located at cell 'Levels'!C673.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Nitrogen heterocycle components [GRP_NHET]"
+Class: nitrogen, amino acid [NAA]  # Generated from value "nitrogen, amino acid [NAA]" located at cell 'Levels'!C680.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrogen, amino acid [NAA]"
+Class: nitrogen, non protein [NNP]  # Generated from value "nitrogen, non protein [NNP]" located at cell 'Levels'!C681.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrogen, non protein [NNP]"
+Class: nitrosamines, total [NITRN]  # Generated from value "nitrosamines, total [NITRN]" located at cell 'Levels'!C682.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrosamines, total [NITRN]"
+Class: Proteins [GRP_PROT]  # Generated from value "Proteins [GRP_PROT]" located at cell 'Levels'!C683.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Proteins [GRP_PROT]"
+Class: acetic acid [ACEAC]  # Generated from value "acetic acid [ACEAC]" located at cell 'Levels'!C692.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "acetic acid [ACEAC]"
+Class: aconitic acid [ACONAC]  # Generated from value "aconitic acid [ACONAC]" located at cell 'Levels'!C693.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "aconitic acid [ACONAC]"
+Class: adipic acid [ADIAC]  # Generated from value "adipic acid [ADIAC]" located at cell 'Levels'!C694.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "adipic acid [ADIAC]"
+Class: alpha-ketoglutaric acid [GLUAKAC]  # Generated from value "alpha-ketoglutaric acid [GLUAKAC]" located at cell 'Levels'!C695.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "alpha-ketoglutaric acid [GLUAKAC]"
+Class: benzoic acid [BENAC]  # Generated from value "benzoic acid [BENAC]" located at cell 'Levels'!C696.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "benzoic acid [BENAC]"
+Class: caffeic acid [CAFAC]  # Generated from value "caffeic acid [CAFAC]" located at cell 'Levels'!C697.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "caffeic acid [CAFAC]"
+Class: chlorogenic acid [CHLRAC]  # Generated from value "chlorogenic acid [CHLRAC]" located at cell 'Levels'!C698.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "chlorogenic acid [CHLRAC]"
+Class: citric acid [CITAC]  # Generated from value "citric acid [CITAC]" located at cell 'Levels'!C699.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "citric acid [CITAC]"
+Class: diketogulonic acid [GULDKAC]  # Generated from value "diketogulonic acid [GULDKAC]" located at cell 'Levels'!C700.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "diketogulonic acid [GULDKAC]"
+Class: D-lactic acid [LACACD]  # Generated from value "D-lactic acid [LACACD]" located at cell 'Levels'!C701.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "D-lactic acid [LACACD]"
+Class: ferulic acid [FERAC]  # Generated from value "ferulic acid [FERAC]" located at cell 'Levels'!C702.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "ferulic acid [FERAC]"
+Class: formic acid [FORAC]  # Generated from value "formic acid [FORAC]" located at cell 'Levels'!C703.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "formic acid [FORAC]"
+Class: fumaric acid [FUMAC]  # Generated from value "fumaric acid [FUMAC]" located at cell 'Levels'!C704.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "fumaric acid [FUMAC]"
+Class: galacturonic acid [GALAAC]  # Generated from value "galacturonic acid [GALAAC]" located at cell 'Levels'!C705.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "galacturonic acid [GALAAC]"
+Class: gallic acid [GALLAC]  # Generated from value "gallic acid [GALLAC]" located at cell 'Levels'!C706.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "gallic acid [GALLAC]"
+Class: gluconic acid [GLUCAC]  # Generated from value "gluconic acid [GLUCAC]" located at cell 'Levels'!C707.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "gluconic acid [GLUCAC]"
+Class: glycolic acid [GLYCLAC]  # Generated from value "glycolic acid [GLYCLAC]" located at cell 'Levels'!C708.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "glycolic acid [GLYCLAC]"
+Class: glyoxalic acid [GLYOXAC]  # Generated from value "glyoxalic acid [GLYOXAC]" located at cell 'Levels'!C709.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "glyoxalic acid [GLYOXAC]"
+Class: isocitric acid [ISOCAC]  # Generated from value "isocitric acid [ISOCAC]" located at cell 'Levels'!C710.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "isocitric acid [ISOCAC]"
+Class: lactic acid [LACAC]  # Generated from value "lactic acid [LACAC]" located at cell 'Levels'!C711.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "lactic acid [LACAC]"
+Class: L-lactic acid [LACACL]  # Generated from value "L-lactic acid [LACACL]" located at cell 'Levels'!C712.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "L-lactic acid [LACACL]"
+Class: malic acid [MALAC]  # Generated from value "malic acid [MALAC]" located at cell 'Levels'!C713.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "malic acid [MALAC]"
+Class: malonic acid [MALONAC]  # Generated from value "malonic acid [MALONAC]" located at cell 'Levels'!C714.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "malonic acid [MALONAC]"
+Class: organic acids, total [OA]  # Generated from value "organic acids, total [OA]" located at cell 'Levels'!C715.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "organic acids, total [OA]"
+Class: oxalic acid [OXALAC]  # Generated from value "oxalic acid [OXALAC]" located at cell 'Levels'!C716.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "oxalic acid [OXALAC]"
+Class: oxaloacetic acid [OXACAC]  # Generated from value "oxaloacetic acid [OXACAC]" located at cell 'Levels'!C717.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "oxaloacetic acid [OXACAC]"
+Class: para-hydroxybenzoic acid [PARHBAC]  # Generated from value "para-hydroxybenzoic acid [PARHBAC]" located at cell 'Levels'!C718.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "para-hydroxybenzoic acid [PARHBAC]"
+Class: phytic acid [PHYTAC]  # Generated from value "phytic acid [PHYTAC]" located at cell 'Levels'!C719.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "phytic acid [PHYTAC]"
+Class: pimelic acid [PIMAC]  # Generated from value "pimelic acid [PIMAC]" located at cell 'Levels'!C720.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pimelic acid [PIMAC]"
+Class: propionic acid [PROPAC]  # Generated from value "propionic acid [PROPAC]" located at cell 'Levels'!C721.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "propionic acid [PROPAC]"
+Class: pyroglutamic acid [PYROGAC]  # Generated from value "pyroglutamic acid [PYROGAC]" located at cell 'Levels'!C722.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pyroglutamic acid [PYROGAC]"
+Class: pyruvic acid [PYRAC]  # Generated from value "pyruvic acid [PYRAC]" located at cell 'Levels'!C723.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pyruvic acid [PYRAC]"
+Class: quinic acid [QUINAC]  # Generated from value "quinic acid [QUINAC]" located at cell 'Levels'!C724.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "quinic acid [QUINAC]"
+Class: quinolinic acid [QUINLAC]  # Generated from value "quinolinic acid [QUINLAC]" located at cell 'Levels'!C725.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "quinolinic acid [QUINLAC]"
+Class: salicylic acid [SALAC]  # Generated from value "salicylic acid [SALAC]" located at cell 'Levels'!C726.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "salicylic acid [SALAC]"
+Class: shikimic acid [SHIKAC]  # Generated from value "shikimic acid [SHIKAC]" located at cell 'Levels'!C727.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "shikimic acid [SHIKAC]"
+Class: sorbic acid [SORAC]  # Generated from value "sorbic acid [SORAC]" located at cell 'Levels'!C728.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "sorbic acid [SORAC]"
+Class: succinic acid [SUCAC]  # Generated from value "succinic acid [SUCAC]" located at cell 'Levels'!C729.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "succinic acid [SUCAC]"
+Class: tartaric acid [TARAC]  # Generated from value "tartaric acid [TARAC]" located at cell 'Levels'!C730.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "tartaric acid [TARAC]"
+Class: Capsaicinoids [GRP_CAPSA]  # Generated from value "Capsaicinoids [GRP_CAPSA]" located at cell 'Levels'!C732.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Capsaicinoids [GRP_CAPSA]"
+Class: Flavonoids [GRP_FLAV]  # Generated from value "Flavonoids [GRP_FLAV]" located at cell 'Levels'!C734.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Flavonoids [GRP_FLAV]"
+Class: Phytoestrogens [GRP_PHYTG]  # Generated from value "Phytoestrogens [GRP_PHYTG]" located at cell 'Levels'!C765.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Phytoestrogens [GRP_PHYTG]"
+Class: tannin [TANNIN]  # Generated from value "tannin [TANNIN]" located at cell 'Levels'!C778.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "tannin [TANNIN]"
+Class: alcohol [ALC]  # Generated from value "alcohol [ALC]" located at cell 'Levels'!C780.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "alcohol [ALC]"
+Class: ash [ASH]  # Generated from value "ash [ASH]" located at cell 'Levels'!C781.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "ash [ASH]"
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C782.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C783.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: dry matter [DRYMAT]  # Generated from value "dry matter [DRYMAT]" located at cell 'Levels'!C784.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "dry matter [DRYMAT]"
+Class: energy, gross [ENERA]  # Generated from value "energy, gross [ENERA]" located at cell 'Levels'!C785.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "energy, gross [ENERA]"
+Class: energy, total metabolisable [ENERC]  # Generated from value "energy, total metabolisable [ENERC]" located at cell 'Levels'!C786.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "energy, total metabolisable [ENERC]"
+Class: fat, total [FAT]  # Generated from value "fat, total [FAT]" located at cell 'Levels'!C787.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "fat, total [FAT]"
+Class: fibre, total dietary [FIBT]  # Generated from value "fibre, total dietary [FIBT]" located at cell 'Levels'!C788.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "fibre, total dietary [FIBT]"
+Class: nitrogen, total [NT]  # Generated from value "nitrogen, total [NT]" located at cell 'Levels'!C789.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "nitrogen, total [NT]"
+Class: organic acids, total [OA]  # Generated from value "organic acids, total [OA]" located at cell 'Levels'!C790.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "organic acids, total [OA]"
+Class: polyols, total [POLYL]  # Generated from value "polyols, total [POLYL]" located at cell 'Levels'!C791.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "polyols, total [POLYL]"
+Class: protein, total [PROT]  # Generated from value "protein, total [PROT]" located at cell 'Levels'!C792.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "protein, total [PROT]"
+Class: sugar, added [SUGAD]  # Generated from value "sugar, added [SUGAD]" located at cell 'Levels'!C793.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "sugar, added [SUGAD]"
+Class: sugars, total [SUGAR]  # Generated from value "sugars, total [SUGAR]" located at cell 'Levels'!C794.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "sugars, total [SUGAR]"
+Class: water [WATER]  # Generated from value "water [WATER]" located at cell 'Levels'!C795.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "water [WATER]"
+Class: Fat soluble vitamins [GRP_VITFAT]  # Generated from value "Fat soluble vitamins [GRP_VITFAT]" located at cell 'Levels'!C797.
+   SubClassOf: Vitamins [GRP_VIT]
+   Annotations: rdfs:label "Fat soluble vitamins [GRP_VITFAT]"
+Class: Water soluble vitamins [GRP_VITH2O]  # Generated from value "Water soluble vitamins [GRP_VITH2O]" located at cell 'Levels'!C866.
+   SubClassOf: Vitamins [GRP_VIT]
+   Annotations: rdfs:label "Water soluble vitamins [GRP_VITH2O]"
+
+# Cell range: (Levels!A2:A+) Comment: "Third level"
+# Class: @D*(mm:SkipIfEmptyLabel)
+# Annotations: rdfs:label @D*
+#     SubClassOf: @C*-1(mm:ShiftUp)
+
+Class: fibre, crude [FIBC]  # Generated from value "fibre, crude [FIBC]" located at cell 'Levels'!D7.
+   SubClassOf: Fibre [GRP_FIB]
+   Annotations: rdfs:label "fibre, crude [FIBC]"
+Class: fibre, total dietary [FIBT]  # Generated from value "fibre, total dietary [FIBT]" located at cell 'Levels'!D8.
+   SubClassOf: Fibre [GRP_FIB]
+   Annotations: rdfs:label "fibre, total dietary [FIBT]"
+Class: dextrins [DEXTN]  # Generated from value "dextrins [DEXTN]" located at cell 'Levels'!D50.
+   SubClassOf: Oligosaccharides [GRP_OLIGO]
+   Annotations: rdfs:label "dextrins [DEXTN]"
+Class: oligosaccharides, available [OLSAC]  # Generated from value "oligosaccharides, available [OLSAC]" located at cell 'Levels'!D51.
+   SubClassOf: Oligosaccharides [GRP_OLIGO]
+   Annotations: rdfs:label "oligosaccharides, available [OLSAC]"
+Class: oligosaccharides, non-digestible [NDO]  # Generated from value "oligosaccharides, non-digestible [NDO]" located at cell 'Levels'!D58.
+   SubClassOf: Oligosaccharides [GRP_OLIGO]
+   Annotations: rdfs:label "oligosaccharides, non-digestible [NDO]"
+Class: chitin [CHITIN]  # Generated from value "chitin [CHITIN]" located at cell 'Levels'!D93.
+   SubClassOf: Polysaccharide analogues [GRP_PSAN]
+   Annotations: rdfs:label "chitin [CHITIN]"
+Class: lignin [LIGN]  # Generated from value "lignin [LIGN]" located at cell 'Levels'!D94.
+   SubClassOf: Polysaccharide analogues [GRP_PSAN]
+   Annotations: rdfs:label "lignin [LIGN]"
+Class: non-starch polysaccharides [NSP]  # Generated from value "non-starch polysaccharides [NSP]" located at cell 'Levels'!D96.
+   SubClassOf: Polysaccharides [GRP_PSAC]
+   Annotations: rdfs:label "non-starch polysaccharides [NSP]"
+Class: Starch [GRP_STAR]  # Generated from value "Starch [GRP_STAR]" located at cell 'Levels'!D118.
+   SubClassOf: Polysaccharides [GRP_PSAC]
+   Annotations: rdfs:label "Starch [GRP_STAR]"
+Class: erythritol [ERYTHL]  # Generated from value "erythritol [ERYTHL]" located at cell 'Levels'!D132.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "erythritol [ERYTHL]"
+Class: inositol [INOTL]  # Generated from value "inositol [INOTL]" located at cell 'Levels'!D133.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "inositol [INOTL]"
+Class: inositol diphosphate [INOTLP2]  # Generated from value "inositol diphosphate [INOTLP2]" located at cell 'Levels'!D134.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "inositol diphosphate [INOTLP2]"
+Class: inositol monophosphate [INOTLP1]  # Generated from value "inositol monophosphate [INOTLP1]" located at cell 'Levels'!D135.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "inositol monophosphate [INOTLP1]"
+Class: inositol pentaphosphate [INOTLP5]  # Generated from value "inositol pentaphosphate [INOTLP5]" located at cell 'Levels'!D136.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "inositol pentaphosphate [INOTLP5]"
+Class: inositol tetraphosphate [INOTLP4]  # Generated from value "inositol tetraphosphate [INOTLP4]" located at cell 'Levels'!D137.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "inositol tetraphosphate [INOTLP4]"
+Class: inositol triphosphate [INOTLP3]  # Generated from value "inositol triphosphate [INOTLP3]" located at cell 'Levels'!D138.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "inositol triphosphate [INOTLP3]"
+Class: isomalt [ISOMALT]  # Generated from value "isomalt [ISOMALT]" located at cell 'Levels'!D139.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "isomalt [ISOMALT]"
+Class: lactitol [LACTL]  # Generated from value "lactitol [LACTL]" located at cell 'Levels'!D140.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "lactitol [LACTL]"
+Class: maltitol [MALTL]  # Generated from value "maltitol [MALTL]" located at cell 'Levels'!D141.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "maltitol [MALTL]"
+Class: mannitol [MANTL]  # Generated from value "mannitol [MANTL]" located at cell 'Levels'!D142.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "mannitol [MANTL]"
+Class: phytic acid [PHYTAC]  # Generated from value "phytic acid [PHYTAC]" located at cell 'Levels'!D143.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "phytic acid [PHYTAC]"
+Class: polyols, total [POLYL]  # Generated from value "polyols, total [POLYL]" located at cell 'Levels'!D144.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "polyols, total [POLYL]"
+Class: sorbitol [SORTL]  # Generated from value "sorbitol [SORTL]" located at cell 'Levels'!D145.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "sorbitol [SORTL]"
+Class: xylitol [XYLTL]  # Generated from value "xylitol [XYLTL]" located at cell 'Levels'!D146.
+   SubClassOf: Sugar alcohols [GRP_SUGOH]
+   Annotations: rdfs:label "xylitol [XYLTL]"
+Class: Disaccharides [GRP_DISAC]  # Generated from value "Disaccharides [GRP_DISAC]" located at cell 'Levels'!D148.
+   SubClassOf: Sugars [GRP_SUGAR]
+   Annotations: rdfs:label "Disaccharides [GRP_DISAC]"
+Class: Monosaccharides [GRP_MNSAC]  # Generated from value "Monosaccharides [GRP_MNSAC]" located at cell 'Levels'!D154.
+   SubClassOf: Sugars [GRP_SUGAR]
+   Annotations: rdfs:label "Monosaccharides [GRP_MNSAC]"
+Class: sugar, added [SUGAD]  # Generated from value "sugar, added [SUGAD]" located at cell 'Levels'!D164.
+   SubClassOf: Sugars [GRP_SUGAR]
+   Annotations: rdfs:label "sugar, added [SUGAD]"
+Class: sugar, free [FSUGAD]  # Generated from value "sugar, free [FSUGAD]" located at cell 'Levels'!D165.
+   SubClassOf: Sugars [GRP_SUGAR]
+   Annotations: rdfs:label "sugar, free [FSUGAD]"
+Class: sugar, simple [SSUGAD]  # Generated from value "sugar, simple [SSUGAD]" located at cell 'Levels'!D166.
+   SubClassOf: Sugars [GRP_SUGAR]
+   Annotations: rdfs:label "sugar, simple [SSUGAD]"
+Class: sugar, natural [SUGAN]  # Generated from value "sugar, natural [SUGAN]" located at cell 'Levels'!D167.
+   SubClassOf: Sugars [GRP_SUGAR]
+   Annotations: rdfs:label "sugar, natural [SUGAN]"
+Class: Sugars in fibre [GRP_SUGFB]  # Generated from value "Sugars in fibre [GRP_SUGFB]" located at cell 'Levels'!D168.
+   SubClassOf: Sugars [GRP_SUGAR]
+   Annotations: rdfs:label "Sugars in fibre [GRP_SUGFB]"
+Class: sugars, total [SUGAR]  # Generated from value "sugars, total [SUGAR]" located at cell 'Levels'!D171.
+   SubClassOf: Sugars [GRP_SUGAR]
+   Annotations: rdfs:label "sugars, total [SUGAR]"
+Class: Bifidobacterium infantis [B.INFANTIS]  # Generated from value "Bifidobacterium infantis [B.INFANTIS]" located at cell 'Levels'!D174.
+   SubClassOf: probiotics [PROBIO]
+   Annotations: rdfs:label "Bifidobacterium infantis [B.INFANTIS]"
+Class: Bifidobacterium animalis subsp. lactis [BB-12]  # Generated from value "Bifidobacterium animalis subsp. lactis [BB-12]" located at cell 'Levels'!D175.
+   SubClassOf: probiotics [PROBIO]
+   Annotations: rdfs:label "Bifidobacterium animalis subsp. lactis [BB-12]"
+Class: Lactobacillus casei DN-114 001  [DN-114-001]  # Generated from value "Lactobacillus casei DN-114 001  [DN-114-001]" located at cell 'Levels'!D176.
+   SubClassOf: probiotics [PROBIO]
+   Annotations: rdfs:label "Lactobacillus casei DN-114 001  [DN-114-001]"
+Class: Bifidobacterium animalis DN-173 010 [DN-173-010]  # Generated from value "Bifidobacterium animalis DN-173 010 [DN-173-010]" located at cell 'Levels'!D177.
+   SubClassOf: probiotics [PROBIO]
+   Annotations: rdfs:label "Bifidobacterium animalis DN-173 010 [DN-173-010]"
+Class: Enterococcus faecalis [E.FAECALIS]  # Generated from value "Enterococcus faecalis [E.FAECALIS]" located at cell 'Levels'!D178.
+   SubClassOf: probiotics [PROBIO]
+   Annotations: rdfs:label "Enterococcus faecalis [E.FAECALIS]"
+Class: Lactobacillus gasseri [L.GASSERI]  # Generated from value "Lactobacillus gasseri [L.GASSERI]" located at cell 'Levels'!D179.
+   SubClassOf: probiotics [PROBIO]
+   Annotations: rdfs:label "Lactobacillus gasseri [L.GASSERI]"
+Class: Lactobacillus acidophilus LA-05 [LA-5]  # Generated from value "Lactobacillus acidophilus LA-05 [LA-5]" located at cell 'Levels'!D180.
+   SubClassOf: probiotics [PROBIO]
+   Annotations: rdfs:label "Lactobacillus acidophilus LA-05 [LA-5]"
+Class: Lactobacillus rhamnosus GG [LGG]  # Generated from value "Lactobacillus rhamnosus GG [LGG]" located at cell 'Levels'!D181.
+   SubClassOf: probiotics [PROBIO]
+   Annotations: rdfs:label "Lactobacillus rhamnosus GG [LGG]"
+Class: acesulfame-K [ACESK]  # Generated from value "acesulfame-K [ACESK]" located at cell 'Levels'!D185.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "acesulfame-K [ACESK]"
+Class: advantame [ADVANTM]  # Generated from value "advantame [ADVANTM]" located at cell 'Levels'!D186.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "advantame [ADVANTM]"
+Class: aspartame [ASPM]  # Generated from value "aspartame [ASPM]" located at cell 'Levels'!D187.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "aspartame [ASPM]"
+Class: aspartame-acesulfame salt [ASPM-ACES]  # Generated from value "aspartame-acesulfame salt [ASPM-ACES]" located at cell 'Levels'!D188.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "aspartame-acesulfame salt [ASPM-ACES]"
+Class: cyclamate [CYCL]  # Generated from value "cyclamate [CYCL]" located at cell 'Levels'!D189.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "cyclamate [CYCL]"
+Class: erythritol [ERYTHL]  # Generated from value "erythritol [ERYTHL]" located at cell 'Levels'!D190.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "erythritol [ERYTHL]"
+Class: isomalt [ISOMALT]  # Generated from value "isomalt [ISOMALT]" located at cell 'Levels'!D191.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "isomalt [ISOMALT]"
+Class: lactitol [LACTL]  # Generated from value "lactitol [LACTL]" located at cell 'Levels'!D192.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "lactitol [LACTL]"
+Class: maltitol [MALTL]  # Generated from value "maltitol [MALTL]" located at cell 'Levels'!D193.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "maltitol [MALTL]"
+Class: mannitol [MANTL]  # Generated from value "mannitol [MANTL]" located at cell 'Levels'!D194.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "mannitol [MANTL]"
+Class: neohesperidin dihydrochalcone [NEOHESP]  # Generated from value "neohesperidin dihydrochalcone [NEOHESP]" located at cell 'Levels'!D195.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "neohesperidin dihydrochalcone [NEOHESP]"
+Class: neotame [NEOTM]  # Generated from value "neotame [NEOTM]" located at cell 'Levels'!D196.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "neotame [NEOTM]"
+Class: polyglycitol syrup [PGLYCT]  # Generated from value "polyglycitol syrup [PGLYCT]" located at cell 'Levels'!D197.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "polyglycitol syrup [PGLYCT]"
+Class: saccharin [SACC]  # Generated from value "saccharin [SACC]" located at cell 'Levels'!D198.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "saccharin [SACC]"
+Class: sorbitol [SORTL]  # Generated from value "sorbitol [SORTL]" located at cell 'Levels'!D202.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "sorbitol [SORTL]"
+Class: steviol glycosides [STEVGLYC]  # Generated from value "steviol glycosides [STEVGLYC]" located at cell 'Levels'!D203.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "steviol glycosides [STEVGLYC]"
+Class: sucralose [SUCRL]  # Generated from value "sucralose [SUCRL]" located at cell 'Levels'!D216.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "sucralose [SUCRL]"
+Class: thaumatin [THAUMN]  # Generated from value "thaumatin [THAUMN]" located at cell 'Levels'!D217.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "thaumatin [THAUMN]"
+Class: xylitol [XYLTL]  # Generated from value "xylitol [XYLTL]" located at cell 'Levels'!D218.
+   SubClassOf: sweteners [SWEETNR]
+   Annotations: rdfs:label "xylitol [XYLTL]"
+Class: alpha-carotene [CARTA]  # Generated from value "alpha-carotene [CARTA]" located at cell 'Levels'!D242.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "alpha-carotene [CARTA]"
+Class: alpha-cryptoxanthin [CRYPXA]  # Generated from value "alpha-cryptoxanthin [CRYPXA]" located at cell 'Levels'!D243.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "alpha-cryptoxanthin [CRYPXA]"
+Class: astaxanthin [ASTAX]  # Generated from value "astaxanthin [ASTAX]" located at cell 'Levels'!D244.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "astaxanthin [ASTAX]"
+Class: beta-carotene [CARTB]  # Generated from value "beta-carotene [CARTB]" located at cell 'Levels'!D245.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "beta-carotene [CARTB]"
+Class: beta-carotene, cis [CARTBCIS]  # Generated from value "beta-carotene, cis [CARTBCIS]" located at cell 'Levels'!D246.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "beta-carotene, cis [CARTBCIS]"
+Class: beta-carotene, total [CARTBTOT]  # Generated from value "beta-carotene, total [CARTBTOT]" located at cell 'Levels'!D247.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "beta-carotene, total [CARTBTOT]"
+Class: beta-cryptoxanthin [CRYPXB]  # Generated from value "beta-cryptoxanthin [CRYPXB]" located at cell 'Levels'!D248.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "beta-cryptoxanthin [CRYPXB]"
+Class: canthaxanthin [CTX]  # Generated from value "canthaxanthin [CTX]" located at cell 'Levels'!D249.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "canthaxanthin [CTX]"
+Class: capsanthin [CAPSAN]  # Generated from value "capsanthin [CAPSAN]" located at cell 'Levels'!D250.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "capsanthin [CAPSAN]"
+Class: carotenoids, total [CAROTENS]  # Generated from value "carotenoids, total [CAROTENS]" located at cell 'Levels'!D251.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "carotenoids, total [CAROTENS]"
+Class: cryptoxanthins [CRYPX]  # Generated from value "cryptoxanthins [CRYPX]" located at cell 'Levels'!D252.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "cryptoxanthins [CRYPX]"
+Class: gamma-carotene [CARTG]  # Generated from value "gamma-carotene [CARTG]" located at cell 'Levels'!D253.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "gamma-carotene [CARTG]"
+Class: lutein [LUTN]  # Generated from value "lutein [LUTN]" located at cell 'Levels'!D254.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "lutein [LUTN]"
+Class: lutein plus zeaxanthine [LUTEZEAX]  # Generated from value "lutein plus zeaxanthine [LUTEZEAX]" located at cell 'Levels'!D255.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "lutein plus zeaxanthine [LUTEZEAX]"
+Class: lycopene [LYCPN]  # Generated from value "lycopene [LYCPN]" located at cell 'Levels'!D256.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "lycopene [LYCPN]"
+Class: zeaxanthin [ZEA]  # Generated from value "zeaxanthin [ZEA]" located at cell 'Levels'!D257.
+   SubClassOf: Carotenoids [GRP_CART]
+   Annotations: rdfs:label "zeaxanthin [ZEA]"
+Class: fat expressed as triacyl glycerol (TAG) [GRP_FATTAG]  # Generated from value "fat expressed as triacyl glycerol (TAG) [GRP_FATTAG]" located at cell 'Levels'!D259.
+   SubClassOf: Fats [GRP_FAT]
+   Annotations: rdfs:label "fat expressed as triacyl glycerol (TAG) [GRP_FATTAG]"
+Class: fat, animal [FATAN]  # Generated from value "fat, animal [FATAN]" located at cell 'Levels'!D266.
+   SubClassOf: Fats [GRP_FAT]
+   Annotations: rdfs:label "fat, animal [FATAN]"
+Class: fat, plant [FATPL]  # Generated from value "fat, plant [FATPL]" located at cell 'Levels'!D267.
+   SubClassOf: Fats [GRP_FAT]
+   Annotations: rdfs:label "fat, plant [FATPL]"
+Class: fat, total [FAT]  # Generated from value "fat, total [FAT]" located at cell 'Levels'!D268.
+   SubClassOf: Fats [GRP_FAT]
+   Annotations: rdfs:label "fat, total [FAT]"
+Class: fat, unknown origin [FATUNK]  # Generated from value "fat, unknown origin [FATUNK]" located at cell 'Levels'!D269.
+   SubClassOf: Fats [GRP_FAT]
+   Annotations: rdfs:label "fat, unknown origin [FATUNK]"
+Class: salatrims [SALATR]  # Generated from value "salatrims [SALATR]" located at cell 'Levels'!D270.
+   SubClassOf: Fats [GRP_FAT]
+   Annotations: rdfs:label "salatrims [SALATR]"
+Class: Fatty acids, general [GRP_FAGEN]  # Generated from value "Fatty acids, general [GRP_FAGEN]" located at cell 'Levels'!D272.
+   SubClassOf: Fatty acids [GRP_FA]
+   Annotations: rdfs:label "Fatty acids, general [GRP_FAGEN]"
+Class: Monounsaturated fatty acids [GRP_FAMS]  # Generated from value "Monounsaturated fatty acids [GRP_FAMS]" located at cell 'Levels'!D293.
+   SubClassOf: Fatty acids [GRP_FA]
+   Annotations: rdfs:label "Monounsaturated fatty acids [GRP_FAMS]"
+Class: Polyunsaturated fatty acids [GRP_FAPU]  # Generated from value "Polyunsaturated fatty acids [GRP_FAPU]" located at cell 'Levels'!D388.
+   SubClassOf: Fatty acids [GRP_FA]
+   Annotations: rdfs:label "Polyunsaturated fatty acids [GRP_FAPU]"
+Class: Saturated fatty acids [GRP_FASAT]  # Generated from value "Saturated fatty acids [GRP_FASAT]" located at cell 'Levels'!D491.
+   SubClassOf: Fatty acids [GRP_FA]
+   Annotations: rdfs:label "Saturated fatty acids [GRP_FASAT]"
+Class: glycolipids, total [GLYLIP]  # Generated from value "glycolipids, total [GLYLIP]" located at cell 'Levels'!D540.
+   SubClassOf: Phospho- and glycolipids [GRP_PGLIP]
+   Annotations: rdfs:label "glycolipids, total [GLYLIP]"
+Class: phosphatidyl choline (lecithin) [CHLNP]  # Generated from value "phosphatidyl choline (lecithin) [CHLNP]" located at cell 'Levels'!D541.
+   SubClassOf: Phospho- and glycolipids [GRP_PGLIP]
+   Annotations: rdfs:label "phosphatidyl choline (lecithin) [CHLNP]"
+Class: phospholipids, total [PHOLIP]  # Generated from value "phospholipids, total [PHOLIP]" located at cell 'Levels'!D542.
+   SubClassOf: Phospho- and glycolipids [GRP_PGLIP]
+   Annotations: rdfs:label "phospholipids, total [PHOLIP]"
+Class: plasmalogen [PLSGN]  # Generated from value "plasmalogen [PLSGN]" located at cell 'Levels'!D543.
+   SubClassOf: Phospho- and glycolipids [GRP_PGLIP]
+   Annotations: rdfs:label "plasmalogen [PLSGN]"
+Class: sphingolipid [SPHLIP]  # Generated from value "sphingolipid [SPHLIP]" located at cell 'Levels'!D544.
+   SubClassOf: Phospho- and glycolipids [GRP_PGLIP]
+   Annotations: rdfs:label "sphingolipid [SPHLIP]"
+Class: 11-cis-retinaldehyde [RETALD11]  # Generated from value "11-cis-retinaldehyde [RETALD11]" located at cell 'Levels'!D546.
+   SubClassOf: Retinoids [GRP_RET]
+   Annotations: rdfs:label "11-cis-retinaldehyde [RETALD11]"
+Class: 13-cis retinol [RETOL13]  # Generated from value "13-cis retinol [RETOL13]" located at cell 'Levels'!D547.
+   SubClassOf: Retinoids [GRP_RET]
+   Annotations: rdfs:label "13-cis retinol [RETOL13]"
+Class: 13-cis-retinoic acid [RETINAC13]  # Generated from value "13-cis-retinoic acid [RETINAC13]" located at cell 'Levels'!D548.
+   SubClassOf: Retinoids [GRP_RET]
+   Annotations: rdfs:label "13-cis-retinoic acid [RETINAC13]"
+Class: all-trans retinol [RETOLAT]  # Generated from value "all-trans retinol [RETOLAT]" located at cell 'Levels'!D549.
+   SubClassOf: Retinoids [GRP_RET]
+   Annotations: rdfs:label "all-trans retinol [RETOLAT]"
+Class: dehydroretinol [RETOLDH]  # Generated from value "dehydroretinol [RETOLDH]" located at cell 'Levels'!D550.
+   SubClassOf: Retinoids [GRP_RET]
+   Annotations: rdfs:label "dehydroretinol [RETOLDH]"
+Class: retinaldehyde [RETALD]  # Generated from value "retinaldehyde [RETALD]" located at cell 'Levels'!D551.
+   SubClassOf: Retinoids [GRP_RET]
+   Annotations: rdfs:label "retinaldehyde [RETALD]"
+Class: retinoic acid [RETINAC]  # Generated from value "retinoic acid [RETINAC]" located at cell 'Levels'!D552.
+   SubClassOf: Retinoids [GRP_RET]
+   Annotations: rdfs:label "retinoic acid [RETINAC]"
+Class: retinol (preformed vitamin A) [RETOL]  # Generated from value "retinol (preformed vitamin A) [RETOL]" located at cell 'Levels'!D553.
+   SubClassOf: Retinoids [GRP_RET]
+   Annotations: rdfs:label "retinol (preformed vitamin A) [RETOL]"
+Class: 24-methylcholest-7-erol [CHOLM]  # Generated from value "24-methylcholest-7-erol [CHOLM]" located at cell 'Levels'!D555.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "24-methylcholest-7-erol [CHOLM]"
+Class: avenasterol, total [AVEDT]  # Generated from value "avenasterol, total [AVEDT]" located at cell 'Levels'!D556.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "avenasterol, total [AVEDT]"
+Class: brassicasterol [BRASTR]  # Generated from value "brassicasterol [BRASTR]" located at cell 'Levels'!D557.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "brassicasterol [BRASTR]"
+Class: campesterol, total [CAMT]  # Generated from value "campesterol, total [CAMT]" located at cell 'Levels'!D558.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "campesterol, total [CAMT]"
+Class: cholesterol [CHORL]  # Generated from value "cholesterol [CHORL]" located at cell 'Levels'!D559.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "cholesterol [CHORL]"
+Class: delta 5-avenasterol (delta 5-avenastenol) [AVED5]  # Generated from value "delta 5-avenasterol (delta 5-avenastenol) [AVED5]" located at cell 'Levels'!D560.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "delta 5-avenasterol (delta 5-avenastenol) [AVED5]"
+Class: delta 5-campesterol (delta 5-campestenol) [CAMD5]  # Generated from value "delta 5-campesterol (delta 5-campestenol) [CAMD5]" located at cell 'Levels'!D561.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "delta 5-campesterol (delta 5-campestenol) [CAMD5]"
+Class: delta 7,9,11-stigmastadienol [STID7911]  # Generated from value "delta 7,9,11-stigmastadienol [STID7911]" located at cell 'Levels'!D562.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "delta 7,9,11-stigmastadienol [STID7911]"
+Class: delta 7-avenasterol (delta 7-avenastenol) [AVED7]  # Generated from value "delta 7-avenasterol (delta 7-avenastenol) [AVED7]" located at cell 'Levels'!D563.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "delta 7-avenasterol (delta 7-avenastenol) [AVED7]"
+Class: delta 7-campesterol (delta 7-campestenol) [CAMD7]  # Generated from value "delta 7-campesterol (delta 7-campestenol) [CAMD7]" located at cell 'Levels'!D564.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "delta 7-campesterol (delta 7-campestenol) [CAMD7]"
+Class: delta 7-stigmasterol [STID7]  # Generated from value "delta 7-stigmasterol [STID7]" located at cell 'Levels'!D565.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "delta 7-stigmasterol [STID7]"
+Class: fucosterol [FUCSTR]  # Generated from value "fucosterol [FUCSTR]" located at cell 'Levels'!D566.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "fucosterol [FUCSTR]"
+Class: isofucosterol [FUCSTR28]  # Generated from value "isofucosterol [FUCSTR28]" located at cell 'Levels'!D567.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "isofucosterol [FUCSTR28]"
+Class: phytosterols, total (total plant sterols) [PHYSTR]  # Generated from value "phytosterols, total (total plant sterols) [PHYSTR]" located at cell 'Levels'!D568.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "phytosterols, total (total plant sterols) [PHYSTR]"
+Class: sitosterol [SITSTR]  # Generated from value "sitosterol [SITSTR]" located at cell 'Levels'!D569.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "sitosterol [SITSTR]"
+Class: spinasterol [SPISTR]  # Generated from value "spinasterol [SPISTR]" located at cell 'Levels'!D570.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "spinasterol [SPISTR]"
+Class: sterols, other [STEROTH]  # Generated from value "sterols, other [STEROTH]" located at cell 'Levels'!D571.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "sterols, other [STEROTH]"
+Class: sterols, total [STERT]  # Generated from value "sterols, total [STERT]" located at cell 'Levels'!D572.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "sterols, total [STERT]"
+Class: stigmasterol [STGSTR]  # Generated from value "stigmasterol [STGSTR]" located at cell 'Levels'!D573.
+   SubClassOf: Sterols [GRP_STERL]
+   Annotations: rdfs:label "stigmasterol [STGSTR]"
+Class: bromide [BRD]  # Generated from value "bromide [BRD]" located at cell 'Levels'!D577.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "bromide [BRD]"
+Class: calcium [CA]  # Generated from value "calcium [CA]" located at cell 'Levels'!D578.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "calcium [CA]"
+Class: chloride [CLD]  # Generated from value "chloride [CLD]" located at cell 'Levels'!D579.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "chloride [CLD]"
+Class: iron, haem [HAEM]  # Generated from value "iron, haem [HAEM]" located at cell 'Levels'!D580.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "iron, haem [HAEM]"
+Class: iron, non-haem [NHAEM]  # Generated from value "iron, non-haem [NHAEM]" located at cell 'Levels'!D581.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "iron, non-haem [NHAEM]"
+Class: iron, total [FE]  # Generated from value "iron, total [FE]" located at cell 'Levels'!D582.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "iron, total [FE]"
+Class: magnesium [MG]  # Generated from value "magnesium [MG]" located at cell 'Levels'!D583.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "magnesium [MG]"
+Class: phosphorus [P]  # Generated from value "phosphorus [P]" located at cell 'Levels'!D584.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "phosphorus [P]"
+Class: potassium [K]  # Generated from value "potassium [K]" located at cell 'Levels'!D586.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "potassium [K]"
+Class: sodium [NA]  # Generated from value "sodium [NA]" located at cell 'Levels'!D587.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "sodium [NA]"
+Class: sulphur [S]  # Generated from value "sulphur [S]" located at cell 'Levels'!D588.
+   SubClassOf: Macroelements [GRP_MINMAC]
+   Annotations: rdfs:label "sulphur [S]"
+Class: aluminium [AL]  # Generated from value "aluminium [AL]" located at cell 'Levels'!D592.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "aluminium [AL]"
+Class: antimony [SB]  # Generated from value "antimony [SB]" located at cell 'Levels'!D593.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "antimony [SB]"
+Class: arsenic [AS]  # Generated from value "arsenic [AS]" located at cell 'Levels'!D594.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "arsenic [AS]"
+Class: barium [BA]  # Generated from value "barium [BA]" located at cell 'Levels'!D595.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "barium [BA]"
+Class: bismuth [BI]  # Generated from value "bismuth [BI]" located at cell 'Levels'!D596.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "bismuth [BI]"
+Class: boron [B]  # Generated from value "boron [B]" located at cell 'Levels'!D597.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "boron [B]"
+Class: cadmium [CD]  # Generated from value "cadmium [CD]" located at cell 'Levels'!D598.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "cadmium [CD]"
+Class: caesium [CS]  # Generated from value "caesium [CS]" located at cell 'Levels'!D599.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "caesium [CS]"
+Class: chromium [CR]  # Generated from value "chromium [CR]" located at cell 'Levels'!D600.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "chromium [CR]"
+Class: cobalt [CO]  # Generated from value "cobalt [CO]" located at cell 'Levels'!D601.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "cobalt [CO]"
+Class: copper [CU]  # Generated from value "copper [CU]" located at cell 'Levels'!D602.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "copper [CU]"
+Class: fluoride [FD]  # Generated from value "fluoride [FD]" located at cell 'Levels'!D603.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "fluoride [FD]"
+Class: gold [AU]  # Generated from value "gold [AU]" located at cell 'Levels'!D604.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "gold [AU]"
+Class: iodide [ID]  # Generated from value "iodide [ID]" located at cell 'Levels'!D605.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "iodide [ID]"
+Class: lanthanum [LA]  # Generated from value "lanthanum [LA]" located at cell 'Levels'!D606.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "lanthanum [LA]"
+Class: lead [PB]  # Generated from value "lead [PB]" located at cell 'Levels'!D607.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "lead [PB]"
+Class: lithium [LI]  # Generated from value "lithium [LI]" located at cell 'Levels'!D608.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "lithium [LI]"
+Class: manganese [MN]  # Generated from value "manganese [MN]" located at cell 'Levels'!D609.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "manganese [MN]"
+Class: mercury [HG]  # Generated from value "mercury [HG]" located at cell 'Levels'!D610.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "mercury [HG]"
+Class: molybdenum [MO]  # Generated from value "molybdenum [MO]" located at cell 'Levels'!D611.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "molybdenum [MO]"
+Class: nickel [NI]  # Generated from value "nickel [NI]" located at cell 'Levels'!D612.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "nickel [NI]"
+Class: rubidium [RB]  # Generated from value "rubidium [RB]" located at cell 'Levels'!D613.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "rubidium [RB]"
+Class: selenium, total [SE]  # Generated from value "selenium, total [SE]" located at cell 'Levels'!D614.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "selenium, total [SE]"
+Class: silicon [SI]  # Generated from value "silicon [SI]" located at cell 'Levels'!D615.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "silicon [SI]"
+Class: silver [AG]  # Generated from value "silver [AG]" located at cell 'Levels'!D616.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "silver [AG]"
+Class: strontium [SR]  # Generated from value "strontium [SR]" located at cell 'Levels'!D617.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "strontium [SR]"
+Class: tin [SN]  # Generated from value "tin [SN]" located at cell 'Levels'!D618.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "tin [SN]"
+Class: titanium [TI]  # Generated from value "titanium [TI]" located at cell 'Levels'!D619.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "titanium [TI]"
+Class: vanadium [V]  # Generated from value "vanadium [V]" located at cell 'Levels'!D620.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "vanadium [V]"
+Class: zinc [ZN]  # Generated from value "zinc [ZN]" located at cell 'Levels'!D621.
+   SubClassOf: Trace elements [GRP_MINTR]
+   Annotations: rdfs:label "zinc [ZN]"
+Class: cadaverine [CADAVT]  # Generated from value "cadaverine [CADAVT]" located at cell 'Levels'!D624.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "cadaverine [CADAVT]"
+Class: choline [CHOLN]  # Generated from value "choline [CHOLN]" located at cell 'Levels'!D625.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "choline [CHOLN]"
+Class: creatine/creatinine [CREATN]  # Generated from value "creatine/creatinine [CREATN]" located at cell 'Levels'!D626.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "creatine/creatinine [CREATN]"
+Class: dopamine [DOPN]  # Generated from value "dopamine [DOPN]" located at cell 'Levels'!D627.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "dopamine [DOPN]"
+Class: histamine [HISTN]  # Generated from value "histamine [HISTN]" located at cell 'Levels'!D628.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "histamine [HISTN]"
+Class: phenylethylamine [PHETN]  # Generated from value "phenylethylamine [PHETN]" located at cell 'Levels'!D629.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "phenylethylamine [PHETN]"
+Class: putrescine [PUTRSC]  # Generated from value "putrescine [PUTRSC]" located at cell 'Levels'!D630.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "putrescine [PUTRSC]"
+Class: serotonin [SEROTN]  # Generated from value "serotonin [SEROTN]" located at cell 'Levels'!D631.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "serotonin [SEROTN]"
+Class: spermidine [SPERDN]  # Generated from value "spermidine [SPERDN]" located at cell 'Levels'!D632.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "spermidine [SPERDN]"
+Class: spermine [SPERN]  # Generated from value "spermine [SPERN]" located at cell 'Levels'!D633.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "spermine [SPERN]"
+Class: tryptamine [TRYPN]  # Generated from value "tryptamine [TRYPN]" located at cell 'Levels'!D634.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "tryptamine [TRYPN]"
+Class: tyramine [TYRA]  # Generated from value "tyramine [TYRA]" located at cell 'Levels'!D635.
+   SubClassOf: Amines and related components [GRP_AM]
+   Annotations: rdfs:label "tyramine [TYRA]"
+Class: alanine [ALA]  # Generated from value "alanine [ALA]" located at cell 'Levels'!D637.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "alanine [ALA]"
+Class: amino acids, total aromatic [AAA]  # Generated from value "amino acids, total aromatic [AAA]" located at cell 'Levels'!D638.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "amino acids, total aromatic [AAA]"
+Class: amino acids, total essential  # Generated from value "amino acids, total essential" located at cell 'Levels'!D639.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "amino acids, total essential"
+Class: amino acids, total essential  # Generated from value "amino acids, total essential" located at cell 'Levels'!D640.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "amino acids, total essential"
+Class: amino acids, total essential  # Generated from value "amino acids, total essential" located at cell 'Levels'!D641.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "amino acids, total essential"
+Class: amino acids, total essential  # Generated from value "amino acids, total essential" located at cell 'Levels'!D642.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "amino acids, total essential"
+Class: amino acids, total essential  # Generated from value "amino acids, total essential" located at cell 'Levels'!D643.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "amino acids, total essential"
+Class: amino acids, total sulphur-containing [AAS]  # Generated from value "amino acids, total sulphur-containing [AAS]" located at cell 'Levels'!D644.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "amino acids, total sulphur-containing [AAS]"
+Class: amino acids, total  # Generated from value "amino acids, total" located at cell 'Levels'!D645.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "amino acids, total"
+Class: arginine [ARG]  # Generated from value "arginine [ARG]" located at cell 'Levels'!D646.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "arginine [ARG]"
+Class: asparagine [ASN]  # Generated from value "asparagine [ASN]" located at cell 'Levels'!D647.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "asparagine [ASN]"
+Class: aspartic acid [ASP]  # Generated from value "aspartic acid [ASP]" located at cell 'Levels'!D648.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "aspartic acid [ASP]"
+Class: cysteine [CYSTE]  # Generated from value "cysteine [CYSTE]" located at cell 'Levels'!D649.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "cysteine [CYSTE]"
+Class: cystine [CYS]  # Generated from value "cystine [CYS]" located at cell 'Levels'!D650.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "cystine [CYS]"
+Class: glutamic acid [GLU]  # Generated from value "glutamic acid [GLU]" located at cell 'Levels'!D651.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "glutamic acid [GLU]"
+Class: glutamine [GLN]  # Generated from value "glutamine [GLN]" located at cell 'Levels'!D652.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "glutamine [GLN]"
+Class: glycine [GLY]  # Generated from value "glycine [GLY]" located at cell 'Levels'!D653.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "glycine [GLY]"
+Class: histidine [HIS]  # Generated from value "histidine [HIS]" located at cell 'Levels'!D654.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "histidine [HIS]"
+Class: hydroxylysine [HYL]  # Generated from value "hydroxylysine [HYL]" located at cell 'Levels'!D655.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "hydroxylysine [HYL]"
+Class: hydroxyproline [HYP]  # Generated from value "hydroxyproline [HYP]" located at cell 'Levels'!D656.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "hydroxyproline [HYP]"
+Class: isoleucine [ILE]  # Generated from value "isoleucine [ILE]" located at cell 'Levels'!D657.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "isoleucine [ILE]"
+Class: leucine [LEU]  # Generated from value "leucine [LEU]" located at cell 'Levels'!D658.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "leucine [LEU]"
+Class: lysine [LYS]  # Generated from value "lysine [LYS]" located at cell 'Levels'!D659.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "lysine [LYS]"
+Class: lysine, available [LYSAVL]  # Generated from value "lysine, available [LYSAVL]" located at cell 'Levels'!D660.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "lysine, available [LYSAVL]"
+Class: methionine [MET]  # Generated from value "methionine [MET]" located at cell 'Levels'!D661.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "methionine [MET]"
+Class: phenylalanine [PHE]  # Generated from value "phenylalanine [PHE]" located at cell 'Levels'!D662.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "phenylalanine [PHE]"
+Class: proline [PRO]  # Generated from value "proline [PRO]" located at cell 'Levels'!D663.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "proline [PRO]"
+Class: serine [SER]  # Generated from value "serine [SER]" located at cell 'Levels'!D664.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "serine [SER]"
+Class: taurine [TAU]  # Generated from value "taurine [TAU]" located at cell 'Levels'!D665.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "taurine [TAU]"
+Class: threonine [THR]  # Generated from value "threonine [THR]" located at cell 'Levels'!D666.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "threonine [THR]"
+Class: tryptophan [TRP]  # Generated from value "tryptophan [TRP]" located at cell 'Levels'!D667.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "tryptophan [TRP]"
+Class: tyrosine [TYR]  # Generated from value "tyrosine [TYR]" located at cell 'Levels'!D668.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "tyrosine [TYR]"
+Class: valine [VAL]  # Generated from value "valine [VAL]" located at cell 'Levels'!D669.
+   SubClassOf: Amino acids [GRP_AA]
+   Annotations: rdfs:label "valine [VAL]"
+Class: piperine [PIPN]  # Generated from value "piperine [PIPN]" located at cell 'Levels'!D674.
+   SubClassOf: Nitrogen heterocycle components [GRP_NHET]
+   Annotations: rdfs:label "piperine [PIPN]"
+Class: purines [PURN]  # Generated from value "purines [PURN]" located at cell 'Levels'!D675.
+   SubClassOf: Nitrogen heterocycle components [GRP_NHET]
+   Annotations: rdfs:label "purines [PURN]"
+Class: albumin [ALBU]  # Generated from value "albumin [ALBU]" located at cell 'Levels'!D684.
+   SubClassOf: Proteins [GRP_PROT]
+   Annotations: rdfs:label "albumin [ALBU]"
+Class: casein [CASN]  # Generated from value "casein [CASN]" located at cell 'Levels'!D685.
+   SubClassOf: Proteins [GRP_PROT]
+   Annotations: rdfs:label "casein [CASN]"
+Class: collagen [COLG]  # Generated from value "collagen [COLG]" located at cell 'Levels'!D686.
+   SubClassOf: Proteins [GRP_PROT]
+   Annotations: rdfs:label "collagen [COLG]"
+Class: gluten [GLUTN]  # Generated from value "gluten [GLUTN]" located at cell 'Levels'!D687.
+   SubClassOf: Proteins [GRP_PROT]
+   Annotations: rdfs:label "gluten [GLUTN]"
+Class: protein, animal [PROTAN]  # Generated from value "protein, animal [PROTAN]" located at cell 'Levels'!D688.
+   SubClassOf: Proteins [GRP_PROT]
+   Annotations: rdfs:label "protein, animal [PROTAN]"
+Class: protein, plant [PROTPL]  # Generated from value "protein, plant [PROTPL]" located at cell 'Levels'!D689.
+   SubClassOf: Proteins [GRP_PROT]
+   Annotations: rdfs:label "protein, plant [PROTPL]"
+Class: protein, unknown origin [PROTUNK]  # Generated from value "protein, unknown origin [PROTUNK]" located at cell 'Levels'!D690.
+   SubClassOf: Proteins [GRP_PROT]
+   Annotations: rdfs:label "protein, unknown origin [PROTUNK]"
+Class: capsaicin [CAPSA]  # Generated from value "capsaicin [CAPSA]" located at cell 'Levels'!D733.
+   SubClassOf: Capsaicinoids [GRP_CAPSA]
+   Annotations: rdfs:label "capsaicin [CAPSA]"
+Class: Anthocyanidins and anthocyanins [GRP_ANTCYN]  # Generated from value "Anthocyanidins and anthocyanins [GRP_ANTCYN]" located at cell 'Levels'!D735.
+   SubClassOf: Flavonoids [GRP_FLAV]
+   Annotations: rdfs:label "Anthocyanidins and anthocyanins [GRP_ANTCYN]"
+Class: Flavanols [GRP_FLAVANOL]  # Generated from value "Flavanols [GRP_FLAVANOL]" located at cell 'Levels'!D742.
+   SubClassOf: Flavonoids [GRP_FLAV]
+   Annotations: rdfs:label "Flavanols [GRP_FLAVANOL]"
+Class: Flavanones [GRP_FLAVANE]  # Generated from value "Flavanones [GRP_FLAVANE]" located at cell 'Levels'!D750.
+   SubClassOf: Flavonoids [GRP_FLAV]
+   Annotations: rdfs:label "Flavanones [GRP_FLAVANE]"
+Class: Flavones [GRP_FLAVONE]  # Generated from value "Flavones [GRP_FLAVONE]" located at cell 'Levels'!D756.
+   SubClassOf: Flavonoids [GRP_FLAV]
+   Annotations: rdfs:label "Flavones [GRP_FLAVONE]"
+Class: Flavonols [GRP_FLAVONOL]  # Generated from value "Flavonols [GRP_FLAVONOL]" located at cell 'Levels'!D760.
+   SubClassOf: Flavonoids [GRP_FLAV]
+   Annotations: rdfs:label "Flavonols [GRP_FLAVONOL]"
+Class: coumestrol [COUMEST]  # Generated from value "coumestrol [COUMEST]" located at cell 'Levels'!D766.
+   SubClassOf: Phytoestrogens [GRP_PHYTG]
+   Annotations: rdfs:label "coumestrol [COUMEST]"
+Class: Isoflavonoids [GRP_ISOFLAV]  # Generated from value "Isoflavonoids [GRP_ISOFLAV]" located at cell 'Levels'!D767.
+   SubClassOf: Phytoestrogens [GRP_PHYTG]
+   Annotations: rdfs:label "Isoflavonoids [GRP_ISOFLAV]"
+Class: Lignans [GRP_LIGN]  # Generated from value "Lignans [GRP_LIGN]" located at cell 'Levels'!D774.
+   SubClassOf: Phytoestrogens [GRP_PHYTG]
+   Annotations: rdfs:label "Lignans [GRP_LIGN]"
+Class: Vitamin A and related components [GRP_VITA]  # Generated from value "Vitamin A and related components [GRP_VITA]" located at cell 'Levels'!D798.
+   SubClassOf: Fat soluble vitamins [GRP_VITFAT]
+   Annotations: rdfs:label "Vitamin A and related components [GRP_VITA]"
+Class: Vitamin D components [GRP_VITD]  # Generated from value "Vitamin D components [GRP_VITD]" located at cell 'Levels'!D832.
+   SubClassOf: Fat soluble vitamins [GRP_VITFAT]
+   Annotations: rdfs:label "Vitamin D components [GRP_VITD]"
+Class: Vitamin E components [GRP_VITE]  # Generated from value "Vitamin E components [GRP_VITE]" located at cell 'Levels'!D839.
+   SubClassOf: Fat soluble vitamins [GRP_VITFAT]
+   Annotations: rdfs:label "Vitamin E components [GRP_VITE]"
+Class: Vitamin K components [GRP_VITK]  # Generated from value "Vitamin K components [GRP_VITK]" located at cell 'Levels'!D851.
+   SubClassOf: Fat soluble vitamins [GRP_VITFAT]
+   Annotations: rdfs:label "Vitamin K components [GRP_VITK]"
+Class: biotin [BIOT]  # Generated from value "biotin [BIOT]" located at cell 'Levels'!D867.
+   SubClassOf: Water soluble vitamins [GRP_VITH2O]
+   Annotations: rdfs:label "biotin [BIOT]"
+Class: Folate components [GRP_FOL]  # Generated from value "Folate components [GRP_FOL]" located at cell 'Levels'!D868.
+   SubClassOf: Water soluble vitamins [GRP_VITH2O]
+   Annotations: rdfs:label "Folate components [GRP_FOL]"
+Class: Vitamin B components [GRP_VITB]  # Generated from value "Vitamin B components [GRP_VITB]" located at cell 'Levels'!D881.
+   SubClassOf: Water soluble vitamins [GRP_VITH2O]
+   Annotations: rdfs:label "Vitamin B components [GRP_VITB]"
+Class: Vitamin C components [GRP_VITC]  # Generated from value "Vitamin C components [GRP_VITC]" located at cell 'Levels'!D903.
+   SubClassOf: Water soluble vitamins [GRP_VITH2O]
+   Annotations: rdfs:label "Vitamin C components [GRP_VITC]"
+
+===========================================================================================================
+Date: 2023-06-14 08:26:09
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A+) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+Class: Food additives [GRP_FADD]  # Generated from value "Food additives [GRP_FADD]" located at cell 'Levels'!B172.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Food additives [GRP_FADD]"
+Class: Food properties and measures [GRP_FOOD]  # Generated from value "Food properties and measures [GRP_FOOD]" located at cell 'Levels'!B219.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Food properties and measures [GRP_FOOD]"
+Class: Lipid components [GRP_LIPD]  # Generated from value "Lipid components [GRP_LIPD]" located at cell 'Levels'!B240.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Lipid components [GRP_LIPD]"
+Class: Minerals and inorganic components [GRP_MIN]  # Generated from value "Minerals and inorganic components [GRP_MIN]" located at cell 'Levels'!B574.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Minerals and inorganic components [GRP_MIN]"
+Class: Nitrogen components [GRP_NITR]  # Generated from value "Nitrogen components [GRP_NITR]" located at cell 'Levels'!B622.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Nitrogen components [GRP_NITR]"
+Class: Organic acids [GRP_OA]  # Generated from value "Organic acids [GRP_OA]" located at cell 'Levels'!B691.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Organic acids [GRP_OA]"
+Class: Phenolic components [GRP_PHNL]  # Generated from value "Phenolic components [GRP_PHNL]" located at cell 'Levels'!B731.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Phenolic components [GRP_PHNL]"
+Class: Proximates [GRP_PROX]  # Generated from value "Proximates [GRP_PROX]" located at cell 'Levels'!B779.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Proximates [GRP_PROX]"
+Class: Vitamins [GRP_VIT]  # Generated from value "Vitamins [GRP_VIT]" located at cell 'Levels'!B796.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Vitamins [GRP_VIT]"
+
+# Cell range: (Levels!A2:A+) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# Annotations: rdfs:label @C*
+#     SubClassOf: @B*-1(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+Class: Oligosaccharides [GRP_OLIGO]  # Generated from value "Oligosaccharides [GRP_OLIGO]" located at cell 'Levels'!C49.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Oligosaccharides [GRP_OLIGO]"
+Class: Polysaccharide analogues [GRP_PSAN]  # Generated from value "Polysaccharide analogues [GRP_PSAN]" located at cell 'Levels'!C92.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Polysaccharide analogues [GRP_PSAN]"
+Class: Polysaccharides [GRP_PSAC]  # Generated from value "Polysaccharides [GRP_PSAC]" located at cell 'Levels'!C95.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Polysaccharides [GRP_PSAC]"
+Class: Sugar alcohols [GRP_SUGOH]  # Generated from value "Sugar alcohols [GRP_SUGOH]" located at cell 'Levels'!C131.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Sugar alcohols [GRP_SUGOH]"
+Class: Sugars [GRP_SUGAR]  # Generated from value "Sugars [GRP_SUGAR]" located at cell 'Levels'!C147.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Sugars [GRP_SUGAR]"
+Class: probiotics [PROBIO]  # Generated from value "probiotics [PROBIO]" located at cell 'Levels'!C173.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "probiotics [PROBIO]"
+Class: benzoic acid [BENAC]  # Generated from value "benzoic acid [BENAC]" located at cell 'Levels'!C182.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "benzoic acid [BENAC]"
+Class: sorbic acid [SORAC]  # Generated from value "sorbic acid [SORAC]" located at cell 'Levels'!C183.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "sorbic acid [SORAC]"
+Class: sweteners [SWEETNR]  # Generated from value "sweteners [SWEETNR]" located at cell 'Levels'!C184.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "sweteners [SWEETNR]"
+Class: chemical score [CHEMSC]  # Generated from value "chemical score [CHEMSC]" located at cell 'Levels'!C220.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "chemical score [CHEMSC]"
+Class: density/specific gravity [DEN]  # Generated from value "density/specific gravity [DEN]" located at cell 'Levels'!C221.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "density/specific gravity [DEN]"
+Class: edible portion [EDIBLE]  # Generated from value "edible portion [EDIBLE]" located at cell 'Levels'!C222.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "edible portion [EDIBLE]"
+Class: fatty acid conversion factor [FACF]  # Generated from value "fatty acid conversion factor [FACF]" located at cell 'Levels'!C223.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "fatty acid conversion factor [FACF]"
+Class: nitrogen conversion factor [NCF]  # Generated from value "nitrogen conversion factor [NCF]" located at cell 'Levels'!C224.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "nitrogen conversion factor [NCF]"
+Class: pH [PH]  # Generated from value "pH [PH]" located at cell 'Levels'!C225.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "pH [PH]"
+Class: solids, total [SOLID]  # Generated from value "solids, total [SOLID]" located at cell 'Levels'!C226.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "solids, total [SOLID]"
+Class: usual portion [PORTION]  # Generated from value "usual portion [PORTION]" located at cell 'Levels'!C227.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "usual portion [PORTION]"
+Class: waste [WASTE]  # Generated from value "waste [WASTE]" located at cell 'Levels'!C228.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "waste [WASTE]"
+Class: shape [SHAPE]  # Generated from value "shape [SHAPE]" located at cell 'Levels'!C229.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "shape [SHAPE]"
+Class: taste [TASTE]  # Generated from value "taste [TASTE]" located at cell 'Levels'!C230.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "taste [TASTE]"
+Class: color [COLOR]  # Generated from value "color [COLOR]" located at cell 'Levels'!C231.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "color [COLOR]"
+Class: consistency [CONSISTENCY]  # Generated from value "consistency [CONSISTENCY]" located at cell 'Levels'!C232.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "consistency [CONSISTENCY]"
+Class: seasonal quality [SQ]  # Generated from value "seasonal quality [SQ]" located at cell 'Levels'!C233.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "seasonal quality [SQ]"
+Class: carbon dioxide equivalent [CO2E]  # Generated from value "carbon dioxide equivalent [CO2E]" located at cell 'Levels'!C234.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "carbon dioxide equivalent [CO2E]"
+Class: glycemic index [GI]  # Generated from value "glycemic index [GI]" located at cell 'Levels'!C235.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "glycemic index [GI]"
+Class: glycemic load [GL]  # Generated from value "glycemic load [GL]" located at cell 'Levels'!C236.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "glycemic load [GL]"
+Class: hydrophilic ORAC [H-ORAC]  # Generated from value "hydrophilic ORAC [H-ORAC]" located at cell 'Levels'!C237.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "hydrophilic ORAC [H-ORAC]"
+Class: lipophilic ORAC [L-ORAC]  # Generated from value "lipophilic ORAC [L-ORAC]" located at cell 'Levels'!C238.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "lipophilic ORAC [L-ORAC]"
+Class: oxygen radical absorbance capacity [TOTAL-ORAC]  # Generated from value "oxygen radical absorbance capacity [TOTAL-ORAC]" located at cell 'Levels'!C239.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "oxygen radical absorbance capacity [TOTAL-ORAC]"
+Class: Carotenoids [GRP_CART]  # Generated from value "Carotenoids [GRP_CART]" located at cell 'Levels'!C241.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Carotenoids [GRP_CART]"
+Class: Fats [GRP_FAT]  # Generated from value "Fats [GRP_FAT]" located at cell 'Levels'!C258.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Fats [GRP_FAT]"
+Class: Fatty acids [GRP_FA]  # Generated from value "Fatty acids [GRP_FA]" located at cell 'Levels'!C271.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Fatty acids [GRP_FA]"
+Class: glycerol [GLYRL]  # Generated from value "glycerol [GLYRL]" located at cell 'Levels'!C538.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "glycerol [GLYRL]"
+Class: Phospho- and glycolipids [GRP_PGLIP]  # Generated from value "Phospho- and glycolipids [GRP_PGLIP]" located at cell 'Levels'!C539.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Phospho- and glycolipids [GRP_PGLIP]"
+Class: Retinoids [GRP_RET]  # Generated from value "Retinoids [GRP_RET]" located at cell 'Levels'!C545.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Retinoids [GRP_RET]"
+Class: Sterols [GRP_STERL]  # Generated from value "Sterols [GRP_STERL]" located at cell 'Levels'!C554.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Sterols [GRP_STERL]"
+Class: carbon dioxide, free [CO2F]  # Generated from value "carbon dioxide, free [CO2F]" located at cell 'Levels'!C575.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "carbon dioxide, free [CO2F]"
+Class: Macroelements [GRP_MINMAC]  # Generated from value "Macroelements [GRP_MINMAC]" located at cell 'Levels'!C576.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "Macroelements [GRP_MINMAC]"
+Class: salt [NACL]  # Generated from value "salt [NACL]" located at cell 'Levels'!C589.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "salt [NACL]"
+Class: salt, added [NACLAD]  # Generated from value "salt, added [NACLAD]" located at cell 'Levels'!C590.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "salt, added [NACLAD]"
+Class: Trace elements [GRP_MINTR]  # Generated from value "Trace elements [GRP_MINTR]" located at cell 'Levels'!C591.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "Trace elements [GRP_MINTR]"
+Class: Amines and related components [GRP_AM]  # Generated from value "Amines and related components [GRP_AM]" located at cell 'Levels'!C623.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Amines and related components [GRP_AM]"
+Class: Amino acids [GRP_AA]  # Generated from value "Amino acids [GRP_AA]" located at cell 'Levels'!C636.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Amino acids [GRP_AA]"
+Class: ammonia [AMMON]  # Generated from value "ammonia [AMMON]" located at cell 'Levels'!C670.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "ammonia [AMMON]"
+Class: nitrates [NITRA]  # Generated from value "nitrates [NITRA]" located at cell 'Levels'!C671.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrates [NITRA]"
+Class: nitrites [NITRI]  # Generated from value "nitrites [NITRI]" located at cell 'Levels'!C672.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrites [NITRI]"
+Class: Nitrogen heterocycle components [GRP_NHET]  # Generated from value "Nitrogen heterocycle components [GRP_NHET]" located at cell 'Levels'!C673.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Nitrogen heterocycle components [GRP_NHET]"
+Class: nitrogen, amino acid [NAA]  # Generated from value "nitrogen, amino acid [NAA]" located at cell 'Levels'!C680.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrogen, amino acid [NAA]"
+Class: nitrogen, non protein [NNP]  # Generated from value "nitrogen, non protein [NNP]" located at cell 'Levels'!C681.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrogen, non protein [NNP]"
+Class: nitrosamines, total [NITRN]  # Generated from value "nitrosamines, total [NITRN]" located at cell 'Levels'!C682.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrosamines, total [NITRN]"
+Class: Proteins [GRP_PROT]  # Generated from value "Proteins [GRP_PROT]" located at cell 'Levels'!C683.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Proteins [GRP_PROT]"
+Class: acetic acid [ACEAC]  # Generated from value "acetic acid [ACEAC]" located at cell 'Levels'!C692.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "acetic acid [ACEAC]"
+Class: aconitic acid [ACONAC]  # Generated from value "aconitic acid [ACONAC]" located at cell 'Levels'!C693.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "aconitic acid [ACONAC]"
+Class: adipic acid [ADIAC]  # Generated from value "adipic acid [ADIAC]" located at cell 'Levels'!C694.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "adipic acid [ADIAC]"
+Class: alpha-ketoglutaric acid [GLUAKAC]  # Generated from value "alpha-ketoglutaric acid [GLUAKAC]" located at cell 'Levels'!C695.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "alpha-ketoglutaric acid [GLUAKAC]"
+Class: benzoic acid [BENAC]  # Generated from value "benzoic acid [BENAC]" located at cell 'Levels'!C696.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "benzoic acid [BENAC]"
+Class: caffeic acid [CAFAC]  # Generated from value "caffeic acid [CAFAC]" located at cell 'Levels'!C697.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "caffeic acid [CAFAC]"
+Class: chlorogenic acid [CHLRAC]  # Generated from value "chlorogenic acid [CHLRAC]" located at cell 'Levels'!C698.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "chlorogenic acid [CHLRAC]"
+Class: citric acid [CITAC]  # Generated from value "citric acid [CITAC]" located at cell 'Levels'!C699.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "citric acid [CITAC]"
+Class: diketogulonic acid [GULDKAC]  # Generated from value "diketogulonic acid [GULDKAC]" located at cell 'Levels'!C700.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "diketogulonic acid [GULDKAC]"
+Class: D-lactic acid [LACACD]  # Generated from value "D-lactic acid [LACACD]" located at cell 'Levels'!C701.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "D-lactic acid [LACACD]"
+Class: ferulic acid [FERAC]  # Generated from value "ferulic acid [FERAC]" located at cell 'Levels'!C702.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "ferulic acid [FERAC]"
+Class: formic acid [FORAC]  # Generated from value "formic acid [FORAC]" located at cell 'Levels'!C703.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "formic acid [FORAC]"
+Class: fumaric acid [FUMAC]  # Generated from value "fumaric acid [FUMAC]" located at cell 'Levels'!C704.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "fumaric acid [FUMAC]"
+Class: galacturonic acid [GALAAC]  # Generated from value "galacturonic acid [GALAAC]" located at cell 'Levels'!C705.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "galacturonic acid [GALAAC]"
+Class: gallic acid [GALLAC]  # Generated from value "gallic acid [GALLAC]" located at cell 'Levels'!C706.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "gallic acid [GALLAC]"
+Class: gluconic acid [GLUCAC]  # Generated from value "gluconic acid [GLUCAC]" located at cell 'Levels'!C707.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "gluconic acid [GLUCAC]"
+Class: glycolic acid [GLYCLAC]  # Generated from value "glycolic acid [GLYCLAC]" located at cell 'Levels'!C708.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "glycolic acid [GLYCLAC]"
+Class: glyoxalic acid [GLYOXAC]  # Generated from value "glyoxalic acid [GLYOXAC]" located at cell 'Levels'!C709.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "glyoxalic acid [GLYOXAC]"
+Class: isocitric acid [ISOCAC]  # Generated from value "isocitric acid [ISOCAC]" located at cell 'Levels'!C710.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "isocitric acid [ISOCAC]"
+Class: lactic acid [LACAC]  # Generated from value "lactic acid [LACAC]" located at cell 'Levels'!C711.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "lactic acid [LACAC]"
+Class: L-lactic acid [LACACL]  # Generated from value "L-lactic acid [LACACL]" located at cell 'Levels'!C712.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "L-lactic acid [LACACL]"
+Class: malic acid [MALAC]  # Generated from value "malic acid [MALAC]" located at cell 'Levels'!C713.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "malic acid [MALAC]"
+Class: malonic acid [MALONAC]  # Generated from value "malonic acid [MALONAC]" located at cell 'Levels'!C714.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "malonic acid [MALONAC]"
+Class: organic acids, total [OA]  # Generated from value "organic acids, total [OA]" located at cell 'Levels'!C715.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "organic acids, total [OA]"
+Class: oxalic acid [OXALAC]  # Generated from value "oxalic acid [OXALAC]" located at cell 'Levels'!C716.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "oxalic acid [OXALAC]"
+Class: oxaloacetic acid [OXACAC]  # Generated from value "oxaloacetic acid [OXACAC]" located at cell 'Levels'!C717.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "oxaloacetic acid [OXACAC]"
+Class: para-hydroxybenzoic acid [PARHBAC]  # Generated from value "para-hydroxybenzoic acid [PARHBAC]" located at cell 'Levels'!C718.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "para-hydroxybenzoic acid [PARHBAC]"
+Class: phytic acid [PHYTAC]  # Generated from value "phytic acid [PHYTAC]" located at cell 'Levels'!C719.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "phytic acid [PHYTAC]"
+Class: pimelic acid [PIMAC]  # Generated from value "pimelic acid [PIMAC]" located at cell 'Levels'!C720.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pimelic acid [PIMAC]"
+Class: propionic acid [PROPAC]  # Generated from value "propionic acid [PROPAC]" located at cell 'Levels'!C721.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "propionic acid [PROPAC]"
+Class: pyroglutamic acid [PYROGAC]  # Generated from value "pyroglutamic acid [PYROGAC]" located at cell 'Levels'!C722.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pyroglutamic acid [PYROGAC]"
+Class: pyruvic acid [PYRAC]  # Generated from value "pyruvic acid [PYRAC]" located at cell 'Levels'!C723.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pyruvic acid [PYRAC]"
+Class: quinic acid [QUINAC]  # Generated from value "quinic acid [QUINAC]" located at cell 'Levels'!C724.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "quinic acid [QUINAC]"
+Class: quinolinic acid [QUINLAC]  # Generated from value "quinolinic acid [QUINLAC]" located at cell 'Levels'!C725.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "quinolinic acid [QUINLAC]"
+Class: salicylic acid [SALAC]  # Generated from value "salicylic acid [SALAC]" located at cell 'Levels'!C726.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "salicylic acid [SALAC]"
+Class: shikimic acid [SHIKAC]  # Generated from value "shikimic acid [SHIKAC]" located at cell 'Levels'!C727.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "shikimic acid [SHIKAC]"
+Class: sorbic acid [SORAC]  # Generated from value "sorbic acid [SORAC]" located at cell 'Levels'!C728.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "sorbic acid [SORAC]"
+Class: succinic acid [SUCAC]  # Generated from value "succinic acid [SUCAC]" located at cell 'Levels'!C729.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "succinic acid [SUCAC]"
+Class: tartaric acid [TARAC]  # Generated from value "tartaric acid [TARAC]" located at cell 'Levels'!C730.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "tartaric acid [TARAC]"
+Class: Capsaicinoids [GRP_CAPSA]  # Generated from value "Capsaicinoids [GRP_CAPSA]" located at cell 'Levels'!C732.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Capsaicinoids [GRP_CAPSA]"
+Class: Flavonoids [GRP_FLAV]  # Generated from value "Flavonoids [GRP_FLAV]" located at cell 'Levels'!C734.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Flavonoids [GRP_FLAV]"
+Class: Phytoestrogens [GRP_PHYTG]  # Generated from value "Phytoestrogens [GRP_PHYTG]" located at cell 'Levels'!C765.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Phytoestrogens [GRP_PHYTG]"
+Class: tannin [TANNIN]  # Generated from value "tannin [TANNIN]" located at cell 'Levels'!C778.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "tannin [TANNIN]"
+Class: alcohol [ALC]  # Generated from value "alcohol [ALC]" located at cell 'Levels'!C780.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "alcohol [ALC]"
+Class: ash [ASH]  # Generated from value "ash [ASH]" located at cell 'Levels'!C781.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "ash [ASH]"
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C782.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C783.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: dry matter [DRYMAT]  # Generated from value "dry matter [DRYMAT]" located at cell 'Levels'!C784.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "dry matter [DRYMAT]"
+Class: energy, gross [ENERA]  # Generated from value "energy, gross [ENERA]" located at cell 'Levels'!C785.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "energy, gross [ENERA]"
+Class: energy, total metabolisable [ENERC]  # Generated from value "energy, total metabolisable [ENERC]" located at cell 'Levels'!C786.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "energy, total metabolisable [ENERC]"
+Class: fat, total [FAT]  # Generated from value "fat, total [FAT]" located at cell 'Levels'!C787.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "fat, total [FAT]"
+Class: fibre, total dietary [FIBT]  # Generated from value "fibre, total dietary [FIBT]" located at cell 'Levels'!C788.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "fibre, total dietary [FIBT]"
+Class: nitrogen, total [NT]  # Generated from value "nitrogen, total [NT]" located at cell 'Levels'!C789.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "nitrogen, total [NT]"
+Class: organic acids, total [OA]  # Generated from value "organic acids, total [OA]" located at cell 'Levels'!C790.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "organic acids, total [OA]"
+Class: polyols, total [POLYL]  # Generated from value "polyols, total [POLYL]" located at cell 'Levels'!C791.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "polyols, total [POLYL]"
+Class: protein, total [PROT]  # Generated from value "protein, total [PROT]" located at cell 'Levels'!C792.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "protein, total [PROT]"
+Class: sugar, added [SUGAD]  # Generated from value "sugar, added [SUGAD]" located at cell 'Levels'!C793.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "sugar, added [SUGAD]"
+Class: sugars, total [SUGAR]  # Generated from value "sugars, total [SUGAR]" located at cell 'Levels'!C794.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "sugars, total [SUGAR]"
+Class: water [WATER]  # Generated from value "water [WATER]" located at cell 'Levels'!C795.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "water [WATER]"
+Class: Fat soluble vitamins [GRP_VITFAT]  # Generated from value "Fat soluble vitamins [GRP_VITFAT]" located at cell 'Levels'!C797.
+   SubClassOf: Vitamins [GRP_VIT]
+   Annotations: rdfs:label "Fat soluble vitamins [GRP_VITFAT]"
+Class: Water soluble vitamins [GRP_VITH2O]  # Generated from value "Water soluble vitamins [GRP_VITH2O]" located at cell 'Levels'!C866.
+   SubClassOf: Vitamins [GRP_VIT]
+   Annotations: rdfs:label "Water soluble vitamins [GRP_VITH2O]"
+
+===========================================================================================================
+Date: 2023-06-14 08:26:24
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A+) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+Class: Food additives [GRP_FADD]  # Generated from value "Food additives [GRP_FADD]" located at cell 'Levels'!B172.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Food additives [GRP_FADD]"
+Class: Food properties and measures [GRP_FOOD]  # Generated from value "Food properties and measures [GRP_FOOD]" located at cell 'Levels'!B219.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Food properties and measures [GRP_FOOD]"
+Class: Lipid components [GRP_LIPD]  # Generated from value "Lipid components [GRP_LIPD]" located at cell 'Levels'!B240.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Lipid components [GRP_LIPD]"
+Class: Minerals and inorganic components [GRP_MIN]  # Generated from value "Minerals and inorganic components [GRP_MIN]" located at cell 'Levels'!B574.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Minerals and inorganic components [GRP_MIN]"
+Class: Nitrogen components [GRP_NITR]  # Generated from value "Nitrogen components [GRP_NITR]" located at cell 'Levels'!B622.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Nitrogen components [GRP_NITR]"
+Class: Organic acids [GRP_OA]  # Generated from value "Organic acids [GRP_OA]" located at cell 'Levels'!B691.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Organic acids [GRP_OA]"
+Class: Phenolic components [GRP_PHNL]  # Generated from value "Phenolic components [GRP_PHNL]" located at cell 'Levels'!B731.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Phenolic components [GRP_PHNL]"
+Class: Proximates [GRP_PROX]  # Generated from value "Proximates [GRP_PROX]" located at cell 'Levels'!B779.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Proximates [GRP_PROX]"
+Class: Vitamins [GRP_VIT]  # Generated from value "Vitamins [GRP_VIT]" located at cell 'Levels'!B796.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Vitamins [GRP_VIT]"
+
+===========================================================================================================
+Date: 2023-06-14 08:26:55
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A+) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+Class: Food additives [GRP_FADD]  # Generated from value "Food additives [GRP_FADD]" located at cell 'Levels'!B172.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Food additives [GRP_FADD]"
+Class: Food properties and measures [GRP_FOOD]  # Generated from value "Food properties and measures [GRP_FOOD]" located at cell 'Levels'!B219.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Food properties and measures [GRP_FOOD]"
+Class: Lipid components [GRP_LIPD]  # Generated from value "Lipid components [GRP_LIPD]" located at cell 'Levels'!B240.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Lipid components [GRP_LIPD]"
+Class: Minerals and inorganic components [GRP_MIN]  # Generated from value "Minerals and inorganic components [GRP_MIN]" located at cell 'Levels'!B574.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Minerals and inorganic components [GRP_MIN]"
+Class: Nitrogen components [GRP_NITR]  # Generated from value "Nitrogen components [GRP_NITR]" located at cell 'Levels'!B622.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Nitrogen components [GRP_NITR]"
+Class: Organic acids [GRP_OA]  # Generated from value "Organic acids [GRP_OA]" located at cell 'Levels'!B691.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Organic acids [GRP_OA]"
+Class: Phenolic components [GRP_PHNL]  # Generated from value "Phenolic components [GRP_PHNL]" located at cell 'Levels'!B731.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Phenolic components [GRP_PHNL]"
+Class: Proximates [GRP_PROX]  # Generated from value "Proximates [GRP_PROX]" located at cell 'Levels'!B779.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Proximates [GRP_PROX]"
+Class: Vitamins [GRP_VIT]  # Generated from value "Vitamins [GRP_VIT]" located at cell 'Levels'!B796.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Vitamins [GRP_VIT]"
+
+# Cell range: (Levels!A2:A+) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# Annotations: rdfs:label @C*
+#     SubClassOf: @B*(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+Class: Oligosaccharides [GRP_OLIGO]  # Generated from value "Oligosaccharides [GRP_OLIGO]" located at cell 'Levels'!C49.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Oligosaccharides [GRP_OLIGO]"
+Class: Polysaccharide analogues [GRP_PSAN]  # Generated from value "Polysaccharide analogues [GRP_PSAN]" located at cell 'Levels'!C92.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Polysaccharide analogues [GRP_PSAN]"
+Class: Polysaccharides [GRP_PSAC]  # Generated from value "Polysaccharides [GRP_PSAC]" located at cell 'Levels'!C95.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Polysaccharides [GRP_PSAC]"
+Class: Sugar alcohols [GRP_SUGOH]  # Generated from value "Sugar alcohols [GRP_SUGOH]" located at cell 'Levels'!C131.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Sugar alcohols [GRP_SUGOH]"
+Class: Sugars [GRP_SUGAR]  # Generated from value "Sugars [GRP_SUGAR]" located at cell 'Levels'!C147.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Sugars [GRP_SUGAR]"
+Class: probiotics [PROBIO]  # Generated from value "probiotics [PROBIO]" located at cell 'Levels'!C173.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "probiotics [PROBIO]"
+Class: benzoic acid [BENAC]  # Generated from value "benzoic acid [BENAC]" located at cell 'Levels'!C182.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "benzoic acid [BENAC]"
+Class: sorbic acid [SORAC]  # Generated from value "sorbic acid [SORAC]" located at cell 'Levels'!C183.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "sorbic acid [SORAC]"
+Class: sweteners [SWEETNR]  # Generated from value "sweteners [SWEETNR]" located at cell 'Levels'!C184.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "sweteners [SWEETNR]"
+Class: chemical score [CHEMSC]  # Generated from value "chemical score [CHEMSC]" located at cell 'Levels'!C220.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "chemical score [CHEMSC]"
+Class: density/specific gravity [DEN]  # Generated from value "density/specific gravity [DEN]" located at cell 'Levels'!C221.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "density/specific gravity [DEN]"
+Class: edible portion [EDIBLE]  # Generated from value "edible portion [EDIBLE]" located at cell 'Levels'!C222.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "edible portion [EDIBLE]"
+Class: fatty acid conversion factor [FACF]  # Generated from value "fatty acid conversion factor [FACF]" located at cell 'Levels'!C223.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "fatty acid conversion factor [FACF]"
+Class: nitrogen conversion factor [NCF]  # Generated from value "nitrogen conversion factor [NCF]" located at cell 'Levels'!C224.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "nitrogen conversion factor [NCF]"
+Class: pH [PH]  # Generated from value "pH [PH]" located at cell 'Levels'!C225.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "pH [PH]"
+Class: solids, total [SOLID]  # Generated from value "solids, total [SOLID]" located at cell 'Levels'!C226.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "solids, total [SOLID]"
+Class: usual portion [PORTION]  # Generated from value "usual portion [PORTION]" located at cell 'Levels'!C227.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "usual portion [PORTION]"
+Class: waste [WASTE]  # Generated from value "waste [WASTE]" located at cell 'Levels'!C228.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "waste [WASTE]"
+Class: shape [SHAPE]  # Generated from value "shape [SHAPE]" located at cell 'Levels'!C229.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "shape [SHAPE]"
+Class: taste [TASTE]  # Generated from value "taste [TASTE]" located at cell 'Levels'!C230.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "taste [TASTE]"
+Class: color [COLOR]  # Generated from value "color [COLOR]" located at cell 'Levels'!C231.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "color [COLOR]"
+Class: consistency [CONSISTENCY]  # Generated from value "consistency [CONSISTENCY]" located at cell 'Levels'!C232.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "consistency [CONSISTENCY]"
+Class: seasonal quality [SQ]  # Generated from value "seasonal quality [SQ]" located at cell 'Levels'!C233.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "seasonal quality [SQ]"
+Class: carbon dioxide equivalent [CO2E]  # Generated from value "carbon dioxide equivalent [CO2E]" located at cell 'Levels'!C234.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "carbon dioxide equivalent [CO2E]"
+Class: glycemic index [GI]  # Generated from value "glycemic index [GI]" located at cell 'Levels'!C235.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "glycemic index [GI]"
+Class: glycemic load [GL]  # Generated from value "glycemic load [GL]" located at cell 'Levels'!C236.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "glycemic load [GL]"
+Class: hydrophilic ORAC [H-ORAC]  # Generated from value "hydrophilic ORAC [H-ORAC]" located at cell 'Levels'!C237.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "hydrophilic ORAC [H-ORAC]"
+Class: lipophilic ORAC [L-ORAC]  # Generated from value "lipophilic ORAC [L-ORAC]" located at cell 'Levels'!C238.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "lipophilic ORAC [L-ORAC]"
+Class: oxygen radical absorbance capacity [TOTAL-ORAC]  # Generated from value "oxygen radical absorbance capacity [TOTAL-ORAC]" located at cell 'Levels'!C239.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "oxygen radical absorbance capacity [TOTAL-ORAC]"
+Class: Carotenoids [GRP_CART]  # Generated from value "Carotenoids [GRP_CART]" located at cell 'Levels'!C241.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Carotenoids [GRP_CART]"
+Class: Fats [GRP_FAT]  # Generated from value "Fats [GRP_FAT]" located at cell 'Levels'!C258.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Fats [GRP_FAT]"
+Class: Fatty acids [GRP_FA]  # Generated from value "Fatty acids [GRP_FA]" located at cell 'Levels'!C271.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Fatty acids [GRP_FA]"
+Class: glycerol [GLYRL]  # Generated from value "glycerol [GLYRL]" located at cell 'Levels'!C538.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "glycerol [GLYRL]"
+Class: Phospho- and glycolipids [GRP_PGLIP]  # Generated from value "Phospho- and glycolipids [GRP_PGLIP]" located at cell 'Levels'!C539.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Phospho- and glycolipids [GRP_PGLIP]"
+Class: Retinoids [GRP_RET]  # Generated from value "Retinoids [GRP_RET]" located at cell 'Levels'!C545.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Retinoids [GRP_RET]"
+Class: Sterols [GRP_STERL]  # Generated from value "Sterols [GRP_STERL]" located at cell 'Levels'!C554.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Sterols [GRP_STERL]"
+Class: carbon dioxide, free [CO2F]  # Generated from value "carbon dioxide, free [CO2F]" located at cell 'Levels'!C575.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "carbon dioxide, free [CO2F]"
+Class: Macroelements [GRP_MINMAC]  # Generated from value "Macroelements [GRP_MINMAC]" located at cell 'Levels'!C576.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "Macroelements [GRP_MINMAC]"
+Class: salt [NACL]  # Generated from value "salt [NACL]" located at cell 'Levels'!C589.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "salt [NACL]"
+Class: salt, added [NACLAD]  # Generated from value "salt, added [NACLAD]" located at cell 'Levels'!C590.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "salt, added [NACLAD]"
+Class: Trace elements [GRP_MINTR]  # Generated from value "Trace elements [GRP_MINTR]" located at cell 'Levels'!C591.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "Trace elements [GRP_MINTR]"
+Class: Amines and related components [GRP_AM]  # Generated from value "Amines and related components [GRP_AM]" located at cell 'Levels'!C623.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Amines and related components [GRP_AM]"
+Class: Amino acids [GRP_AA]  # Generated from value "Amino acids [GRP_AA]" located at cell 'Levels'!C636.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Amino acids [GRP_AA]"
+Class: ammonia [AMMON]  # Generated from value "ammonia [AMMON]" located at cell 'Levels'!C670.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "ammonia [AMMON]"
+Class: nitrates [NITRA]  # Generated from value "nitrates [NITRA]" located at cell 'Levels'!C671.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrates [NITRA]"
+Class: nitrites [NITRI]  # Generated from value "nitrites [NITRI]" located at cell 'Levels'!C672.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrites [NITRI]"
+Class: Nitrogen heterocycle components [GRP_NHET]  # Generated from value "Nitrogen heterocycle components [GRP_NHET]" located at cell 'Levels'!C673.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Nitrogen heterocycle components [GRP_NHET]"
+Class: nitrogen, amino acid [NAA]  # Generated from value "nitrogen, amino acid [NAA]" located at cell 'Levels'!C680.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrogen, amino acid [NAA]"
+Class: nitrogen, non protein [NNP]  # Generated from value "nitrogen, non protein [NNP]" located at cell 'Levels'!C681.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrogen, non protein [NNP]"
+Class: nitrosamines, total [NITRN]  # Generated from value "nitrosamines, total [NITRN]" located at cell 'Levels'!C682.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrosamines, total [NITRN]"
+Class: Proteins [GRP_PROT]  # Generated from value "Proteins [GRP_PROT]" located at cell 'Levels'!C683.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Proteins [GRP_PROT]"
+Class: acetic acid [ACEAC]  # Generated from value "acetic acid [ACEAC]" located at cell 'Levels'!C692.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "acetic acid [ACEAC]"
+Class: aconitic acid [ACONAC]  # Generated from value "aconitic acid [ACONAC]" located at cell 'Levels'!C693.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "aconitic acid [ACONAC]"
+Class: adipic acid [ADIAC]  # Generated from value "adipic acid [ADIAC]" located at cell 'Levels'!C694.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "adipic acid [ADIAC]"
+Class: alpha-ketoglutaric acid [GLUAKAC]  # Generated from value "alpha-ketoglutaric acid [GLUAKAC]" located at cell 'Levels'!C695.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "alpha-ketoglutaric acid [GLUAKAC]"
+Class: benzoic acid [BENAC]  # Generated from value "benzoic acid [BENAC]" located at cell 'Levels'!C696.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "benzoic acid [BENAC]"
+Class: caffeic acid [CAFAC]  # Generated from value "caffeic acid [CAFAC]" located at cell 'Levels'!C697.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "caffeic acid [CAFAC]"
+Class: chlorogenic acid [CHLRAC]  # Generated from value "chlorogenic acid [CHLRAC]" located at cell 'Levels'!C698.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "chlorogenic acid [CHLRAC]"
+Class: citric acid [CITAC]  # Generated from value "citric acid [CITAC]" located at cell 'Levels'!C699.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "citric acid [CITAC]"
+Class: diketogulonic acid [GULDKAC]  # Generated from value "diketogulonic acid [GULDKAC]" located at cell 'Levels'!C700.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "diketogulonic acid [GULDKAC]"
+Class: D-lactic acid [LACACD]  # Generated from value "D-lactic acid [LACACD]" located at cell 'Levels'!C701.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "D-lactic acid [LACACD]"
+Class: ferulic acid [FERAC]  # Generated from value "ferulic acid [FERAC]" located at cell 'Levels'!C702.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "ferulic acid [FERAC]"
+Class: formic acid [FORAC]  # Generated from value "formic acid [FORAC]" located at cell 'Levels'!C703.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "formic acid [FORAC]"
+Class: fumaric acid [FUMAC]  # Generated from value "fumaric acid [FUMAC]" located at cell 'Levels'!C704.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "fumaric acid [FUMAC]"
+Class: galacturonic acid [GALAAC]  # Generated from value "galacturonic acid [GALAAC]" located at cell 'Levels'!C705.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "galacturonic acid [GALAAC]"
+Class: gallic acid [GALLAC]  # Generated from value "gallic acid [GALLAC]" located at cell 'Levels'!C706.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "gallic acid [GALLAC]"
+Class: gluconic acid [GLUCAC]  # Generated from value "gluconic acid [GLUCAC]" located at cell 'Levels'!C707.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "gluconic acid [GLUCAC]"
+Class: glycolic acid [GLYCLAC]  # Generated from value "glycolic acid [GLYCLAC]" located at cell 'Levels'!C708.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "glycolic acid [GLYCLAC]"
+Class: glyoxalic acid [GLYOXAC]  # Generated from value "glyoxalic acid [GLYOXAC]" located at cell 'Levels'!C709.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "glyoxalic acid [GLYOXAC]"
+Class: isocitric acid [ISOCAC]  # Generated from value "isocitric acid [ISOCAC]" located at cell 'Levels'!C710.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "isocitric acid [ISOCAC]"
+Class: lactic acid [LACAC]  # Generated from value "lactic acid [LACAC]" located at cell 'Levels'!C711.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "lactic acid [LACAC]"
+Class: L-lactic acid [LACACL]  # Generated from value "L-lactic acid [LACACL]" located at cell 'Levels'!C712.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "L-lactic acid [LACACL]"
+Class: malic acid [MALAC]  # Generated from value "malic acid [MALAC]" located at cell 'Levels'!C713.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "malic acid [MALAC]"
+Class: malonic acid [MALONAC]  # Generated from value "malonic acid [MALONAC]" located at cell 'Levels'!C714.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "malonic acid [MALONAC]"
+Class: organic acids, total [OA]  # Generated from value "organic acids, total [OA]" located at cell 'Levels'!C715.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "organic acids, total [OA]"
+Class: oxalic acid [OXALAC]  # Generated from value "oxalic acid [OXALAC]" located at cell 'Levels'!C716.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "oxalic acid [OXALAC]"
+Class: oxaloacetic acid [OXACAC]  # Generated from value "oxaloacetic acid [OXACAC]" located at cell 'Levels'!C717.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "oxaloacetic acid [OXACAC]"
+Class: para-hydroxybenzoic acid [PARHBAC]  # Generated from value "para-hydroxybenzoic acid [PARHBAC]" located at cell 'Levels'!C718.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "para-hydroxybenzoic acid [PARHBAC]"
+Class: phytic acid [PHYTAC]  # Generated from value "phytic acid [PHYTAC]" located at cell 'Levels'!C719.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "phytic acid [PHYTAC]"
+Class: pimelic acid [PIMAC]  # Generated from value "pimelic acid [PIMAC]" located at cell 'Levels'!C720.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pimelic acid [PIMAC]"
+Class: propionic acid [PROPAC]  # Generated from value "propionic acid [PROPAC]" located at cell 'Levels'!C721.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "propionic acid [PROPAC]"
+Class: pyroglutamic acid [PYROGAC]  # Generated from value "pyroglutamic acid [PYROGAC]" located at cell 'Levels'!C722.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pyroglutamic acid [PYROGAC]"
+Class: pyruvic acid [PYRAC]  # Generated from value "pyruvic acid [PYRAC]" located at cell 'Levels'!C723.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pyruvic acid [PYRAC]"
+Class: quinic acid [QUINAC]  # Generated from value "quinic acid [QUINAC]" located at cell 'Levels'!C724.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "quinic acid [QUINAC]"
+Class: quinolinic acid [QUINLAC]  # Generated from value "quinolinic acid [QUINLAC]" located at cell 'Levels'!C725.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "quinolinic acid [QUINLAC]"
+Class: salicylic acid [SALAC]  # Generated from value "salicylic acid [SALAC]" located at cell 'Levels'!C726.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "salicylic acid [SALAC]"
+Class: shikimic acid [SHIKAC]  # Generated from value "shikimic acid [SHIKAC]" located at cell 'Levels'!C727.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "shikimic acid [SHIKAC]"
+Class: sorbic acid [SORAC]  # Generated from value "sorbic acid [SORAC]" located at cell 'Levels'!C728.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "sorbic acid [SORAC]"
+Class: succinic acid [SUCAC]  # Generated from value "succinic acid [SUCAC]" located at cell 'Levels'!C729.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "succinic acid [SUCAC]"
+Class: tartaric acid [TARAC]  # Generated from value "tartaric acid [TARAC]" located at cell 'Levels'!C730.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "tartaric acid [TARAC]"
+Class: Capsaicinoids [GRP_CAPSA]  # Generated from value "Capsaicinoids [GRP_CAPSA]" located at cell 'Levels'!C732.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Capsaicinoids [GRP_CAPSA]"
+Class: Flavonoids [GRP_FLAV]  # Generated from value "Flavonoids [GRP_FLAV]" located at cell 'Levels'!C734.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Flavonoids [GRP_FLAV]"
+Class: Phytoestrogens [GRP_PHYTG]  # Generated from value "Phytoestrogens [GRP_PHYTG]" located at cell 'Levels'!C765.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Phytoestrogens [GRP_PHYTG]"
+Class: tannin [TANNIN]  # Generated from value "tannin [TANNIN]" located at cell 'Levels'!C778.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "tannin [TANNIN]"
+Class: alcohol [ALC]  # Generated from value "alcohol [ALC]" located at cell 'Levels'!C780.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "alcohol [ALC]"
+Class: ash [ASH]  # Generated from value "ash [ASH]" located at cell 'Levels'!C781.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "ash [ASH]"
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C782.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C783.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: dry matter [DRYMAT]  # Generated from value "dry matter [DRYMAT]" located at cell 'Levels'!C784.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "dry matter [DRYMAT]"
+Class: energy, gross [ENERA]  # Generated from value "energy, gross [ENERA]" located at cell 'Levels'!C785.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "energy, gross [ENERA]"
+Class: energy, total metabolisable [ENERC]  # Generated from value "energy, total metabolisable [ENERC]" located at cell 'Levels'!C786.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "energy, total metabolisable [ENERC]"
+Class: fat, total [FAT]  # Generated from value "fat, total [FAT]" located at cell 'Levels'!C787.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "fat, total [FAT]"
+Class: fibre, total dietary [FIBT]  # Generated from value "fibre, total dietary [FIBT]" located at cell 'Levels'!C788.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "fibre, total dietary [FIBT]"
+Class: nitrogen, total [NT]  # Generated from value "nitrogen, total [NT]" located at cell 'Levels'!C789.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "nitrogen, total [NT]"
+Class: organic acids, total [OA]  # Generated from value "organic acids, total [OA]" located at cell 'Levels'!C790.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "organic acids, total [OA]"
+Class: polyols, total [POLYL]  # Generated from value "polyols, total [POLYL]" located at cell 'Levels'!C791.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "polyols, total [POLYL]"
+Class: protein, total [PROT]  # Generated from value "protein, total [PROT]" located at cell 'Levels'!C792.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "protein, total [PROT]"
+Class: sugar, added [SUGAD]  # Generated from value "sugar, added [SUGAD]" located at cell 'Levels'!C793.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "sugar, added [SUGAD]"
+Class: sugars, total [SUGAR]  # Generated from value "sugars, total [SUGAR]" located at cell 'Levels'!C794.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "sugars, total [SUGAR]"
+Class: water [WATER]  # Generated from value "water [WATER]" located at cell 'Levels'!C795.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "water [WATER]"
+Class: Fat soluble vitamins [GRP_VITFAT]  # Generated from value "Fat soluble vitamins [GRP_VITFAT]" located at cell 'Levels'!C797.
+   SubClassOf: Vitamins [GRP_VIT]
+   Annotations: rdfs:label "Fat soluble vitamins [GRP_VITFAT]"
+Class: Water soluble vitamins [GRP_VITH2O]  # Generated from value "Water soluble vitamins [GRP_VITH2O]" located at cell 'Levels'!C866.
+   SubClassOf: Vitamins [GRP_VIT]
+   Annotations: rdfs:label "Water soluble vitamins [GRP_VITH2O]"
+
+===========================================================================================================
+Date: 2023-06-14 08:29:53
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A6:A+) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# Annotations: rdfs:label @C*
+#     SubClassOf: @B*-1(mm:ShiftUp)
+
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+Class: Oligosaccharides [GRP_OLIGO]  # Generated from value "Oligosaccharides [GRP_OLIGO]" located at cell 'Levels'!C49.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Oligosaccharides [GRP_OLIGO]"
+Class: Polysaccharide analogues [GRP_PSAN]  # Generated from value "Polysaccharide analogues [GRP_PSAN]" located at cell 'Levels'!C92.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Polysaccharide analogues [GRP_PSAN]"
+Class: Polysaccharides [GRP_PSAC]  # Generated from value "Polysaccharides [GRP_PSAC]" located at cell 'Levels'!C95.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Polysaccharides [GRP_PSAC]"
+Class: Sugar alcohols [GRP_SUGOH]  # Generated from value "Sugar alcohols [GRP_SUGOH]" located at cell 'Levels'!C131.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Sugar alcohols [GRP_SUGOH]"
+Class: Sugars [GRP_SUGAR]  # Generated from value "Sugars [GRP_SUGAR]" located at cell 'Levels'!C147.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Sugars [GRP_SUGAR]"
+Class: probiotics [PROBIO]  # Generated from value "probiotics [PROBIO]" located at cell 'Levels'!C173.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "probiotics [PROBIO]"
+Class: benzoic acid [BENAC]  # Generated from value "benzoic acid [BENAC]" located at cell 'Levels'!C182.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "benzoic acid [BENAC]"
+Class: sorbic acid [SORAC]  # Generated from value "sorbic acid [SORAC]" located at cell 'Levels'!C183.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "sorbic acid [SORAC]"
+Class: sweteners [SWEETNR]  # Generated from value "sweteners [SWEETNR]" located at cell 'Levels'!C184.
+   SubClassOf: Food additives [GRP_FADD]
+   Annotations: rdfs:label "sweteners [SWEETNR]"
+Class: chemical score [CHEMSC]  # Generated from value "chemical score [CHEMSC]" located at cell 'Levels'!C220.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "chemical score [CHEMSC]"
+Class: density/specific gravity [DEN]  # Generated from value "density/specific gravity [DEN]" located at cell 'Levels'!C221.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "density/specific gravity [DEN]"
+Class: edible portion [EDIBLE]  # Generated from value "edible portion [EDIBLE]" located at cell 'Levels'!C222.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "edible portion [EDIBLE]"
+Class: fatty acid conversion factor [FACF]  # Generated from value "fatty acid conversion factor [FACF]" located at cell 'Levels'!C223.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "fatty acid conversion factor [FACF]"
+Class: nitrogen conversion factor [NCF]  # Generated from value "nitrogen conversion factor [NCF]" located at cell 'Levels'!C224.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "nitrogen conversion factor [NCF]"
+Class: pH [PH]  # Generated from value "pH [PH]" located at cell 'Levels'!C225.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "pH [PH]"
+Class: solids, total [SOLID]  # Generated from value "solids, total [SOLID]" located at cell 'Levels'!C226.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "solids, total [SOLID]"
+Class: usual portion [PORTION]  # Generated from value "usual portion [PORTION]" located at cell 'Levels'!C227.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "usual portion [PORTION]"
+Class: waste [WASTE]  # Generated from value "waste [WASTE]" located at cell 'Levels'!C228.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "waste [WASTE]"
+Class: shape [SHAPE]  # Generated from value "shape [SHAPE]" located at cell 'Levels'!C229.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "shape [SHAPE]"
+Class: taste [TASTE]  # Generated from value "taste [TASTE]" located at cell 'Levels'!C230.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "taste [TASTE]"
+Class: color [COLOR]  # Generated from value "color [COLOR]" located at cell 'Levels'!C231.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "color [COLOR]"
+Class: consistency [CONSISTENCY]  # Generated from value "consistency [CONSISTENCY]" located at cell 'Levels'!C232.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "consistency [CONSISTENCY]"
+Class: seasonal quality [SQ]  # Generated from value "seasonal quality [SQ]" located at cell 'Levels'!C233.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "seasonal quality [SQ]"
+Class: carbon dioxide equivalent [CO2E]  # Generated from value "carbon dioxide equivalent [CO2E]" located at cell 'Levels'!C234.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "carbon dioxide equivalent [CO2E]"
+Class: glycemic index [GI]  # Generated from value "glycemic index [GI]" located at cell 'Levels'!C235.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "glycemic index [GI]"
+Class: glycemic load [GL]  # Generated from value "glycemic load [GL]" located at cell 'Levels'!C236.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "glycemic load [GL]"
+Class: hydrophilic ORAC [H-ORAC]  # Generated from value "hydrophilic ORAC [H-ORAC]" located at cell 'Levels'!C237.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "hydrophilic ORAC [H-ORAC]"
+Class: lipophilic ORAC [L-ORAC]  # Generated from value "lipophilic ORAC [L-ORAC]" located at cell 'Levels'!C238.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "lipophilic ORAC [L-ORAC]"
+Class: oxygen radical absorbance capacity [TOTAL-ORAC]  # Generated from value "oxygen radical absorbance capacity [TOTAL-ORAC]" located at cell 'Levels'!C239.
+   SubClassOf: Food properties and measures [GRP_FOOD]
+   Annotations: rdfs:label "oxygen radical absorbance capacity [TOTAL-ORAC]"
+Class: Carotenoids [GRP_CART]  # Generated from value "Carotenoids [GRP_CART]" located at cell 'Levels'!C241.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Carotenoids [GRP_CART]"
+Class: Fats [GRP_FAT]  # Generated from value "Fats [GRP_FAT]" located at cell 'Levels'!C258.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Fats [GRP_FAT]"
+Class: Fatty acids [GRP_FA]  # Generated from value "Fatty acids [GRP_FA]" located at cell 'Levels'!C271.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Fatty acids [GRP_FA]"
+Class: glycerol [GLYRL]  # Generated from value "glycerol [GLYRL]" located at cell 'Levels'!C538.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "glycerol [GLYRL]"
+Class: Phospho- and glycolipids [GRP_PGLIP]  # Generated from value "Phospho- and glycolipids [GRP_PGLIP]" located at cell 'Levels'!C539.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Phospho- and glycolipids [GRP_PGLIP]"
+Class: Retinoids [GRP_RET]  # Generated from value "Retinoids [GRP_RET]" located at cell 'Levels'!C545.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Retinoids [GRP_RET]"
+Class: Sterols [GRP_STERL]  # Generated from value "Sterols [GRP_STERL]" located at cell 'Levels'!C554.
+   SubClassOf: Lipid components [GRP_LIPD]
+   Annotations: rdfs:label "Sterols [GRP_STERL]"
+Class: carbon dioxide, free [CO2F]  # Generated from value "carbon dioxide, free [CO2F]" located at cell 'Levels'!C575.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "carbon dioxide, free [CO2F]"
+Class: Macroelements [GRP_MINMAC]  # Generated from value "Macroelements [GRP_MINMAC]" located at cell 'Levels'!C576.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "Macroelements [GRP_MINMAC]"
+Class: salt [NACL]  # Generated from value "salt [NACL]" located at cell 'Levels'!C589.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "salt [NACL]"
+Class: salt, added [NACLAD]  # Generated from value "salt, added [NACLAD]" located at cell 'Levels'!C590.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "salt, added [NACLAD]"
+Class: Trace elements [GRP_MINTR]  # Generated from value "Trace elements [GRP_MINTR]" located at cell 'Levels'!C591.
+   SubClassOf: Minerals and inorganic components [GRP_MIN]
+   Annotations: rdfs:label "Trace elements [GRP_MINTR]"
+Class: Amines and related components [GRP_AM]  # Generated from value "Amines and related components [GRP_AM]" located at cell 'Levels'!C623.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Amines and related components [GRP_AM]"
+Class: Amino acids [GRP_AA]  # Generated from value "Amino acids [GRP_AA]" located at cell 'Levels'!C636.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Amino acids [GRP_AA]"
+Class: ammonia [AMMON]  # Generated from value "ammonia [AMMON]" located at cell 'Levels'!C670.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "ammonia [AMMON]"
+Class: nitrates [NITRA]  # Generated from value "nitrates [NITRA]" located at cell 'Levels'!C671.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrates [NITRA]"
+Class: nitrites [NITRI]  # Generated from value "nitrites [NITRI]" located at cell 'Levels'!C672.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrites [NITRI]"
+Class: Nitrogen heterocycle components [GRP_NHET]  # Generated from value "Nitrogen heterocycle components [GRP_NHET]" located at cell 'Levels'!C673.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Nitrogen heterocycle components [GRP_NHET]"
+Class: nitrogen, amino acid [NAA]  # Generated from value "nitrogen, amino acid [NAA]" located at cell 'Levels'!C680.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrogen, amino acid [NAA]"
+Class: nitrogen, non protein [NNP]  # Generated from value "nitrogen, non protein [NNP]" located at cell 'Levels'!C681.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrogen, non protein [NNP]"
+Class: nitrosamines, total [NITRN]  # Generated from value "nitrosamines, total [NITRN]" located at cell 'Levels'!C682.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "nitrosamines, total [NITRN]"
+Class: Proteins [GRP_PROT]  # Generated from value "Proteins [GRP_PROT]" located at cell 'Levels'!C683.
+   SubClassOf: Nitrogen components [GRP_NITR]
+   Annotations: rdfs:label "Proteins [GRP_PROT]"
+Class: acetic acid [ACEAC]  # Generated from value "acetic acid [ACEAC]" located at cell 'Levels'!C692.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "acetic acid [ACEAC]"
+Class: aconitic acid [ACONAC]  # Generated from value "aconitic acid [ACONAC]" located at cell 'Levels'!C693.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "aconitic acid [ACONAC]"
+Class: adipic acid [ADIAC]  # Generated from value "adipic acid [ADIAC]" located at cell 'Levels'!C694.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "adipic acid [ADIAC]"
+Class: alpha-ketoglutaric acid [GLUAKAC]  # Generated from value "alpha-ketoglutaric acid [GLUAKAC]" located at cell 'Levels'!C695.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "alpha-ketoglutaric acid [GLUAKAC]"
+Class: benzoic acid [BENAC]  # Generated from value "benzoic acid [BENAC]" located at cell 'Levels'!C696.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "benzoic acid [BENAC]"
+Class: caffeic acid [CAFAC]  # Generated from value "caffeic acid [CAFAC]" located at cell 'Levels'!C697.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "caffeic acid [CAFAC]"
+Class: chlorogenic acid [CHLRAC]  # Generated from value "chlorogenic acid [CHLRAC]" located at cell 'Levels'!C698.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "chlorogenic acid [CHLRAC]"
+Class: citric acid [CITAC]  # Generated from value "citric acid [CITAC]" located at cell 'Levels'!C699.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "citric acid [CITAC]"
+Class: diketogulonic acid [GULDKAC]  # Generated from value "diketogulonic acid [GULDKAC]" located at cell 'Levels'!C700.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "diketogulonic acid [GULDKAC]"
+Class: D-lactic acid [LACACD]  # Generated from value "D-lactic acid [LACACD]" located at cell 'Levels'!C701.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "D-lactic acid [LACACD]"
+Class: ferulic acid [FERAC]  # Generated from value "ferulic acid [FERAC]" located at cell 'Levels'!C702.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "ferulic acid [FERAC]"
+Class: formic acid [FORAC]  # Generated from value "formic acid [FORAC]" located at cell 'Levels'!C703.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "formic acid [FORAC]"
+Class: fumaric acid [FUMAC]  # Generated from value "fumaric acid [FUMAC]" located at cell 'Levels'!C704.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "fumaric acid [FUMAC]"
+Class: galacturonic acid [GALAAC]  # Generated from value "galacturonic acid [GALAAC]" located at cell 'Levels'!C705.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "galacturonic acid [GALAAC]"
+Class: gallic acid [GALLAC]  # Generated from value "gallic acid [GALLAC]" located at cell 'Levels'!C706.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "gallic acid [GALLAC]"
+Class: gluconic acid [GLUCAC]  # Generated from value "gluconic acid [GLUCAC]" located at cell 'Levels'!C707.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "gluconic acid [GLUCAC]"
+Class: glycolic acid [GLYCLAC]  # Generated from value "glycolic acid [GLYCLAC]" located at cell 'Levels'!C708.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "glycolic acid [GLYCLAC]"
+Class: glyoxalic acid [GLYOXAC]  # Generated from value "glyoxalic acid [GLYOXAC]" located at cell 'Levels'!C709.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "glyoxalic acid [GLYOXAC]"
+Class: isocitric acid [ISOCAC]  # Generated from value "isocitric acid [ISOCAC]" located at cell 'Levels'!C710.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "isocitric acid [ISOCAC]"
+Class: lactic acid [LACAC]  # Generated from value "lactic acid [LACAC]" located at cell 'Levels'!C711.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "lactic acid [LACAC]"
+Class: L-lactic acid [LACACL]  # Generated from value "L-lactic acid [LACACL]" located at cell 'Levels'!C712.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "L-lactic acid [LACACL]"
+Class: malic acid [MALAC]  # Generated from value "malic acid [MALAC]" located at cell 'Levels'!C713.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "malic acid [MALAC]"
+Class: malonic acid [MALONAC]  # Generated from value "malonic acid [MALONAC]" located at cell 'Levels'!C714.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "malonic acid [MALONAC]"
+Class: organic acids, total [OA]  # Generated from value "organic acids, total [OA]" located at cell 'Levels'!C715.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "organic acids, total [OA]"
+Class: oxalic acid [OXALAC]  # Generated from value "oxalic acid [OXALAC]" located at cell 'Levels'!C716.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "oxalic acid [OXALAC]"
+Class: oxaloacetic acid [OXACAC]  # Generated from value "oxaloacetic acid [OXACAC]" located at cell 'Levels'!C717.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "oxaloacetic acid [OXACAC]"
+Class: para-hydroxybenzoic acid [PARHBAC]  # Generated from value "para-hydroxybenzoic acid [PARHBAC]" located at cell 'Levels'!C718.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "para-hydroxybenzoic acid [PARHBAC]"
+Class: phytic acid [PHYTAC]  # Generated from value "phytic acid [PHYTAC]" located at cell 'Levels'!C719.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "phytic acid [PHYTAC]"
+Class: pimelic acid [PIMAC]  # Generated from value "pimelic acid [PIMAC]" located at cell 'Levels'!C720.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pimelic acid [PIMAC]"
+Class: propionic acid [PROPAC]  # Generated from value "propionic acid [PROPAC]" located at cell 'Levels'!C721.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "propionic acid [PROPAC]"
+Class: pyroglutamic acid [PYROGAC]  # Generated from value "pyroglutamic acid [PYROGAC]" located at cell 'Levels'!C722.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pyroglutamic acid [PYROGAC]"
+Class: pyruvic acid [PYRAC]  # Generated from value "pyruvic acid [PYRAC]" located at cell 'Levels'!C723.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "pyruvic acid [PYRAC]"
+Class: quinic acid [QUINAC]  # Generated from value "quinic acid [QUINAC]" located at cell 'Levels'!C724.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "quinic acid [QUINAC]"
+Class: quinolinic acid [QUINLAC]  # Generated from value "quinolinic acid [QUINLAC]" located at cell 'Levels'!C725.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "quinolinic acid [QUINLAC]"
+Class: salicylic acid [SALAC]  # Generated from value "salicylic acid [SALAC]" located at cell 'Levels'!C726.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "salicylic acid [SALAC]"
+Class: shikimic acid [SHIKAC]  # Generated from value "shikimic acid [SHIKAC]" located at cell 'Levels'!C727.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "shikimic acid [SHIKAC]"
+Class: sorbic acid [SORAC]  # Generated from value "sorbic acid [SORAC]" located at cell 'Levels'!C728.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "sorbic acid [SORAC]"
+Class: succinic acid [SUCAC]  # Generated from value "succinic acid [SUCAC]" located at cell 'Levels'!C729.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "succinic acid [SUCAC]"
+Class: tartaric acid [TARAC]  # Generated from value "tartaric acid [TARAC]" located at cell 'Levels'!C730.
+   SubClassOf: Organic acids [GRP_OA]
+   Annotations: rdfs:label "tartaric acid [TARAC]"
+Class: Capsaicinoids [GRP_CAPSA]  # Generated from value "Capsaicinoids [GRP_CAPSA]" located at cell 'Levels'!C732.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Capsaicinoids [GRP_CAPSA]"
+Class: Flavonoids [GRP_FLAV]  # Generated from value "Flavonoids [GRP_FLAV]" located at cell 'Levels'!C734.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Flavonoids [GRP_FLAV]"
+Class: Phytoestrogens [GRP_PHYTG]  # Generated from value "Phytoestrogens [GRP_PHYTG]" located at cell 'Levels'!C765.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "Phytoestrogens [GRP_PHYTG]"
+Class: tannin [TANNIN]  # Generated from value "tannin [TANNIN]" located at cell 'Levels'!C778.
+   SubClassOf: Phenolic components [GRP_PHNL]
+   Annotations: rdfs:label "tannin [TANNIN]"
+Class: alcohol [ALC]  # Generated from value "alcohol [ALC]" located at cell 'Levels'!C780.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "alcohol [ALC]"
+Class: ash [ASH]  # Generated from value "ash [ASH]" located at cell 'Levels'!C781.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "ash [ASH]"
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C782.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C783.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: dry matter [DRYMAT]  # Generated from value "dry matter [DRYMAT]" located at cell 'Levels'!C784.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "dry matter [DRYMAT]"
+Class: energy, gross [ENERA]  # Generated from value "energy, gross [ENERA]" located at cell 'Levels'!C785.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "energy, gross [ENERA]"
+Class: energy, total metabolisable [ENERC]  # Generated from value "energy, total metabolisable [ENERC]" located at cell 'Levels'!C786.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "energy, total metabolisable [ENERC]"
+Class: fat, total [FAT]  # Generated from value "fat, total [FAT]" located at cell 'Levels'!C787.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "fat, total [FAT]"
+Class: fibre, total dietary [FIBT]  # Generated from value "fibre, total dietary [FIBT]" located at cell 'Levels'!C788.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "fibre, total dietary [FIBT]"
+Class: nitrogen, total [NT]  # Generated from value "nitrogen, total [NT]" located at cell 'Levels'!C789.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "nitrogen, total [NT]"
+Class: organic acids, total [OA]  # Generated from value "organic acids, total [OA]" located at cell 'Levels'!C790.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "organic acids, total [OA]"
+Class: polyols, total [POLYL]  # Generated from value "polyols, total [POLYL]" located at cell 'Levels'!C791.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "polyols, total [POLYL]"
+Class: protein, total [PROT]  # Generated from value "protein, total [PROT]" located at cell 'Levels'!C792.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "protein, total [PROT]"
+Class: sugar, added [SUGAD]  # Generated from value "sugar, added [SUGAD]" located at cell 'Levels'!C793.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "sugar, added [SUGAD]"
+Class: sugars, total [SUGAR]  # Generated from value "sugars, total [SUGAR]" located at cell 'Levels'!C794.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "sugars, total [SUGAR]"
+Class: water [WATER]  # Generated from value "water [WATER]" located at cell 'Levels'!C795.
+   SubClassOf: Proximates [GRP_PROX]
+   Annotations: rdfs:label "water [WATER]"
+Class: Fat soluble vitamins [GRP_VITFAT]  # Generated from value "Fat soluble vitamins [GRP_VITFAT]" located at cell 'Levels'!C797.
+   SubClassOf: Vitamins [GRP_VIT]
+   Annotations: rdfs:label "Fat soluble vitamins [GRP_VITFAT]"
+Class: Water soluble vitamins [GRP_VITH2O]  # Generated from value "Water soluble vitamins [GRP_VITH2O]" located at cell 'Levels'!C866.
+   SubClassOf: Vitamins [GRP_VIT]
+   Annotations: rdfs:label "Water soluble vitamins [GRP_VITH2O]"
+
+===========================================================================================================
+Date: 2023-06-14 08:30:20
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# Annotations: rdfs:label @C*
+#     SubClassOf: @B*-1(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:32:34
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# Annotations: rdfs:label @C*
+#     SubClassOf: @B*(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:33:46
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# Annotations: rdfs:label @C*
+#     SubClassOf: @B*(mm:SkipIfEmptyLabel)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: 
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: 
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: 
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: 
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:34:30
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# Annotations: rdfs:label @C*
+#     SubClassOf: @B*(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:36:11
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# Annotations: rdfs:label @C*
+#     SubClassOf: @B*(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:39:46
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# 	Annotations: rdfs:label @C*
+#     	SubClassOf: @B*(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:39:56
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# 	Annotations: rdfs:label @C*
+#     	SubClassOf: @B*(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:42:19
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+===========================================================================================================
+Date: 2023-06-14 08:43:17
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# 	Annotations: rdfs:label @C*
+#     	SubClassOf: @B*(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:48:58
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# 	Annotations: rdfs:label @C*
+#     	SubClassOf: @B*(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:54:18
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# Annotations: rdfs:label @B*
+# SubClassOf: foodComponent
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# 	Annotations: rdfs:label @C*
+#     	SubClassOf: @B*(mm:ShiftUp)
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:56:55
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# SubClassOf: foodComponent
+# Annotations: rdfs:label @B*
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# SubClassOf: @B*(mm:ShiftUp)	
+# Annotations: rdfs:label @C*
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
+Date: 2023-06-14 08:58:16
+Ontology source: /C:/Users/pance/Documents/GitHub/FNS-Harmony/FNS_H_1.3.0/foodComponents
+Worksheet source: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\FoodComponents.xlsx
+Transformation rules: C:\Users\pance\Documents\GitHub\FNS-Harmony\FNS_H_1.3.0\foodcomponentsTax.json
+
+# Cell range: (Levels!A2:A6) Comment: "The first level of the hierarchy"
+# Class: @B*
+# SubClassOf: foodComponent
+# Annotations: rdfs:label @B*
+
+Class: Carbohydrate components [GRP_CHO]  # Generated from value "Carbohydrate components [GRP_CHO]" located at cell 'Levels'!B2.
+   SubClassOf: foodComponent
+   Annotations: rdfs:label "Carbohydrate components [GRP_CHO]"
+
+# Cell range: (Levels!A2:A6) Comment: "The second level of the hierarchy"
+# Class: @C*(mm:SkipIfEmptyLabel)
+# SubClassOf: @B*(mm:ShiftUp)	
+# Annotations: rdfs:label @C*
+
+Class: carbohydrate [CHO]  # Generated from value "carbohydrate [CHO]" located at cell 'Levels'!C3.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate [CHO]"
+Class: carbohydrate, total [CHOT]  # Generated from value "carbohydrate, total [CHOT]" located at cell 'Levels'!C4.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrate, total [CHOT]"
+Class: carbohydrates, unspecified [CHOU]  # Generated from value "carbohydrates, unspecified [CHOU]" located at cell 'Levels'!C5.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "carbohydrates, unspecified [CHOU]"
+Class: Fibre [GRP_FIB]  # Generated from value "Fibre [GRP_FIB]" located at cell 'Levels'!C6.
+   SubClassOf: Carbohydrate components [GRP_CHO]
+   Annotations: rdfs:label "Fibre [GRP_FIB]"
+
+===========================================================================================================
