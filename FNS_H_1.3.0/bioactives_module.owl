@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.fns-cloud.eu/bioactives/"
+     xml:base="https://www.fns-cloud.eu/bioactives/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="https://www.fns-cloud.eu/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://www.fns-cloud.eu/bioactives/">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2023-06-09/omo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.fns-cloud.eu/FNS-H_0000000110 -->
+
+    <owl:AnnotationProperty rdf:about="https://www.fns-cloud.eu/FNS-H_0000000110"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004000 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000">
+        <rdfs:label xml:lang="en">bioactive compounds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004001 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Polyphenols</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26195 "/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004002 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004002">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Anthocyanins</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38697"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004003 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004003">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Cinnamic acid derivatives</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27386"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004004 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004004">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Dihydrochalcones</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_71231"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004005 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004005">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Ellagitannins and Ellagic Acids</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23909"/>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_4775"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004006 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004006">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Flavanols</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68450"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004007 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004007">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Flavanones</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5070"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004008 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004008">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Flavones</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_42491"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004009 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004009">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Flavonolignans</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72709"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004010 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004010">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Flavonols</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28802"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004011 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004011">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Isoflavones</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38757"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004012 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004012">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Lignans</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25036"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004013 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004013">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">phenolic phenethylamines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004014 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004014">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Pro(antho)cyanidins</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.bioontology.org/ontology/MESH/D044945"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004015 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004015">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Simple Phenols</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004016 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004016">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004001"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Stilbenes</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/FOBI_040028"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004017 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004017">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Sulphur compounds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004018 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004018">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004017"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Cystein sulFoxides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004019 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004019">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004017"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Glucosinolates</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24279"/>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/MESH_D005961"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004020 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004020">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Phytosterols</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26125"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004021 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004021">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Alkenyl benzenes</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_195237"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004022 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004022">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Betalains</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22861"/>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/MESH_D050858"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004023 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004023">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Capsaicinoids</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46931"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004024 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004024">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Carotenoids</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23044"/>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/MESH_D002338"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004025 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004025">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Coumestans</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/fobi.owl#FOBI:050221"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004026 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004026">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Cucurbitacins</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16219"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004027 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004027">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Cyanogenic glycosides</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23436"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004028 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004028">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Glycoalkaloids</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_195215"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004029 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004029">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Glycyrrhizic acid</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15939"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004030 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004030">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Oligosaccharides</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.bioontology.org/ontology/MESH/D009844"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004031 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004031">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Quinolizidine alkaloids</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26515"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004032 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004032">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Saponins</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26605"/>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/MESH_D012503"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004033 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004033">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Terpenes</rdfs:label>
+        <www:FNS-H_0000000110 rdf:resource="http://purl.obolibrary.org/obo/MESH_D013729"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004034 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004034">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Biogenic amines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004035 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004035">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Xanthine alkaloids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004036 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004036">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004000"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Antioxidant compound group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004037 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004037">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004036"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Extractable polyphenols (EPP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004038 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004038">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004036"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Extractable proanthocyanidins (EPA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004039 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004039">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004036"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Hydrolysable polyphenols (HPP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004040 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004040">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004036"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Non-extractable polyphenols (NEPP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.fns-cloud.eu/bioactives/FNS_H_0000004041 -->
+
+    <owl:Class rdf:about="https://www.fns-cloud.eu/bioactives/FNS_H_0000004041">
+        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/bioactives/FNS_H_0000004036"/>
+        <dc:source>e-BASIS</dc:source>
+        <rdfs:label xml:lang="en">Non-extractable proanthocyanidins (NEPA)</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

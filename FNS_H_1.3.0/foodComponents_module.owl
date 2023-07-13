@@ -13,7 +13,9 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:foodComponents="https://www.fns-cloud.eu/foodComponents/">
-    <owl:Ontology rdf:about="https://www.fns-cloud.eu/foodComponents/"/>
+    <owl:Ontology rdf:about="https://www.fns-cloud.eu/foodComponents/">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omo/releases/2023-06-09/omo.owl"/>
+    </owl:Ontology>
     
 
 
