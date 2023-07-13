@@ -13843,54 +13843,6 @@
     
 
 
-    <!-- https://www.fns-cloud.eu/foodComponents/FNS_H_0000003843 -->
-
-    <owl:Class rdf:about="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003843">
-        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003823"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.fns-cloud.eu/foodComponents/FNS_H_0000003844 -->
-
-    <owl:Class rdf:about="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003844">
-        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003824"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.fns-cloud.eu/foodComponents/FNS_H_0000003845 -->
-
-    <owl:Class rdf:about="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003845">
-        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003825"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.fns-cloud.eu/foodComponents/FNS_H_0000003847 -->
-
-    <owl:Class rdf:about="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003847">
-        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003809"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.fns-cloud.eu/foodComponents/FNS_H_0000003849 -->
-
-    <owl:Class rdf:about="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003849">
-        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003816"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.fns-cloud.eu/foodComponents/FNS_H_0000003850 -->
-
-    <owl:Class rdf:about="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003850">
-        <rdfs:subClassOf rdf:resource="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003816"/>
-    </owl:Class>
-    
-
-
     <!-- https://www.fns-cloud.eu/foodComponents/FNS_H_0000003853 -->
 
     <owl:Class rdf:about="https://www.fns-cloud.eu/foodComponents/FNS_H_0000003853">
