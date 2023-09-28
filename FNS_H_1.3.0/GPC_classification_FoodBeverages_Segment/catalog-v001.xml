@@ -2,6 +2,6 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omo/releases/2023-06-09/omo.owl" uri="http://purl.obolibrary.org/obo/omo.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1689322090063" name="https://www.fns-cloud.eu/GS1/GPC_Food_Beverages/" uri="GS1_GPC_food_beverages_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695363215916" name="https://www.fns-cloud.eu/GS1/GPC_Food_Beverages/" uri="GS1_GPC_food_beverages_module.owl"/>
     </group>
 </catalog>
