@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://www.fns-cloud.eu/FNS-H/1.3" uri="https://purl.org/fns-h/microbiome"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omo/releases/2023-06-09/omo.owl" uri="http://purl.obolibrary.org/obo/omo.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omo/releases/2023-06-09/omo.owl" uri="http://purl.obolibrary.org/obo/omo.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omo/releases/2023-06-09/omo.owl" uri="http://purl.obolibrary.org/obo/omo.owl"/>
@@ -17,20 +18,22 @@
     <uri id="User Entered Import Resolution" name="https://www.fns-cloud.eu/external/ENVO" uri="FNS_external_20072021_ENVO.owl"/>
     <uri id="User Entered Import Resolution" name="https://www.fns-cloud.eu/FNS_external_19072021_DOID.owl" uri="FNS_external_19072021_DOID.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="http://ontofox.hegroup.org/77y37rbc.owl" uri="external/FNS_external_19072021_UO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="http://ontofox.hegroup.org/7ww9pb0h.owl" uri="utility/bioactives-CHEBI17012023.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="http://ontofox.hegroup.org/7ymndrfs.owl" uri="external/FNS_external_19072021_UBERON.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="http://ontofox.hegroup.org/859y98i5.owl" uri="external/FNS_external_20072021_ENVO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="http://ontofox.hegroup.org/a47337hz.owl" uri="external/FNS_external_19072021_ONS.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="http://ontofox.hegroup.org/nfj63688.owl" uri="external/FNS_external_19072021_DOID.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="http://ontofox.hegroup.org/prtfhof6.owl" uri="external/FNS_external_20072021_OBI_material_processing.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="http://ontofox.hegroup.org/qrghcgk2.owl" uri="external/FNS_external_20072021_UO_temperature_unit.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="http://ontofox.hegroup.org/xvhkdow5.owl" uri="external/FNS_external_20072021_ENVO_enviromental_material.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="http://www.semanticweb.org/pance/ontologies/2023/3/untitled-ontology-54/" uri="GS1_module.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="https://www.fns-cloud.eu/" uri="FNS-H_v1_3_0.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="https://www.fns-cloud.eu/GS1/GPC_Food_Beverages/" uri="GPC_classification_FoodBeverages_Segment/GS1_GPC_food_beverages_module.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="https://www.fns-cloud.eu/bioactives/" uri="bioactives_module.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="https://www.fns-cloud.eu/foodComponents/" uri="foodComponents_module.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1695363298697" name="https://www.fns-cloud.eu/interventions/" uri="Interventions_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="http://ontofox.hegroup.org/77y37rbc.owl" uri="modules/external/FNS_external_19072021_UO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="http://ontofox.hegroup.org/7ww9pb0h.owl" uri="utility/bioactives-CHEBI17012023.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="http://ontofox.hegroup.org/7ymndrfs.owl" uri="modules/external/FNS_external_19072021_UBERON.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="http://ontofox.hegroup.org/859y98i5.owl" uri="modules/external/FNS_external_20072021_ENVO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="http://ontofox.hegroup.org/a47337hz.owl" uri="modules/external/FNS_external_19072021_ONS.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="http://ontofox.hegroup.org/nfj63688.owl" uri="modules/external/FNS_external_19072021_DOID.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="http://ontofox.hegroup.org/prtfhof6.owl" uri="modules/external/FNS_external_20072021_OBI_material_processing.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="http://ontofox.hegroup.org/qrghcgk2.owl" uri="modules/external/FNS_external_20072021_UO_temperature_unit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="http://ontofox.hegroup.org/xvhkdow5.owl" uri="modules/external/FNS_external_20072021_ENVO_enviromental_material.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="http://www.semanticweb.org/pance/ontologies/2023/3/untitled-ontology-54/" uri="modules/GS1_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="https://www.fns-cloud.eu/" uri="modules/microbiome_data_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="https://www.fns-cloud.eu/FNS-H" uri="FNS_H_joined_modules.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="https://www.fns-cloud.eu/GS1//" uri="modules/CLAS_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="https://www.fns-cloud.eu/GS1/GPC_Food_Beverages/" uri="modules/GS1_GPC_food_beverages_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="https://www.fns-cloud.eu/bioactives/" uri="modules/bioactives_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="https://www.fns-cloud.eu/foodComponents/" uri="modules/foodComponents_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1695976153423" name="https://www.fns-cloud.eu/interventions/" uri="modules/Interventions_module.owl"/>
     </group>
 </catalog>
